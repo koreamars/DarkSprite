@@ -1,0 +1,17 @@
+
+{"name":"BaseUnitAni","SubTexture":[
+{"name":"back-hair","x":0,"width":538,"y":0,"height":910},
+{"name":"left-arm","x":1286,"width":160,"y":782,"height":420},
+{"name":"left-hand","x":1724,"width":220,"y":730,"height":560},
+{"name":"left-foot","x":1764,"width":260,"y":0,"height":728},
+{"name":"left-leg","x":540,"width":260,"y":712,"height":639},
+{"name":"body","x":1080,"width":420,"y":0,"height":780},
+{"name":"right-hand","x":1502,"width":220,"y":730,"height":560},
+{"name":"right-arm","x":1064,"width":220,"y":782,"height":420},
+{"name":"right-foot","x":1502,"width":260,"y":0,"height":728},
+{"name":"right-leg","x":802,"width":260,"y":712,"height":639},
+{"name":"face","x":0,"width":275,"y":912,"height":295},
+{"name":"front-hair","x":540,"width":538,"y":0,"height":710},
+{"name":"mouth","x":277,"width":111,"y":1076,"height":73},
+{"name":"eyeline","x":277,"width":216,"y":1012,"height":62},
+{"name":"eye","x":277,"width":204,"y":912,"height":98}],"imagePath":"texture.png"}
