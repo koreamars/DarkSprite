@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\script\CharacterManager__.cs" />
      <Compile Include="Assets\script\CharactorManager.cs" />
      <Compile Include="Assets\script\Com\Viperstudio\Events\Event.cs" />
      <Compile Include="Assets\script\Com\Viperstudio\Events\EventDispatcher.cs" />
@@ -101,8 +102,11 @@
      <Compile Include="Assets\script\DragonBones\Utils\DBDataUtil.cs" />
      <Compile Include="Assets\script\DragonBones\Utils\TransformUtil.cs" />
      <Compile Include="Assets\script\DragonBones\Utils\parseOldXMLData.cs" />
+     <Compile Include="Assets\script\TestCharacter.cs" />
+     <Compile Include="Assets\script\unit\UnitController.cs" />
      <None Include="Assets\Resources\skeleton.json.txt" />
      <None Include="Assets\Resources\Transparent_DepthOrderUnlit.shader" />
+     <None Include="Assets\Resources\texture2.json.txt" />
      <None Include="Assets\Resources\texture.json.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
