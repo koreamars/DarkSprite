@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameCommentLinesData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LinesData>
+		<id>1</id>
+		<Comment>20xx년 유럽에서는 블랙홀 시험이 지속되고 있었다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>2</id>
+		<Comment>그러던중 한 연구소에서 실험 도중 사고가 발생하고 
+이로 인해 차원문 같은 것이 생겨났다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>3</id>
+		<Comment>그와 동시에 그 곳에서 알 수 없는 존재들이 나왔고 사람들을 공격하기 시작했다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>4</id>
+		<Comment>문제는 이들 존재는 물리적인 공격은 통하지 않는다는 것이다.
+심지어 핵 공격을 했음에도 그 존재들에게 큰 피해를 주지 못했다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>5</id>
+		<Comment>어떤 물리적 공격도 통하지 않는 존재 
+그래서 사람들은 이들을 고스트라고 부르기 시작했다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>6</id>
+		<Comment>전세계는 계속해서 고스트들에게 터전을 빼았겼다.
+고스트의 공격에 인류는 전멸에 위기에 처한듯 보였다. </Comment>
+	</LinesData>
+	<LinesData>
+		<id>7</id>
+		<Comment>하지만 일부 여성들의 공격에 무력하게 파괴는 고스트의 모습을 목격하게 되고 
+특정 여성들의 물리공격이 통한다는 것을 알게 된다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>8</id>
+		<Comment>인류는 이들이 마지막 희망이라 생각하고 연구를 시작하였고 
+이들을 요정이라 부르기 시작했다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>9</id>
+		<Comment>또한 이와 동시에 고스트대항군을 창설하여 고스트에게 대항하기 시작한다. 
+이들이 바로 요정부대 혹은 Sprite Corps이다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>10</id>
+		<Comment>하지만 요정이 될 수 있는 사람은 그렇게 많지 않았다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>11</id>
+		<Comment>당시의 요정 부대원으로는 고스트의 진격을 저지하는 정도 한계였으며 이 
+또한 힘들어지고 있었다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>12</id>
+		<Comment>그로 인해 소수 인원으로 기존 요정부대보다도 강력한 능력을 가진 
+정예부대가 필요해짐에 따라 특수부대를 창설한다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>13</id>
+		<Comment>이것이 DarkSprite다.</Comment>
+	</LinesData>
+	<LinesData>
+		<id>100</id>
+		<Comment>전방에 고스트 발견!!! 작전 개시!!
+…. 가만 두지 않겠다. 괴물 놈들…</Comment>
+	</LinesData>
+	<LinesData>
+		<id>101</id>
+		<Comment>고스트 음영 확인!! 지금부터 전투 돌입합니다!
+신의 가호가 있길…...</Comment>
+	</LinesData>
+	<LinesData>
+		<id>102</id>
+		<Comment>목표 확인! 편대!! 전투 돌입합니다!
+한 놈도 남기지 않고 없애 주겠어!!</Comment>
+	</LinesData>
+</GameCommentLinesData>

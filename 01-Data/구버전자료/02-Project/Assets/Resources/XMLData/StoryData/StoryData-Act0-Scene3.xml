@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SceneStoryData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StoryData>
+		<id>1</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>영국 공군 파일럿 출신으로 
+고스트와의 첫 전투에
+참여했던 인물이다.
+
+당시 첫 전투에서 유일한 
+생존자이기도 하며 처음으로 
+고스트에게 피해를 준 인물이다.
+
+이 당시 경험을 바탕으로 여러 연구에 
+참여하며 스프라이트 부대 창설에 
+기여한다.
+
+이후 다크스프라이트 부대 창설시 
+참가하여 지금까지 부대를 
+꾸려오고 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>2</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>2</StoryStep>
+		<Comment>미공군 파일럿이었으나 
+고스트 출현과 함께 스프라이트 
+부대에 지원한다.
+
+스프라이트 부대 당시 
+"고스트 킬러"라는  별명에
+맞게 높은 기량 보였으나 
+거친 성격으로 징계를 자주 받았다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>3</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>3</StoryStep>
+		<Comment>독일의 한 성당의 수녀었으나 
+고스트 침공을 막기위해
+스프라이트 부대에 참여한다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>4</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>4</StoryStep>
+		<Comment>원래 락밴드의 리더였으나 
+고스트 침공으로 인해
+동료들과 헤어지고 
+더 이상 밴드를 할 수 없게되자
+스트라이트 부대에 지원한다.
+
+항상 쾌할한 성격이며 전투시에
+유독 킬마크에 집착하는 면이 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>5</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>5</StoryStep>
+		<Comment>고스트 침공으로 자신의 고향인 
+폴란드가 점령되자
+가족과 헤어지게 된다.
+
+아직까지도 가족들의 생사를 
+찾고 있으며 이를 위해 스프라이트 
+부대에 지원하여 고스트와
+싸우고 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>6</id>
+		<NpcType>6</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>6</StoryStep>
+		<Comment>러시아인이지만 프랑스에서 
+유학중인 대학생이었다.
+
+고스트 침공시 친구들을 잃고 
+남은 친구들을 구하기 위해
+스프라이트 부대에 지원한다.
+
+나이에 비해 동안이라 자주 
+오해를 받으며 성격또한 조용한 
+스타일이라 주변에서 어린이로
+자주 놀림을 받는다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>7</id>
+		<NpcType>7</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>7</StoryStep>
+		<Comment>미국인으로 고스트 침공 소식을 
+듣고 스프라이트 부대에 지원한다.
+
+원래 의협심이 강해 소식듣자마자 
+지원하려 했으나 고등학생으로 
+연령 제한에 걸려 지원을 포기한다.
+
+이후 통합의회에서 지원 연령을 
+낮추자 다시 바로 지원하게 된다.
+
+스프라이트 부대 지원 연령은 
+만16세부터 가능하다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>8</id>
+		<NpcType>8</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>8</StoryStep>
+		<Comment>원래 고스트를 연구하는 
+연구원이었으나 좀 더 고스트를 
+가까이서 연구하겠다는 생각으로
+스프라이트 부대에 지원한다.
+
+전투중에 전투보다는 고스트에 대해 
+관찰하는 시간이 많아 자주 전투에 
+혼선을 준다.
+
+하지만 전투 역량은 충분하여 
+성과는 높은 편이다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>9</id>
+		<NpcType>9</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>9</StoryStep>
+		<Comment>프랑스에서 빵집을 하는 것이 
+꿈이었으나 고스트에 피해를 
+줄 수 있다는 말에 바로 꿈을 바꾼다.
+
+좀 게으른 편이긴 하나 귀가 얇아 
+주변의 칭찬에 의욕을 불태운다.
+비록 순간이긴 하지만..
+
+이 덕에 전투 평가는 높은 편이다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>10</id>
+		<NpcType>10</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>10</StoryStep>
+		<Comment>아프리카에서 규모가 큰 부족 
+추장의 딸이다.
+
+워낙에 나서기 좋아하는 성격으로
+스프라이트 적합 판정을 받자 마자 
+지원한다.
+
+추장의 딸 답게 리더쉽에 있고
+동료를 많이 챙기며 밝은 성격이다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>11</id>
+		<NpcType>11</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>11</StoryStep>
+		<Comment>미국 갱이었다는 소문이 있을 만큼 
+싸움을 좋아하고 또한 싸움에 
+소질도 있다.
+
+자신의 이야기로는 미국 남부의 
+조용한 농장 출신이라고 하지만 
+믿는 사람은 거의 없다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>12</id>
+		<NpcType>12</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>12</StoryStep>
+		<Comment>밝은 성격이기는 하나 너무 
+덤벙거려 자주 실수를 한다.
+
+일본의 무녀 출신으로 고스트가 
+출현하자 무녀를 대표하여 
+참가하겠다며 지원한다.
+
+하지만 주변에서는 그녀가 
+무녀라는 것에 의심을 하고 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>13</id>
+		<NpcType>13</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>13</StoryStep>
+		<Comment>이탈리아 귀족의 자제로 럭셔리한 
+전투를 보여준다며 
+스프라이트 부대에 참가한다.
+
+하지만 진짜 참가 이유는 
+자신의 정원을 파괴한 고스트에 
+대한 복수라는 소문이 있다.
+
+현재 그 정원은 고스트의 둥지가 
+되여 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>14</id>
+		<NpcType>14</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>14</StoryStep>
+		<Comment>브라질의 유명한 격투기 선수의 딸로
+어려서 부터 격투기 선수를 
+꿈꿔 왔으나 고스트의 등장으로 
+꿈을 바꾸게 된다.
+
+인류 최대의 적이라는 고스트를 
+이기것이 격투가로써 최대의 승리라 
+자부하고 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>15</id>
+		<NpcType>15</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>15</StoryStep>
+		<Comment>스페인 출신이기 하나 무엇을 
+했는지는 잘 모른다.
+들리는 소문에는 댄서 출신이라는 
+소문은 있으나 이는 놀기 좋아 하는 
+성격 탓이라 본다.
+
+전투 조차 놀이로 생각할 만큼 
+노는 것에 집착을 한다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>16</id>
+		<NpcType>16</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>16</StoryStep>
+		<Comment>이름 이외에는 밝혀진 것이 
+전혀 없는 인물이다.
+소문에는 전쟁 고아라는 말도 있지만
+연령제한으로 그렇게 어리진 않을 
+것이라는 정도이다.
+
+말이 없고 항상 너무 조용한 성격이라 
+그다지 주변에서 친하게 지내는 
+인물또한 없다.
+
+하지만 전투시에 보여주는 적극성은 
+가끔 주변을 놀라게 한다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>17</id>
+		<NpcType>17</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>17</StoryStep>
+		<Comment>유럽 여행중 고스트를 만나 
+자신의 능력을 확인하게 된다.
+
+승부욕이 강해 전투시에도 
+적극성을 많이 보이나
+그 정도가 지나칠때가 많다고 한다.
+
+하지만 전투 이외에는 차분한 
+성격으로 주변에서는 
+이중인격자라는 이야기가 
+나돌고 있다.</Comment>
+	</StoryData>
+</SceneStoryData>

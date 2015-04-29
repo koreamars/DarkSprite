@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SceneStoryData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StoryData>
+		<id>1</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>사령관님 안녕하세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>2</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>타샤. 어서오세요.
+무슨 일이 있나요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>3</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>아닙니다. 그런 것보다 이전 둥지 탈환에 대해서
+감사드리고 싶어서요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>4</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>뭘요. 당연히 해야 하는 일인데요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>5</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>아니에요. 지금까지 누구도 해내지 못한 일을
+해주셨어요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>6</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>하하. 부끄럽네요. 모두가 다같이 힘써준 덕분인데...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>7</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>그렇지 않아요.
+주민들은 이 기지가 안전해 진 것이 모두
+이번에 부임한 크리스 사령관님 덕이라고
+이야길 하고 있어요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>8</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>부끄럽기도 하지만 부뜻하기도 하네요. 하하</Comment>
+	</StoryData>
+	<StoryData>
+		<id>9</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>물론 그만큼 앞으로도 모두 기대하고 있어요.
+사령관님. 부디 앞으로 잘 부탁드립니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>10</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>네. 하지만 저 혼자 힘으로 할 수 있는 건 아니라고 생각해요.
+타샤씨도 많이 도와주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>11</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>저야 뭐... 요정도 아니라서 큰 도움이 될지 모르지만
+최선을 다하겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>12</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>하하. 지금도 큰 힘이 되는데요. 뭘요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>13</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>타샤는 살짝 미소를 보이며 사무실을 나선다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>14</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>39</StoryStep>
+		<Comment>그런 타샤를 봐라보던 크리스는 
+한통의 전화를 받게 된다.
+그리고 곧 표정은 굳어지는데...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>15</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>40</StoryStep>
+		<Comment>아. 크리스! 사령부에서 연락이 왔다면서요.
+아직도 지원 이야긴 없나요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>16</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>40</StoryStep>
+		<Comment>리아... 저기... 사람들을 좀 모아줘요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>17</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>40</StoryStep>
+		<Comment>아..네... 근데 무슨 일이죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>18</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>40</StoryStep>
+		<Comment>모두가 모이면 말씀 드릴께요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>19</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>40</StoryStep>
+		<Comment>알겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>20</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>40</StoryStep>
+		<Comment>어두운 표정의 크리스를 뒤로 하고 리아는 서둘러 나선다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>21</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>왠일로 우릴 부른거야? 뭐 좋은 소식이라도...
+...그런 소식의 표정은 아니군...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>22</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>글쎄요. 좋은 소식인지 아닌지 저도 잘 판단이 안되네요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>23</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>도대체 무슨 이야기죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>24</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>얼마전에 통합의회에서 사령부에게
+우리 다크스프라이트부대를 의회직할부대로 편성하길
+원한다는 의사를 보냈다고 합니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>25</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>뭐라고요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>26</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>그런 이야길 왜 우리한테 이야기 없이...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>27</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>쳇! 보나마나 우리 의사는 중요하지 않다는 이야기 겠지.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>28</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>어차피... 버려진 기지라서...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>29</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>아직 결정된 사항은 아닙니다.
+의회에서 사령부에 의사를 보낸 것이지
+아직 사령부에서 수락한건 아닙니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>30</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>근데... 사령부에서 수락하면 어떻게 되는거에요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>31</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>주변 눈치를 보던 키티가 조용히 이야기 한다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>32</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>달라지는건 거의 없어... 단지...
+의회직할의 사설부대가 되는거죠.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>33</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>용병이라도 되는건가?
+훗! 그것도 나쁘진 않네~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>34</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>하지만 이 일이...혹 부대 해산이 목적이라면...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>35</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>아니요! 절대 그럴리 없어요!! 절대로!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>36</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>자자!! 모두 너무 걱정 말아요.
+리아 말대로 그런 일은 없을 겁니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>37</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>맞아. 타샤~
+해산이 목적이라면 지금 당장 명령하면되는데
+구지 이런 쇼를 하겠어?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>38</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>네 맞아요.
+어쩌면 그 반대일지도 모르죠.
+의회에서 구지 우리 부대를 원하는건 
+그만큼 가치가 있어서 일지도 모릅니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>39</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>그렇겠네요. 그럼 사령부에서는 거절을 할까요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>40</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>그것 아직 모릅니다.
+중요한건 소속이 바뀌어도 우리가 하는 일은
+변함이 없다는 겁니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>41</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>훗. 그렇긴 그렇지.
+언제 우리가 소속을 따졌나? 호호호.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>42</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>41</StoryStep>
+		<Comment>하지만 모두들 불안감은 떨치지 못하고 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>43</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>모두가 모인 회의실의 공기가 무겁다.
+리아는 탄식에 가까운 첫말을 내뱃는다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>44</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>크리스... 그게 정말이에요...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>45</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>네. 방금 사령부로부터 공식적인 통보된 내용입니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>46</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>믿을 수가 없네요. 사령부에서 우릴 포기하다니...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>47</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>사라...우리 이제 용병인거야?
+저번에 사라가 그렇게 말했잖아.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>48</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>호호. 그러네...
+이제 우린 용병이네. 호호</Comment>
+	</StoryData>
+	<StoryData>
+		<id>49</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>용병이면 돈 많이 줘?
+사령부 소속일때는 아무것도 안줬잖아.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>50</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>그래. 크리스. 의회에서는 지원을 해 주는건가?
+차라리 지원을 받는다면 잘된 것일 수도 있는데...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>51</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>저도 그게 이해가 안가네요.
+사실 지원은 없습니다. 소속만 변경되는거죠.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>52</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>근데 왜 구지 자신들의 직할부대로 만든거죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>53</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>저도 그게 궁금하네요.
+앞으로 그부분을 좀 확인해 볼 필요가 있을꺼 같아요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>54</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>사령부에는 항의도 할겸 
+이부분을 좀 확인해 볼까 합니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>55</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>56</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>리아...너무 실망마요. 어차피 우리가 변하는건...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>57</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>아니요... 변했죠...전 더이상 군인이 아니잖아요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>58</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>아...그건</Comment>
+	</StoryData>
+	<StoryData>
+		<id>59</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>리아는 조용히 일어나 회의실을 나선다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>60</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>흠...리아는 우리와 달라서 군에서 나가는게
+많이 섭섭한가 보내...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>61</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>아마 그럴꺼에요.
+리아는 군인이라는 것에 자부심이 강했으니...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>62</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>42</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>63</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>리아. 잠깐만 이야기 좀 할 수 있을까요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>64</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>네.....</Comment>
+	</StoryData>
+	<StoryData>
+		<id>65</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>음....</Comment>
+	</StoryData>
+	<StoryData>
+		<id>66</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>67</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>하하;;;... 이거 뭐라고 해야 할지 잘 모르겠네요...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>68</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>69</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>저기 리아. 음....밥이라도 같이 먹으로 갈까요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>70</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>네?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>71</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>갑작스런 크리스의 제안에 당황한 리아가
+놀란 표정으로 크리스를 봐라 본다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>72</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>하하;;;... 뭐 기분 전환 삼아... 외식이라도 하면...
+하하;;; 요즘 기지 주변이 많이 좋아져서 식당도 생기고
+이것저것 많이 생겼더라구요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>73</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>......아...네...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>74</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>하하... 그럼 이따 정문에서 봐요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>75</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>......아...네...알겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>76</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>43</StoryStep>
+		<Comment>어떨떨해 하는 리아를 뒤로 하고 크리스는
+자신도 모르게 나온 말에 자책하며
+이따가 어찌해야 할지 몰라 머리가 아파오기 시작한다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>77</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>크리스와 리아가 외식을 마치고 다정히 정문으로 들어온다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>78</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>어... 크리스. 리아. 어디갔다와?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>79</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>헉!! 키...키티....여..여긴...왜?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>80</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>잠깐 산책나온거야.
+근데 둘이 어디 갔다왔어?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>81</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>아... 같이 외식을....윽!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>82</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>크리스는 옆구리 강한 통증을 느끼며 말을 잊지 못한다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>83</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>하하하;;; 그...그냥... 이 앞에서 만났어...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>84</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>아... 그래?
+그럼 난 이만 갈께... 난중에 봐. 리아.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>85</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>응. 그래~ 키티.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>86</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>리...리아.... 갑자기 치면 죽..죽는다고...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>87</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>하하;;; 미..미안해요. 저...전 이만 가볼게요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>88</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>44</StoryStep>
+		<Comment>크리스는 빠른 걸음으로 사라지는 리아를 보며
+밥 잘먹고 왜저리는지 이해를 못하고 있다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>89</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>오호호호호호</Comment>
+	</StoryData>
+	<StoryData>
+		<id>90</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>좀전부터 자기 앞에서 웃고 있는 사라를 보며
+크리스는 심기가 불편하다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>91</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>네...좋아요.
+이제 묻고 싶은게 뭡니까?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>92</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>오호호호호</Comment>
+	</StoryData>
+	<StoryData>
+		<id>93</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>94</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>오호호호호</Comment>
+	</StoryData>
+	<StoryData>
+		<id>95</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>아!! 정말!! 뭐냐구요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>96</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>호호호호...리아랑 데이트 했다면서...호호호</Comment>
+	</StoryData>
+	<StoryData>
+		<id>97</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>네?...무슨 말이에요? 데이트라니?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>98</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>저기...크리스?...리아랑 사귀세요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>99</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>타...타샤?! 언제 왔...아니!!
+무슨 소릴 하는거에요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>100</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>오호호호. 난 이만 가볼께~~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>101</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>이..이봐!! 사라!! 어딜가!!
+타샤!! 아니에요!! 절대!! 뭔가 오해가 있어요!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>102</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>아...네...알겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>103</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>에? 타샤?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>104</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>45</StoryStep>
+		<Comment>타샤는 차가운 표정으로 문을 쾅 닫으며 나가버리고 
+이를 지켜보는 크리스는 사라의 말은 뭐고 
+타샤의 표정은 뭔지 몰라
+혼란스럽기만 하다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>105</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>저기...리아...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>106</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>아하하;;.. 크리스...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>107</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>어느센가 사라의 데이트 이야기는
+기지내에 모두 퍼져 있었다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>108</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>기지내에 이상한 소문이 돌던데 
+너무 깊게 생각마요. 
+그냥 소문이니. 하하하;;;</Comment>
+	</StoryData>
+	<StoryData>
+		<id>109</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>호호;;; 별루 신경 쓰지 않아요... 호호호;;;</Comment>
+	</StoryData>
+	<StoryData>
+		<id>110</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>하하하하하;;;</Comment>
+	</StoryData>
+	<StoryData>
+		<id>111</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>저..저기 그보다 사령부에서는 뭐라고 하던가요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>112</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>아참...그게...방금 연락이 왔는데...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>113</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>역시...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>114</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>네...하지만 포기하진 맙시다.
+의회 소속이라곤 해도 우리 일은 변한 것이 없고
+언젠간 좋은 일이 있을꺼에요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>115</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>힘내요. 우리...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>116</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>후...그랬으면 정말 좋겠네요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>117</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>일단!
+최근에 발견된 둥지부터 어떻게 할지에 대해서 고민합시다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>118</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>군부든 의회든 설득을 시키려면
+우리가 좀 더 강한 모습을 보일 필요가 있어요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>119</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>네. 이번 둥지도 탈환해서
+사령부와 의회를 놀래켜 봐요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>120</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>46</StoryStep>
+		<Comment>크리스는 조금은 리아가 밝아진거 같아 다행이라 생각했다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>121</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>리아. 
+의회에서 방금 정찰을 좀 더 강화하라는
+지시가 왔어요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>122</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>네? 이미 정찰 보고는 한걸로 아는데요...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>123</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>네. 저도 그렇게 말을 했는데
+의회에서 좀 더 정밀한 정찰을 요구했어요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>124</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>흠... 아무래도 의회도 이곳의 고스트 출몰이
+평소와 다르다는 걸 아는거 같군요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>125</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>네 아마도 그런거 같아요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>126</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>알겠습니다.
+바로 정찰대에 지시하겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>127</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>참고로 항공기 보호 임무시에도 같이하면 좋을거 같아요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>128</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>47</StoryStep>
+		<Comment>네. 알겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>129</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>사라. 그게 정말입니까?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>130</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>지금까지 수집된 정보라면 거의 맞다고 봐야지...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>131</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>믿을 수가 없네요.
+이 근처의 고스트들이 유럽쪽에서 온게 아니라면...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>132</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>이곳에도 차원문이 존재한다는 말이 되는거지...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>133</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>하지만 차원문이 어떻게?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>134</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>아직 확실한건 아니야...
+단지 추측에 불과 하지만...
+사실이면...
+이 영국땅도 이제 끝이야...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>135</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>136</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>그래도 규모면에선 아직 유럽과
+큰 차이가 있지 않나요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>137</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>그래. 맞는 말이지만 유럽 본토도 처음은 이런식이었어.
+만일 시간이 지나 규모가 커진다면...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>138</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>정말 큰일이군요.
+무슨 수를 써서든 그전에 막아야 된다는 거잖아요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>139</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>하지만 지금 우리 전력으로는...
+당장 사령부에 알려서...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>140</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>사령부뿐만이 아니야...
+의회에도 알려서 당장 조치를 취해야 한다구.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>141</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>알겠습니다. 당장 보고할테니
+우리는 만일 대비해서 기지방어에
+전력을 강화해주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>142</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>48</StoryStep>
+		<Comment>네. 알겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>143</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>통합의회에서 방금 지시사항이 왔습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>144</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>오호~ 우리 보고에 뭔가 반응을 보이던가?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>145</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>네. 의회에서도 차원문을 의심하고 있다고 하더군요.
+그래서 현 기지를 거점화하는데 주력해 달라고 하네요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>146</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>물론...
+우리 자력으로 말이죠.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>147</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>쳇. 멍청이들!!
+심각성을 전혀 이해 못하고 있잖아!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>148</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>이상하네요.
+사령부도 그렇고 의회도 그렇고
+왜 이렇게 느긋한거죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>149</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>내가 보기엔 의회고 사령부고 뭔가를 숨기는거 같아...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>150</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>저도 같은 생각입니다.
+하지만 지금은 우리 할 수 있는게 없어요.
+우선 만일을 위해서 우리 전력을 보강하는게 우선입니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>151</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>하지만 차원문이 존재한다면 우리 힘만으로는...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>152</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>물론 그렇기야 하겠지만...
+차원문의 존재는 아직 확실한게 아닙니다.
+좀 더 주변의 상황을 더 확인함과 동시에
+우리 전력을 보강하는게 우선입니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>153</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>주변의 둥지를 탈환해서 마을과 주민들을
+최대한 확보하고 이를 통해 기지 재원을
+더 확보해 나가야 합니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>154</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>그리고...
+부디 이게 사실이 아니길 바라는 수 밖에...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>155</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>156</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>......</Comment>
+	</StoryData>
+	<StoryData>
+		<id>157</id>
+		<NpcType>0</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>49</StoryStep>
+		<Comment>크리스와 일행은 점점 이곳에 심상치 않은 일이
+생기고 있음을 느낀다.</Comment>
+	</StoryData>
+</SceneStoryData>

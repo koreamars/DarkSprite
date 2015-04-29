@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SceneStoryData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StoryData>
+		<id>1</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100000</StoryStep>
+		<Comment>사령관님. 바쁘신가요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>2</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100000</StoryStep>
+		<Comment>아. 타샤. 무슨일이죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>3</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100000</StoryStep>
+		<Comment>다른게 아니라 항공기 보호하는 일 말인데요.
+방금 그쪽 분이 추가로 부탁이 있었어요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>4</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100000</StoryStep>
+		<Comment>네? 무슨 부탁이죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>5</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100000</StoryStep>
+		<Comment>일정 횟수 이상 보호에 성공하면
+더 사례를 하겠다고 하더군요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>6</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100000</StoryStep>
+		<Comment>하하. 그런 부탁이라면 언제든 환영이라고 전하세요!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>7</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100000</StoryStep>
+		<Comment>네. 그럼 그렇게 전하겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>8</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>사령관님. 좋은 소식이 있습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>9</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>리아. 좋은 소식은 언제든 환영이에요.
+그래 무슨 소식인가요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>10</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>주민들이 세금 이외에 자신들이 가진 코어파편을
+기부하겠다고 합니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>11</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>정말 좋은 소식이네요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>12</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>하지만 당장은 아니고 세금 징수때 
+같이 드리겠다고 하더군요.
+아마 찾는데 시간이 걸리나 봅니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>13</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>그런 시간이야. 얼마든지 기달려 줄 수 있다고 전하세요.
+계속 이런 소식만 있었으면 좋겠네요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>14</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>그럼 전 이만...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>15</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100001</StoryStep>
+		<Comment>네. 수고해 주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>16</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100002</StoryStep>
+		<Comment>크리스~ 부탁이 있는데~~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>17</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100002</StoryStep>
+		<Comment>네. 무슨 부탁이죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>18</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100002</StoryStep>
+		<Comment>앞으로 전력이 강화 되려면 장비나 인력도 많이 필요하지만
+장비의 성능도 중요하다고 생각해요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>19</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100002</StoryStep>
+		<Comment>물론이죠. 같은 생각입니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>20</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100002</StoryStep>
+		<Comment>하지만 가장은 좋은 다크기어가 많이 부족해요
+이부분에 좀더 신경을 써야 할듯한데...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>21</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100002</StoryStep>
+		<Comment>하하. 더 많이 구해 오라는거죠?
+알겠습니다. 좀 더 확보에 신경써 볼게요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>22</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100002</StoryStep>
+		<Comment>호호. 역시 말이 통하는 분이야~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>23</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100003</StoryStep>
+		<Comment>크리스 사령관님.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>24</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100003</StoryStep>
+		<Comment>네. 또 무슨 일이 있나요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>25</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100003</StoryStep>
+		<Comment>주민들이 부탁이 있다고 하는데요.
+마을방어를 해주면 자신들이 가진 코어파편을
+기부한다고 합니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>26</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100003</StoryStep>
+		<Comment>마을방어는 우릴 위해서도 하는 것인데
+이렇게 고마울때가...
+감사한다고 전해주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>27</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100003</StoryStep>
+		<Comment>물론 우릴 위한 일이기도 하지만
+주민들에게는 그만큼 절실하다는 이야기겠죠.
+아무튼 그렇게 전하도록 하겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>28</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100003</StoryStep>
+		<Comment>네. 수고해주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>29</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>... 저기...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>30</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>앗!! 키티!! 왠일이야~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>31</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>웅... 사라가 당신한테 이야기 해야 한다고 해서...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>32</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>아 그래? 무슨 이야기인데?
+괜찮으니 어서 말해 봐요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>33</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>웅... 앞으로 대원이 계속 늘어날텐데... 
+장비가 많이 부족해요...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>34</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>아하~ 그래 그래. 장비를 더 많이 생산해야 하니
+도와 달라는거구나.
+알겠어요~ 걱정마요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>35</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>웅. 그럼 그렇게 알고 갈게요...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>36</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100004</StoryStep>
+		<Comment>웅. 키티도 수고해줘요~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>37</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100005</StoryStep>
+		<Comment>크리스~~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>38</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100005</StoryStep>
+		<Comment>하... 그 놈의 다크기어가 아직도 부족해요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>39</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100005</StoryStep>
+		<Comment>호호. 조금만 더 구해줘~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>40</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100005</StoryStep>
+		<Comment>사라. 그정도면 집착이야 집착...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>41</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100005</StoryStep>
+		<Comment>호호. 나만 좋자고 하는게 아니잖아~
+다들 다크기어 덕을 보면서 왜그래~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>42</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100005</StoryStep>
+		<Comment>알았어요. 리아에게 이야기해 둘테니...
+그렇게 부르지마요...제발;;;</Comment>
+	</StoryData>
+	<StoryData>
+		<id>43</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100005</StoryStep>
+		<Comment>호호. 크리스가 말이 잘 통하니깐 글치~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>44</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100006</StoryStep>
+		<Comment>사령관님. 주민들이 또 부탁을 합니다.
+이번에도 코어파편을 기부한다고 합니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>45</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100006</StoryStep>
+		<Comment>음... 개인적인 느낌이지만 주민들이
+기지가 조금씩 성장하는걸 느끼는게 아닐까 싶네요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>46</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100006</StoryStep>
+		<Comment>저도 같은 생각입니다.
+그래서 더 우리들에게 의지하는 것일지도 모르겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>47</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100006</StoryStep>
+		<Comment>아무튼 최선을 다한다고 전해주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>48</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>100006</StoryStep>
+		<Comment>알겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>49</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200000</StoryStep>
+		<Comment>아. 사령관님 잠시만요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>50</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200000</StoryStep>
+		<Comment>네. 타샤. 무슨 일이에요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>51</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200000</StoryStep>
+		<Comment>저번에 항공기 보호건 말인데요.
+추가로 더 부탁이 들어와서요.
+다시 한번해 주시면 사례를 또 하고 싶다고 하네요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>52</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200000</StoryStep>
+		<Comment>하하. 이거 왠지 로비같은데...
+뭐 지금 우리로썬 어쩔 수 없지만요.
+알겠다고 전해주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>53</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200000</StoryStep>
+		<Comment>네 그럼 그렇게 전하겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>54</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200000</StoryStep>
+		<Comment>네. 그럼 수고해주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>55</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200001</StoryStep>
+		<Comment>사령관님. 주민들이 다시 또 부탁을 하시네요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>56</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200001</StoryStep>
+		<Comment>주민들이 나름 코어파편을 많이 가지고 있나봐요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>57</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200001</StoryStep>
+		<Comment>그건 잘 모르겠습니다만 우리에게 좋은 일이라 봅니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>58</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200001</StoryStep>
+		<Comment>뭐 그렇긴 하죠. 알겠다고 전해주세요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>59</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200001</StoryStep>
+		<Comment>네 그럼 그렇게 전하겠습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>60</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200002</StoryStep>
+		<Comment>크리스~~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>61</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200002</StoryStep>
+		<Comment>알았어요!! 알았으니 그렇게 부르지마요! 제발!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>62</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200002</StoryStep>
+		<Comment>호호. 그럼 이번에도 다크기어 부탁해요~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>63</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200002</StoryStep>
+		<Comment>네네. 그렇게 부탁하지 않아도
+필요성은 절실히 느끼고 있으니 계속 구할꺼에요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>64</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>200002</StoryStep>
+		<Comment>호호. 역시 말이 잘 통한다니깐~</Comment>
+	</StoryData>
+</SceneStoryData>

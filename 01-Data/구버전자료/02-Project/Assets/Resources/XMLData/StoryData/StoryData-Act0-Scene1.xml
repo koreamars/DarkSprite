@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SceneStoryData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StoryData>
+		<id>1</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>20xx년 유럽에서는 블랙홀 시험이 지속되고 있었다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>2</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>그러던중 한 연구소에서 실험 도중 사고가 발생하고 
+이로 인해 차원문 같은 것이 생겨났다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>3</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>그와 동시에 그 곳에서 알 수 없는 존재들이 나왔고 
+사람들을 공격하기 시작했다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>4</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>문제는 이들 존재는 물리적인 공격은 통하지 않는다는 것이다.
+심지어 핵 공격을 했음에도 그 존재들에게 큰 피해를 주지 못했다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>5</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>어떤 물리적 공격도 통하지 않는 존재.
+그래서 사람들은 이들을 고스트라고 부르기 시작했다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>6</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>전세계는 계속해서 고스트들에게 터전을 빼았겼다.
+고스트의 공격에 인류는 전멸의 위기에 처한듯 보였다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>7</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>하지만 일부 여성들의 공격에 무력하게 파괴되는 고스트의 모습을 목격하게 되고 
+특정 여성들의 물리공격이 통한다는 것을 알게 된다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>8</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>인류는 이들이 마지막 희망이라 생각하고 연구를 시작하였고 
+이들을 요정이라 부르기 시작했다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>9</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>또한 이와 동시에 고스트대항군을 창설하여 고스트에게 대항하기 시작한다. 
+이들이 바로 요정부대 혹은 Sprite Corps이다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>10</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>하지만 요정이 될 수 있는 사람은 그렇게 많지 않았다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>11</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>당시의 요정 부대원으로는 고스트의 진격을 저지하는 정도가 한계였으며 
+늘어나는 고스트로 인해 이 또한 힘들어지고 있었다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>12</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>그로 인해 소수 인원으로 기존 요정부대보다도 강력한 능력을 가진 
+정예부대가 필요해짐에 따라 특수부대를 창설한다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>13</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>이것이 DarkSprite다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>14</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60001</StoryStep>
+		<Comment>첫 전투를 시작합니다.
+전투는 턴방식이며 좌측이 아군 유닛, 우측이 적군 유닛으로 배치됩니다.
+아군 유닛의 턴시점이 되면 공격 방식을 선택할 수 있습니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>15</id>
+		<NpcType>6</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60001</StoryStep>
+		<Comment>아군 유닛의 정보 패널입니다.
+1) 아군 유닛의 대표 이미지입니다.
+2) 아군 유닛의 남은 턴 수를 표시합니다.
+3) 아군 유닛의 HP 정보를 그래프로 표시하며 상태에 따라 
+녹색/노란색/적색 등으로 표시됩니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>16</id>
+		<NpcType>7</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60001</StoryStep>
+		<Comment>4) 아군 유닛의 행동력을 표시하며
+좌측은 현재 행동력 우측은 최대 행동력으로 표시됩니다.
+행동력은 유닛의 턴에 영향을 주며 매턴 2씩 감소합니다.
+모든 유닛중 가장 낮은 행동력을 가진 유닛이 공격권을 가집니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>17</id>
+		<NpcType>8</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60001</StoryStep>
+		<Comment>최대 행동력이 낮으면 높은 유닛보다 해당 유닛의 턴이 더 빨리 돌아옵니다.
+이는 유닛의 장비의 성능에 따라 변하므로 잘 설정하시기 바랍니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>18</id>
+		<NpcType>9</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60001</StoryStep>
+		<Comment>화면 하단에는 사용가능한 무장이 버튼 형식으로 노출됩니다.
+이후 유닛에게 무장을 추가하면 무장 종류만큼 버튼이 추가 노출됩니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>19</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>사라? 신무기 개발을 시작했다면서요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>20</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>응. 크리스. 별거는 아니고 일반적인 로켓무기 형태를 만들어 보기로 했어</Comment>
+	</StoryData>
+	<StoryData>
+		<id>21</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>흠... 기존 무기들과 어떤 차이가 있는거죠?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>22</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>음... 사실 큰 데미지를 주는 것보다는 
+고스트의 행동을 제한시키는게 목적이야.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>23</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>아하!! 고스트의 움직임을 둔화시키는 것이로군요!!
+그거 좋은데요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>24</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>호호. 뭐 쓰기 나름이지만 효과가 전혀 없진 않을꺼 같아!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>25</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>당장 실전 배치하도록 하죠!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>26</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>호호호..... 아직 개발중이야............................</Comment>
+	</StoryData>
+	<StoryData>
+		<id>27</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>아............................</Comment>
+	</StoryData>
+	<StoryData>
+		<id>28</id>
+		<NpcType>10</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>로켓형태의 무장은 부무장으로만 착용이 가능하며
+데미지보다는 상대의 행동력을 추가시켜 
+상대의 턴을 좀더 늦게 오도록 만듭니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>29</id>
+		<NpcType>11</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60002</StoryStep>
+		<Comment>또한 로켓 형태의 무장은 전투시 사용횟수에 제한이
+있으나 전투가 끝나면 다시 보충됩니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>30</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>사라. 절 불렀다면서요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>31</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>아~ 어서와. 크리스.
+정말 기쁜 소식이 있어~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>32</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>하하. 혹시 신무기라도 만든건가요?</Comment>
+	</StoryData>
+	<StoryData>
+		<id>33</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>호호. 그정도가 아니라구~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>34</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>헉!! 뜸들이지 말고 어서 말해줘요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>35</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>그래!! 우리 기지도 드디어 코어머징 기술을 가지게 됐어~
+즉, 다시 말해서 자체적으로 다크기어를 만들 수 있는거지!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>36</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>헉!! 정말 대단해요!! 
+그럼 이제 위험한 전투중 코어머징은 안해도 되겠군요!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>37</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>그...그게...</Comment>
+	</StoryData>
+	<StoryData>
+		<id>38</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>웅?? 왜 그래요? 사라? 
+이제 기지내에서 다크기어를 만들 수 있다면서요.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>39</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>호호... 그게 말이 그런거지 사실 비용이 좀 들어서
+가장 확실한 방법은 역시 전투중의 코어머징이야.
+단지, 기지내에서도 가능하기 때문에 재원의 여유가 된다면
+시도를 해 봐도 된다는 거지~~ 호호;;;</Comment>
+	</StoryData>
+	<StoryData>
+		<id>40</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>하... 역시...
+하지만 재원만 풍부하다면 어렵게 전투를 하지 않아도
+다크기어를 확보할 순 있다는 거죠?!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>41</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>2</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>앞으로 더 많은 재원 확보에 집중해야 겠네요.
+아무튼 고마워요. 사라.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>42</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>3</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>호호호~ 별말씀을~~
+앞으로 이걸로 부대가 강해지면 좋겠네~~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>43</id>
+		<NpcType>12</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>연구소 내에서 코어머징을 시도할 수 있습니다.
+코어머징의 대상은 공장에 보관중인 장비중 
+코어머징이 가능한 아이템들이 대상입니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>44</id>
+		<NpcType>13</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>코어머징을 시도시 초기에 20%로의 확률로 성공하지만
+실패시 10%로씩 증가하여 최대 80%까지 성공확률이 증가합니다.</Comment>
+	</StoryData>
+	<StoryData>
+		<id>45</id>
+		<NpcType>14</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>2</ViewType>
+		<StoryStep>60003</StoryStep>
+		<Comment>같은 장비라고 하더라도
+전투중 코어머징과 사용되는 비용과 성공 확률이 다르므로
+이를 확인하시기 바랍니다.</Comment>
+	</StoryData>
+</SceneStoryData>

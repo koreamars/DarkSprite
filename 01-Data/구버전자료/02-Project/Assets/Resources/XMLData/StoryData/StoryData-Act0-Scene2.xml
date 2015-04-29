@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SceneStoryData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StoryData>
+		<id>1</id>
+		<NpcType>1</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>리아 테일러. 돌입합니다!!
+..어떻게든 버터야해..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>2</id>
+		<NpcType>2</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>전방 고스트 발견!!
+모두 저놈들을 박살 내자구!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>3</id>
+		<NpcType>3</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>12시 고스트 출현!!
+부디.. 신의 자비를..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>4</id>
+		<NpcType>4</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>후훗. 고스트 출현~
+킬마크 하나 추가해 볼까~~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>5</id>
+		<NpcType>5</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>고스트 발견.
+..네놈들만 아니었으면..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>6</id>
+		<NpcType>6</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>고스트 접근중!!
+아무도 다치게 하고 싶지 않아..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>7</id>
+		<NpcType>7</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>11시 방향에 고스트 확인!!
+망할 고스트놈들..가만두지 않을테다..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>8</id>
+		<NpcType>8</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>위엔가? 고스트 발견!!
+..쉽지 않겠는데..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>9</id>
+		<NpcType>9</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>휴..고스트 발견..
+아..귀찮아..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>10</id>
+		<NpcType>10</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>12시 고스트 발견!!
+모두 따라와!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>11</id>
+		<NpcType>11</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>훗!! 고스트 발견!!
+이런 놈들 한방이면 돼!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>12</id>
+		<NpcType>12</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>응? 이놈들은 어디..??
+앗!! 고스트 발견!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>13</id>
+		<NpcType>13</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>아름다운 하늘을 더럽힌 죄값을..
+치르게 해줘야 겠지? 호호호~</Comment>
+	</StoryData>
+	<StoryData>
+		<id>14</id>
+		<NpcType>14</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>흥!! 이놈이고 저놈이고..
+제대로된 상대는 없는건가??</Comment>
+	</StoryData>
+	<StoryData>
+		<id>15</id>
+		<NpcType>15</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>아싸!! 발견~~
+제대로 놀아 보자구~~!!</Comment>
+	</StoryData>
+	<StoryData>
+		<id>16</id>
+		<NpcType>16</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>.. 전방.. 고스트 확인..
+지금부터 제거합니다..</Comment>
+	</StoryData>
+	<StoryData>
+		<id>17</id>
+		<NpcType>17</NpcType>
+		<NpcPositionType>1</NpcPositionType>
+		<ViewType>1</ViewType>
+		<StoryStep>1</StoryStep>
+		<Comment>12시 고스트 확인!!
+날 우습게 보지 말라고!! 지지 않아!!</Comment>
+	</StoryData>
+</SceneStoryData>

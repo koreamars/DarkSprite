@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DefaultMissionScriptData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MissionScript>
+		<id>45</id>
+		<symbolId>1</symbolId>
+		<scriptData>항공기를 보호하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>14</id>
+		<symbolId>1</symbolId>
+		<scriptData>세금을 징수하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>47</id>
+		<symbolId>1</symbolId>
+		<scriptData>다크기어를 획득하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>51</id>
+		<symbolId>1</symbolId>
+		<scriptData>마을을 방어하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>28</id>
+		<symbolId>1</symbolId>
+		<scriptData>장비를 생산하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>46</id>
+		<symbolId>1</symbolId>
+		<scriptData>특정 둥지를 탈환하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>50</id>
+		<symbolId>1</symbolId>
+		<scriptData>부대원를 늘리세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>52</id>
+		<symbolId>1</symbolId>
+		<scriptData>고스트를 제거하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>4</id>
+		<symbolId>1</symbolId>
+		<scriptData>연구소를 방문하세요.</scriptData>
+	</MissionScript>
+	<MissionScript>
+		<id>2</id>
+		<symbolId>1</symbolId>
+		<scriptData>기지사령부를 방문하세요.</scriptData>
+	</MissionScript>
+</DefaultMissionScriptData>

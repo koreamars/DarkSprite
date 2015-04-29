@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameDataScript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<comment>
+		<id>100000</id>
+		<data>다크스프라이트</data>
+	</comment>
+	<comment>
+		<id>110000</id>
+		<data>지휘본부</data>
+	</comment>
+	<comment>
+		<id>110001</id>
+		<data>작전실</data>
+	</comment>
+	<comment>
+		<id>110002</id>
+		<data>연구소</data>
+	</comment>
+	<comment>
+		<id>110003</id>
+		<data>공장</data>
+	</comment>
+	<comment>
+		<id>110004</id>
+		<data>부대</data>
+	</comment>
+	<comment>
+		<id>110005</id>
+		<data>작전부대선택</data>
+	</comment>
+	<comment>
+		<id>110006</id>
+		<data>전투결과</data>
+	</comment>
+	<comment>
+		<id>110007</id>
+		<data>부대원 정보</data>
+	</comment>
+	<comment>
+		<id>120100</id>
+		<data>기지개발</data>
+	</comment>
+	<comment>
+		<id>120101</id>
+		<data>세금징수</data>
+	</comment>
+	<comment>
+		<id>120102</id>
+		<data>대원모집</data>
+	</comment>
+	<comment>
+		<id>120103</id>
+		<data>대원관리</data>
+	</comment>
+	<comment>
+		<id>120200</id>
+		<data>마을방어</data>
+	</comment>
+	<comment>
+		<id>120201</id>
+		<data>둥지공격</data>
+	</comment>
+	<comment>
+		<id>120202</id>
+		<data>항공기보호</data>
+	</comment>
+	<comment>
+		<id>120300</id>
+		<data>슈트연구</data>
+	</comment>
+	<comment>
+		<id>120301</id>
+		<data>기체연구</data>
+	</comment>
+	<comment>
+		<id>120302</id>
+		<data>엔진연구</data>
+	</comment>
+	<comment>
+		<id>120303</id>
+		<data>무기연구</data>
+	</comment>
+	<comment>
+		<id>120400</id>
+		<data>기체</data>
+	</comment>
+	<comment>
+		<id>120401</id>
+		<data>엔진</data>
+	</comment>
+	<comment>
+		<id>120402</id>
+		<data>무기</data>
+	</comment>
+	<comment>
+		<id>120403</id>
+		<data>슈트</data>
+	</comment>
+	<comment>
+		<id>120404</id>
+		<data>생산중인 목록</data>
+	</comment>
+	<comment>
+		<id>120505</id>
+		<data>장비관리</data>
+	</comment>
+	<comment>
+		<id>120506</id>
+		<data>편대목록</data>
+	</comment>
+	<comment>
+		<id>120507</id>
+		<data>대원등록</data>
+	</comment>
+	<comment>
+		<id>120508</id>
+		<data>대원해제</data>
+	</comment>
+	<comment>
+		<id>120509</id>
+		<data>신규편대생성</data>
+	</comment>
+	<comment>
+		<id>120510</id>
+		<data>대원목록</data>
+	</comment>
+	<comment>
+		<id>120511</id>
+		<data>대원목록보기</data>
+	</comment>
+	<comment>
+		<id>120512</id>
+		<data>편대목록보기</data>
+	</comment>
+	<comment>
+		<id>120513</id>
+		<data>편대해산</data>
+	</comment>
+	<comment>
+		<id>120600</id>
+		<data>작전 성공</data>
+	</comment>
+	<comment>
+		<id>120601</id>
+		<data>작전 실패</data>
+	</comment>
+	<comment>
+		<id>120700</id>
+		<data>슈트교체</data>
+	</comment>
+	<comment>
+		<id>120701</id>
+		<data>기체교체</data>
+	</comment>
+	<comment>
+		<id>120702</id>
+		<data>엔진교체</data>
+	</comment>
+	<comment>
+		<id>120703</id>
+		<data>기본무장교체</data>
+	</comment>
+	<comment>
+		<id>120704</id>
+		<data>부무장1교체</data>
+	</comment>
+	<comment>
+		<id>120705</id>
+		<data>부무장2교체</data>
+	</comment>
+	<comment>
+		<id>120706</id>
+		<data>대원 목록</data>
+	</comment>
+	<comment>
+		<id>120707</id>
+		<data>상세 정보</data>
+	</comment>
+	<comment>
+		<id>120708</id>
+		<data>상세 정보</data>
+	</comment>
+	<comment>
+		<id>120800</id>
+		<data>암시장</data>
+	</comment>
+	<comment>
+		<id>120900</id>
+		<data>옵션</data>
+	</comment>
+	<comment>
+		<id>130100</id>
+		<data>업그레이드</data>
+	</comment>
+	<comment>
+		<id>130101</id>
+		<data>선택 대원 추가</data>
+	</comment>
+	<comment>
+		<id>130102</id>
+		<data>선택 대원 전역</data>
+	</comment>
+	<comment>
+		<id>130103</id>
+		<data>대원 정밀 수색</data>
+	</comment>
+	<comment>
+		<id>130104</id>
+		<data>부대확장공사</data>
+	</comment>
+	<comment>
+		<id>130105</id>
+		<data>연구소확장공사</data>
+	</comment>
+	<comment>
+		<id>130106</id>
+		<data>공장확장공사</data>
+	</comment>
+	<comment>
+		<id>130107</id>
+		<data>부상 치료</data>
+	</comment>
+	<comment>
+		<id>130108</id>
+		<data>대원 구조</data>
+	</comment>
+	<comment>
+		<id>130109</id>
+		<data>대원 회복</data>
+	</comment>
+	<comment>
+		<id>130200</id>
+		<data>작전개시</data>
+	</comment>
+	<comment>
+		<id>130300</id>
+		<data>연구시작</data>
+	</comment>
+	<comment>
+		<id>130301</id>
+		<data>연구취소</data>
+	</comment>
+	<comment>
+		<id>130400</id>
+		<data>생산 추가</data>
+	</comment>
+	<comment>
+		<id>130401</id>
+		<data>생산 취소</data>
+	</comment>
+	<comment>
+		<id>130402</id>
+		<data>장비 제거</data>
+	</comment>
+	<comment>
+		<id>130500</id>
+		<data>슈트교체</data>
+	</comment>
+	<comment>
+		<id>130501</id>
+		<data>기체교체</data>
+	</comment>
+	<comment>
+		<id>130502</id>
+		<data>엔진교체</data>
+	</comment>
+	<comment>
+		<id>130503</id>
+		<data>기본무장교체</data>
+	</comment>
+	<comment>
+		<id>130504</id>
+		<data>무장1교체</data>
+	</comment>
+	<comment>
+		<id>130505</id>
+		<data>무장2교체</data>
+	</comment>
+	<comment>
+		<id>130506</id>
+		<data>미리 보기</data>
+	</comment>
+	<comment>
+		<id>130600</id>
+		<data>전투 보상</data>
+	</comment>
+	<comment>
+		<id>130601</id>
+		<data>대원 정보</data>
+	</comment>
+	<comment>
+		<id>130900</id>
+		<data>배경음</data>
+	</comment>
+	<comment>
+		<id>130901</id>
+		<data>효과음</data>
+	</comment>
+	<comment>
+		<id>130902</id>
+		<data>초기화</data>
+	</comment>
+	<comment>
+		<id>140100</id>
+		<data>사우샘스턴</data>
+	</comment>
+	<comment>
+		<id>140101</id>
+		<data>셜리</data>
+	</comment>
+	<comment>
+		<id>140102</id>
+		<data>포츠우드</data>
+	</comment>
+	<comment>
+		<id>140103</id>
+		<data>타운힐파크</data>
+	</comment>
+	<comment>
+		<id>140104</id>
+		<data>울스턴</data>
+	</comment>
+	<comment>
+		<id>140105</id>
+		<data>힐레인</data>
+	</comment>
+	<comment>
+		<id>140106</id>
+		<data>엘링</data>
+	</comment>
+	<comment>
+		<id>140107</id>
+		<data>알링톤레인</data>
+	</comment>
+	<comment>
+		<id>140108</id>
+		<data>윈체스터</data>
+	</comment>
+	<comment>
+		<id>140109</id>
+		<data>버슬던</data>
+	</comment>
+	<comment>
+		<id>140110</id>
+		<data>네틀리애비</data>
+	</comment>
+	<comment>
+		<id>140111</id>
+		<data>너슬링</data>
+	</comment>
+	<comment>
+		<id>140112</id>
+		<data>킬모어</data>
+	</comment>
+	<comment>
+		<id>140113</id>
+		<data>애쉬허스트</data>
+	</comment>
+	<comment>
+		<id>140114</id>
+		<data>마치우드</data>
+	</comment>
+	<comment>
+		<id>140115</id>
+		<data>이스트레이</data>
+	</comment>
+	<comment>
+		<id>140116</id>
+		<data>페어오크</data>
+	</comment>
+	<comment>
+		<id>140117</id>
+		<data>비숍스월섬</data>
+	</comment>
+	<comment>
+		<id>140118</id>
+		<data>스완모어</data>
+	</comment>
+	<comment>
+		<id>140119</id>
+		<data>쉐드필드</data>
+	</comment>
+	<comment>
+		<id>140120</id>
+		<data>위틀리</data>
+	</comment>
+	<comment>
+		<id>140121</id>
+		<data>티치필드</data>
+	</comment>
+	<comment>
+		<id>140122</id>
+		<data>워새시</data>
+	</comment>
+	<comment>
+		<id>140123</id>
+		<data>롬지</data>
+	</comment>
+	<comment>
+		<id>140124</id>
+		<data>웨스트웰로우</data>
+	</comment>
+	<comment>
+		<id>140125</id>
+		<data>블랙힐</data>
+	</comment>
+	<comment>
+		<id>140126</id>
+		<data>바틀리</data>
+	</comment>
+	<comment>
+		<id>140127</id>
+		<data>민스테드</data>
+	</comment>
+	<comment>
+		<id>140128</id>
+		<data>린드허스트</data>
+	</comment>
+	<comment>
+		<id>140129</id>
+		<data>브로큰허스트</data>
+	</comment>
+	<comment>
+		<id>140130</id>
+		<data>보리유</data>
+	</comment>
+	<comment>
+		<id>150100</id>
+		<data>최대 부대원수를 늘려줍니다.</data>
+	</comment>
+	<comment>
+		<id>150101</id>
+		<data>연구소의 연구가능슬롯을 늘려줍니다.</data>
+	</comment>
+	<comment>
+		<id>150102</id>
+		<data>생산 예약수를 늘려줍니다.</data>
+	</comment>
+	<comment>
+		<id>150003</id>
+		<data>자금이 부족합니다.&lt;p&gt;상단 메뉴의 암시장을 이용해보세요.</data>
+	</comment>
+	<comment>
+		<id>150104</id>
+		<data>가능한 시간이 아닙니다.</data>
+	</comment>
+	<comment>
+		<id>150105</id>
+		<data>부대 정원을 초과했습니다. &lt;p&gt;기지개발에서 부대를 업그레이드하면&lt;p&gt;부대 정원이 늘어납니다.</data>
+	</comment>
+	<comment>
+		<id>150106</id>
+		<data>이미 개발 중 입니다.</data>
+	</comment>
+	<comment>
+		<id>150107</id>
+		<data>개발 완료.</data>
+	</comment>
+	<comment>
+		<id>150108</id>
+		<data>최대 예약 수를 초과하였습니다. &lt;p&gt;HQ -&gt;기지개발에서 공장을&lt;p&gt;업그레이드하면 &lt;p&gt;최대 예약수를 늘릴 수 있습니다.</data>
+	</comment>
+	<comment>
+		<id>150109</id>
+		<data>필요한 자원이 부족합니다.&lt;p&gt;상단 메뉴의 암시장을 이용해보세요.</data>
+	</comment>
+	<comment>
+		<id>150110</id>
+		<data>생산 가능한 최대 수량입니다.</data>
+	</comment>
+	<comment>
+		<id>150111</id>
+		<data>설정이 안된 편대가 존재합니다.</data>
+	</comment>
+	<comment>
+		<id>150112</id>
+		<data>편대장 자리는 비울 수 없습니다.</data>
+	</comment>
+	<comment>
+		<id>150113</id>
+		<data>등록 할 수 없습니다.&lt;p&gt;편대장보다 낮은 계급이 필요합니다.</data>
+	</comment>
+	<comment>
+		<id>150114</id>
+		<data>편대장이 필요합니다.</data>
+	</comment>
+	<comment>
+		<id>150115</id>
+		<data>편대장 계급이 부족합니다.&lt;p&gt;대원들보다는 높은 계급이여야 합니다.</data>
+	</comment>
+	<comment>
+		<id>150116</id>
+		<data>장비 수량이 부족합니다.</data>
+	</comment>
+	<comment>
+		<id>150117</id>
+		<data>등록된 대원이 없습니다.</data>
+	</comment>
+	<comment>
+		<id>150118</id>
+		<data>방어까지</data>
+	</comment>
+	<comment>
+		<id>150119</id>
+		<data>개발 진행 중 입니다.</data>
+	</comment>
+	<comment>
+		<id>150120</id>
+		<data>이전 개발이 완료되지 않았습니다.</data>
+	</comment>
+	<comment>
+		<id>150121</id>
+		<data>로 고스트가 접근중 입니다.</data>
+	</comment>
+	<comment>
+		<id>150122</id>
+		<data>가(이) 고스트 공격을 받았습니다.</data>
+	</comment>
+	<comment>
+		<id>150123</id>
+		<data>가(이) 파괴되었습니다.</data>
+	</comment>
+	<comment>
+		<id>150124</id>
+		<data>코어를 제작합니다.</data>
+	</comment>
+	<comment>
+		<id>150125</id>
+		<data>해당 대원을 전역 시키겠습니까?&lt;p&gt;일부 자금이 회수됩니다.&lt;p&gt;착용중인 장비는 공장으로 돌아갑니다.</data>
+	</comment>
+	<comment>
+		<id>150126</id>
+		<data>대원을 정밀 수색하시겠습니까?&lt;p&gt;정밀 수색은 코어를 소비합니다.</data>
+	</comment>
+	<comment>
+		<id>150127</id>
+		<data>대원의 능력치를 회복합니다.&lt;p&gt;회복에 코어가 소비됩니다.</data>
+	</comment>
+	<comment>
+		<id>150128</id>
+		<data>대원의 부상을 치료합니다.&lt;p&gt;치료에는 코어가 소비됩니다.</data>
+	</comment>
+	<comment>
+		<id>150129</id>
+		<data>대원을 구조합니다.&lt;p&gt;구조에는 코어가 소비됩니다.</data>
+	</comment>
+	<comment>
+		<id>150130</id>
+		<data>해당 대원은 전역 시킬수 없습니다.</data>
+	</comment>
+	<comment>
+		<id>150131</id>
+		<data>더 이상 개발할 수 없습니다. &lt;p&gt; 개발 최대치에 도달했습니다.</data>
+	</comment>
+	<comment>
+		<id>150132</id>
+		<data>코어머징을 시도합니다. &lt;p&gt;성공확률은 50%입니다.&lt;p&gt; 획득한 코어 하나를 소비합니다.</data>
+	</comment>
+	<comment>
+		<id>150133</id>
+		<data>완료된 장비 입니다.</data>
+	</comment>
+	<comment>
+		<id>150134</id>
+		<data>코어가 부족합니다.</data>
+	</comment>
+	<comment>
+		<id>150135</id>
+		<data>첫번째 편대는 제거할 수 없습니다.</data>
+	</comment>
+	<comment>
+		<id>150136</id>
+		<data>마지막 편대만 제거 가능합니다.</data>
+	</comment>
+	<comment>
+		<id>150137</id>
+		<data>편대를 삭제할까요?</data>
+	</comment>
+	<comment>
+		<id>150138</id>
+		<data>더 이상 생산할 수 없습니다. &lt;p&gt; 최대 보유한도를 넘었습니다. &lt;p&gt; 착용한 장비는 제외됩니다.</data>
+	</comment>
+	<comment>
+		<id>150139</id>
+		<data>MISSION COMPLETE. &lt;p&gt; 미션이 완료되었습니다.</data>
+	</comment>
+	<comment>
+		<id>150140</id>
+		<data>해당 유닛의 이미지를 표시합니다.</data>
+	</comment>
+	<comment>
+		<id>150141</id>
+		<data>해당 유닛의 남은 턴을 표시합니다.</data>
+	</comment>
+	<comment>
+		<id>150142</id>
+		<data>해당 유닛의 HP를 표시합니다.</data>
+	</comment>
+	<comment>
+		<id>150143</id>
+		<data>해당 유닛의 HP 정보를 그래프로 표시합니다.</data>
+	</comment>
+	<comment>
+		<id>150144</id>
+		<data>유닛의 턴에 영향을 주는 행동력을 표시합니다.</data>
+	</comment>
+	<comment>
+		<id>150145</id>
+		<data>제거할 보유 장비가 없습니다. &lt;p&gt; 장비의 보유량을 확인하세요.</data>
+	</comment>
+	<comment>
+		<id>150146</id>
+		<data>장비 제거 &lt;p&gt; 일정량의 제원을 돌려받습니다.</data>
+	</comment>
+	<comment>
+		<id>150147</id>
+		<data>장비생산을 취소합니다. &lt;p&gt; 사용됐던 자원을 돌려받습니다.</data>
+	</comment>
+	<comment>
+		<id>150148</id>
+		<data>취소할 장비가 없습니다.</data>
+	</comment>
+	<comment>
+		<id>150149</id>
+		<data>게임중에 보이는 광고는 아무 상품이나 
+하나 이상 구매를 하면 더 이상 보이지 않습니다.</data>
+	</comment>
+	<comment>
+		<id>150150</id>
+		<data>연구소 업그레이드가 필요합니다.</data>
+	</comment>
+	<comment>
+		<id>150151</id>
+		<data>대원 급여가 소비됩니다.&lt;p&gt;급여는 대원의 계급에 비례합니다.</data>
+	</comment>
+	<comment>
+		<id>150152</id>
+		<data>급여 비용이 부족합니다.&lt;p&gt;세금을 징수하거나&lt;p&gt;암시장에서 필요자금을 구매하세요.</data>
+	</comment>
+	<comment>
+		<id>150153</id>
+		<data>획득하였습니다.</data>
+	</comment>
+	<comment>
+		<id>150154</id>
+		<data>친구들과 이정보를 공유하세요.</data>
+	</comment>
+	<comment>
+		<id>150155</id>
+		<data>보유 마을 수가 부족합니다.&lt;p&gt; 둥지를 탈환하여 마을수를 늘리세요.&lt;p&gt;COMMON -&gt; 둥지공격을 이용하세요.</data>
+	</comment>
+	<comment>
+		<id>150156</id>
+		<data>코어머징을 시도합니다. 
+&lt;size=14&gt;다음 자원이 필요합니다.&lt;/size&gt;</data>
+	</comment>
+	<comment>
+		<id>150157</id>
+		<data>실패하였습니다. 다시 시도하세요.
+
+&lt;size=14&gt;실패시 다음 성공 확률은
+최대 80%까지 10%씩 증가합니다.&lt;/size&gt;</data>
+	</comment>
+	<comment>
+		<id>150158</id>
+		<data>둥지는 밀집도가 0이
+되여야 공략되며
+부대의 밀집도 공격력만큼
+매 전투시 둥지 밀집도가
+감소합니다.</data>
+	</comment>
+	<comment>
+		<id>150159</id>
+		<data>마을을 공격하는
+고스트를 정해진 시간안에
+제거하지 않으면
+공격온 고스트 밀집도만큼
+마을 주민수가 줄어듭니다.</data>
+	</comment>
+	<comment>
+		<id>150160</id>
+		<data>전투 승리시 
+추가 보상으로 캐쉬를
+보상 받습니다.</data>
+	</comment>
+	<comment>
+		<id>150161</id>
+		<data>코어머징을 할 대상을 선택하세요.</data>
+	</comment>
+	<comment>
+		<id>150162</id>
+		<data>코어머징을 할 대상이 없습니다.</data>
+	</comment>
+	<comment>
+		<id>150163</id>
+		<data>대원을 수색하시겠습니까?&lt;p&gt;다음 자원을 소비합니다.</data>
+	</comment>
+	<comment>
+		<id>160100</id>
+		<data>비용</data>
+	</comment>
+	<comment>
+		<id>160101</id>
+		<data>현재</data>
+	</comment>
+	<comment>
+		<id>160102</id>
+		<data>확장 후</data>
+	</comment>
+	<comment>
+		<id>160103</id>
+		<data>명</data>
+	</comment>
+	<comment>
+		<id>160104</id>
+		<data>레벨</data>
+	</comment>
+	<comment>
+		<id>160105</id>
+		<data>라인</data>
+	</comment>
+	<comment>
+		<id>160106</id>
+		<data>확인</data>
+	</comment>
+	<comment>
+		<id>160107</id>
+		<data>취소</data>
+	</comment>
+	<comment>
+		<id>160108</id>
+		<data>주민 수</data>
+	</comment>
+	<comment>
+		<id>160109</id>
+		<data>남은 시간</data>
+	</comment>
+	<comment>
+		<id>160110</id>
+		<data>이름</data>
+	</comment>
+	<comment>
+		<id>160111</id>
+		<data>계급</data>
+	</comment>
+	<comment>
+		<id>160112</id>
+		<data>HP(생명력)</data>
+	</comment>
+	<comment>
+		<id>160113</id>
+		<data>IA(행동력)</data>
+	</comment>
+	<comment>
+		<id>160114</id>
+		<data>연고지</data>
+	</comment>
+	<comment>
+		<id>160115</id>
+		<data>상태</data>
+	</comment>
+	<comment>
+		<id>160116</id>
+		<data>AIA(행동력증가)</data>
+	</comment>
+	<comment>
+		<id>160117</id>
+		<data>SIA(행동력감소)</data>
+	</comment>
+	<comment>
+		<id>160118</id>
+		<data>AHP(생명력증가)</data>
+	</comment>
+	<comment>
+		<id>160119</id>
+		<data>AMP(마나증가량)</data>
+	</comment>
+	<comment>
+		<id>160120</id>
+		<data>SMP(마나감소량)</data>
+	</comment>
+	<comment>
+		<id>160121</id>
+		<data>AP(공격력)</data>
+	</comment>
+	<comment>
+		<id>160122</id>
+		<data>IAD(행동공격력)</data>
+	</comment>
+	<comment>
+		<id>160123</id>
+		<data>MP(마나력)</data>
+	</comment>
+	<comment>
+		<id>160124</id>
+		<data>무한</data>
+	</comment>
+	<comment>
+		<id>160125</id>
+		<data>탄약량</data>
+	</comment>
+	<comment>
+		<id>160126</id>
+		<data>잠김</data>
+	</comment>
+	<comment>
+		<id>160127</id>
+		<data>개발 시간</data>
+	</comment>
+	<comment>
+		<id>160128</id>
+		<data>보유량</data>
+	</comment>
+	<comment>
+		<id>160129</id>
+		<data>제작 시간</data>
+	</comment>
+	<comment>
+		<id>160130</id>
+		<data>필요 자원</data>
+	</comment>
+	<comment>
+		<id>160131</id>
+		<data>신규 편대</data>
+	</comment>
+	<comment>
+		<id>160132</id>
+		<data>UMP(마나소모량)</data>
+	</comment>
+	<comment>
+		<id>160133</id>
+		<data>EXP(경험치)</data>
+	</comment>
+	<comment>
+		<id>160134</id>
+		<data>슈트</data>
+	</comment>
+	<comment>
+		<id>160135</id>
+		<data>기체</data>
+	</comment>
+	<comment>
+		<id>160136</id>
+		<data>엔진</data>
+	</comment>
+	<comment>
+		<id>160137</id>
+		<data>기본무장</data>
+	</comment>
+	<comment>
+		<id>160138</id>
+		<data>추가무장</data>
+	</comment>
+	<comment>
+		<id>160139</id>
+		<data>장비보기</data>
+	</comment>
+	<comment>
+		<id>160140</id>
+		<data>장비없음</data>
+	</comment>
+	<comment>
+		<id>160141</id>
+		<data>경험치획득량</data>
+	</comment>
+	<comment>
+		<id>160142</id>
+		<data>침투</data>
+	</comment>
+	<comment>
+		<id>160143</id>
+		<data>고스트 수</data>
+	</comment>
+	<comment>
+		<id>160144</id>
+		<data>방어</data>
+	</comment>
+	<comment>
+		<id>160145</id>
+		<data>현재 둥지 밀집도</data>
+	</comment>
+	<comment>
+		<id>160146</id>
+		<data>실종</data>
+	</comment>
+	<comment>
+		<id>160147</id>
+		<data>부상</data>
+	</comment>
+	<comment>
+		<id>160148</id>
+		<data>회복</data>
+	</comment>
+	<comment>
+		<id>160149</id>
+		<data>구조</data>
+	</comment>
+	<comment>
+		<id>160150</id>
+		<data>코어</data>
+	</comment>
+	<comment>
+		<id>160151</id>
+		<data>코어파편</data>
+	</comment>
+	<comment>
+		<id>160152</id>
+		<data>코어제작</data>
+	</comment>
+	<comment>
+		<id>160153</id>
+		<data>보상</data>
+	</comment>
+	<comment>
+		<id>160154</id>
+		<data>정상</data>
+	</comment>
+	<comment>
+		<id>160155</id>
+		<data>고스트 정보</data>
+	</comment>
+	<comment>
+		<id>160156</id>
+		<data>켜짐</data>
+	</comment>
+	<comment>
+		<id>160157</id>
+		<data>꺼짐</data>
+	</comment>
+	<comment>
+		<id>160158</id>
+		<data>귀환하기</data>
+	</comment>
+	<comment>
+		<id>160159</id>
+		<data>코어머징</data>
+	</comment>
+	<comment>
+		<id>160160</id>
+		<data>없음</data>
+	</comment>
+	<comment>
+		<id>160161</id>
+		<data>소속편대</data>
+	</comment>
+	<comment>
+		<id>160162</id>
+		<data>예상피해</data>
+	</comment>
+	<comment>
+		<id>160163</id>
+		<data>자동전투</data>
+	</comment>
+	<comment>
+		<id>160164</id>
+		<data>세금징수가능</data>
+	</comment>
+	<comment>
+		<id>160165</id>
+		<data>둥지 밀집도 공격력</data>
+	</comment>
+	<comment>
+		<id>160166</id>
+		<data>기본장비</data>
+	</comment>
+	<comment>
+		<id>160167</id>
+		<data>신규 대원 획득</data>
+	</comment>
+	<comment>
+		<id>160168</id>
+		<data>다크기어 획득</data>
+	</comment>
+	<comment>
+		<id>160169</id>
+		<data>성공 확률</data>
+	</comment>
+	<comment>
+		<id>170100</id>
+		<data>기본 슈트</data>
+	</comment>
+	<comment>
+		<id>170101</id>
+		<data>기본 기체</data>
+	</comment>
+	<comment>
+		<id>170102</id>
+		<data>기본 엔진</data>
+	</comment>
+	<comment>
+		<id>170103</id>
+		<data>기본 무기</data>
+	</comment>
+	<comment>
+		<id>170104</id>
+		<data>가디언</data>
+	</comment>
+	<comment>
+		<id>170105</id>
+		<data>디펜더</data>
+	</comment>
+	<comment>
+		<id>170106</id>
+		<data>마나웰</data>
+	</comment>
+	<comment>
+		<id>170107</id>
+		<data>라이트닝</data>
+	</comment>
+	<comment>
+		<id>170108</id>
+		<data>AR-01</data>
+	</comment>
+	<comment>
+		<id>170109</id>
+		<data>팅커벨</data>
+	</comment>
+	<comment>
+		<id>170110</id>
+		<data>블루버드</data>
+	</comment>
+	<comment>
+		<id>170111</id>
+		<data>미티어</data>
+	</comment>
+	<comment>
+		<id>170112</id>
+		<data>스패로우</data>
+	</comment>
+	<comment>
+		<id>170113</id>
+		<data>썬더볼트</data>
+	</comment>
+	<comment>
+		<id>170114</id>
+		<data>가디언 D1</data>
+	</comment>
+	<comment>
+		<id>170115</id>
+		<data>디펜더 D1</data>
+	</comment>
+	<comment>
+		<id>170116</id>
+		<data>마나웰 D1</data>
+	</comment>
+	<comment>
+		<id>170117</id>
+		<data>라이트닝 D1</data>
+	</comment>
+	<comment>
+		<id>170118</id>
+		<data>팅커벨 D1</data>
+	</comment>
+	<comment>
+		<id>170119</id>
+		<data>블루버드 D1</data>
+	</comment>
+	<comment>
+		<id>170120</id>
+		<data>미티어 D1</data>
+	</comment>
+	<comment>
+		<id>170121</id>
+		<data>스패로우 D1</data>
+	</comment>
+	<comment>
+		<id>170122</id>
+		<data>썬더볼트 D1</data>
+	</comment>
+	<comment>
+		<id>170123</id>
+		<data>가디언 D2</data>
+	</comment>
+	<comment>
+		<id>170124</id>
+		<data>디펜더 D2</data>
+	</comment>
+	<comment>
+		<id>170125</id>
+		<data>마나웰 D2</data>
+	</comment>
+	<comment>
+		<id>170126</id>
+		<data>라이트닝 D2</data>
+	</comment>
+	<comment>
+		<id>170127</id>
+		<data>레드가넷</data>
+	</comment>
+	<comment>
+		<id>170128</id>
+		<data>코메트</data>
+	</comment>
+	<comment>
+		<id>170129</id>
+		<data>엔진</data>
+	</comment>
+	<comment>
+		<id>170130</id>
+		<data>무기</data>
+	</comment>
+	<comment>
+		<id>170131</id>
+		<data>로켓</data>
+	</comment>
+	<comment>
+		<id>170132</id>
+		<data>레드가넷 D1</data>
+	</comment>
+	<comment>
+		<id>170133</id>
+		<data>코메트 D1</data>
+	</comment>
+	<comment>
+		<id>170134</id>
+		<data>엔진 D1</data>
+	</comment>
+	<comment>
+		<id>170135</id>
+		<data>무기 D1</data>
+	</comment>
+	<comment>
+		<id>170136</id>
+		<data>로켓 D1</data>
+	</comment>
+	<comment>
+		<id>180100</id>
+		<data>훈련병</data>
+	</comment>
+	<comment>
+		<id>180101</id>
+		<data>이등병</data>
+	</comment>
+	<comment>
+		<id>180102</id>
+		<data>일등병</data>
+	</comment>
+	<comment>
+		<id>180103</id>
+		<data>상등병</data>
+	</comment>
+	<comment>
+		<id>180104</id>
+		<data>병과장</data>
+	</comment>
+	<comment>
+		<id>180105</id>
+		<data>하사</data>
+	</comment>
+	<comment>
+		<id>180106</id>
+		<data>일등하사</data>
+	</comment>
+	<comment>
+		<id>180107</id>
+		<data>상등하사</data>
+	</comment>
+	<comment>
+		<id>180108</id>
+		<data>중사</data>
+	</comment>
+	<comment>
+		<id>180109</id>
+		<data>일등중사</data>
+	</comment>
+	<comment>
+		<id>180110</id>
+		<data>상등중사</data>
+	</comment>
+	<comment>
+		<id>180111</id>
+		<data>상사</data>
+	</comment>
+	<comment>
+		<id>180112</id>
+		<data>일등상사</data>
+	</comment>
+	<comment>
+		<id>180113</id>
+		<data>상등상사</data>
+	</comment>
+	<comment>
+		<id>180114</id>
+		<data>주임상사</data>
+	</comment>
+	<comment>
+		<id>180115</id>
+		<data>원사</data>
+	</comment>
+	<comment>
+		<id>180116</id>
+		<data>일등원사</data>
+	</comment>
+	<comment>
+		<id>180117</id>
+		<data>상등원사</data>
+	</comment>
+	<comment>
+		<id>180118</id>
+		<data>주임원사</data>
+	</comment>
+	<comment>
+		<id>180119</id>
+		<data>특임원사</data>
+	</comment>
+	<comment>
+		<id>180120</id>
+		<data>준위</data>
+	</comment>
+	<comment>
+		<id>180121</id>
+		<data>일등준위</data>
+	</comment>
+	<comment>
+		<id>180122</id>
+		<data>상등준위</data>
+	</comment>
+	<comment>
+		<id>180123</id>
+		<data>특과준위</data>
+	</comment>
+	<comment>
+		<id>180124</id>
+		<data>특임준위</data>
+	</comment>
+	<comment>
+		<id>180125</id>
+		<data>소위</data>
+	</comment>
+	<comment>
+		<id>180126</id>
+		<data>특과소위</data>
+	</comment>
+	<comment>
+		<id>180127</id>
+		<data>수석소위</data>
+	</comment>
+	<comment>
+		<id>180128</id>
+		<data>특임소위</data>
+	</comment>
+	<comment>
+		<id>190100</id>
+		<data>리아 테일러</data>
+	</comment>
+	<comment>
+		<id>190101</id>
+		<data>사라 포트만</data>
+	</comment>
+	<comment>
+		<id>190102</id>
+		<data>키티 그린</data>
+	</comment>
+	<comment>
+		<id>190103</id>
+		<data>타샤 엘레나</data>
+	</comment>
+	<comment>
+		<id>190104</id>
+		<data>크리스 브라운</data>
+	</comment>
+	<comment>
+		<id>200100</id>
+		<data>Cessna 208</data>
+	</comment>
+	<comment>
+		<id>200101</id>
+		<data>Beechcraft 1900</data>
+	</comment>
+	<comment>
+		<id>200102</id>
+		<data>SAAB 2000</data>
+	</comment>
+	<comment>
+		<id>200103</id>
+		<data>YS-11</data>
+	</comment>
+	<comment>
+		<id>200104</id>
+		<data>DHC-8-400</data>
+	</comment>
+	<comment>
+		<id>200105</id>
+		<data>AirBus 318</data>
+	</comment>
+	<comment>
+		<id>200106</id>
+		<data>AirBus 320</data>
+	</comment>
+	<comment>
+		<id>200107</id>
+		<data>AirBus 330</data>
+	</comment>
+	<comment>
+		<id>200108</id>
+		<data>Boeing 737</data>
+	</comment>
+	<comment>
+		<id>200109</id>
+		<data>Boeing 767</data>
+	</comment>
+	<comment>
+		<id>200110</id>
+		<data>AirBus 340</data>
+	</comment>
+	<comment>
+		<id>200111</id>
+		<data>Boeing 777</data>
+	</comment>
+	<comment>
+		<id>200112</id>
+		<data>Boeing 787</data>
+	</comment>
+	<comment>
+		<id>200113</id>
+		<data>Boeing 744</data>
+	</comment>
+	<comment>
+		<id>200114</id>
+		<data>AirBus 380</data>
+	</comment>
+	<comment>
+		<id>210100</id>
+		<data>막</data>
+	</comment>
+	<comment>
+		<id>210201</id>
+		<data>장</data>
+	</comment>
+	<comment>
+		<id>210302</id>
+		<data>버려진 기지</data>
+	</comment>
+	<comment>
+		<id>210303</id>
+		<data>부활하는 요정들</data>
+	</comment>
+	<comment>
+		<id>210304</id>
+		<data>독립부대</data>
+	</comment>
+	<comment>
+		<id>220100</id>
+		<data>대원들이 기다리고 있습니다. 대원들과 고스트를 물리쳐주세요.</data>
+	</comment>
+	<comment>
+		<id>220101</id>
+		<data>당장 출동하여 고스트를 무찌르세요.</data>
+	</comment>
+	<comment>
+		<id>220102</id>
+		<data>세금을 징수하고 대원들을 관리하세요.</data>
+	</comment>
+	<comment>
+		<id>220203</id>
+		<data>세금징수가 가능합니다.</data>
+	</comment>
+	<comment>
+		<id>220204</id>
+		<data>모든대원이 회복하였습니다.</data>
+	</comment>
+	<comment>
+		<id>230100</id>
+		<data>리아 테일러</data>
+	</comment>
+	<comment>
+		<id>230101</id>
+		<data>헬렌 오하라</data>
+	</comment>
+	<comment>
+		<id>230102</id>
+		<data>아델라 슈미트</data>
+	</comment>
+	<comment>
+		<id>230103</id>
+		<data>안나 하센</data>
+	</comment>
+	<comment>
+		<id>230104</id>
+		<data>타티아나 유딘</data>
+	</comment>
+	<comment>
+		<id>230105</id>
+		<data>슈라 브래든스</data>
+	</comment>
+	<comment>
+		<id>230106</id>
+		<data>에마 노턴</data>
+	</comment>
+	<comment>
+		<id>230107</id>
+		<data>아가사 밀러</data>
+	</comment>
+	<comment>
+		<id>230108</id>
+		<data>안젤리카 모로</data>
+	</comment>
+	<comment>
+		<id>230109</id>
+		<data>에씨 아난</data>
+	</comment>
+	<comment>
+		<id>230110</id>
+		<data>니콜 러셀</data>
+	</comment>
+	<comment>
+		<id>230111</id>
+		<data>나카마 유키에</data>
+	</comment>
+	<comment>
+		<id>230112</id>
+		<data>엘레나 베라티</data>
+	</comment>
+	<comment>
+		<id>230113</id>
+		<data>엘사 루이스</data>
+	</comment>
+	<comment>
+		<id>230114</id>
+		<data>카르멘 고메즈</data>
+	</comment>
+	<comment>
+		<id>230115</id>
+		<data>줄리아 로즈</data>
+	</comment>
+	<comment>
+		<id>230116</id>
+		<data>강 미나</data>
+	</comment>
+</GameDataScript>
