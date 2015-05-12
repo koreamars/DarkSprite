@@ -56,13 +56,20 @@ namespace LastCastle
 			Dictionary<String, System.Object> atlasRawData2 = Json.Deserialize (reader) as Dictionary<String, System.Object>;
 			AtlasData atlasData2 = AtlasDataParser.ParseAtlasData (atlasRawData2);
 
-			Texture _textures3 = Resources.Load<Texture>("skirtTest");
+			Sprite _textures3 = Resources.Load<Sprite>("skirtTest");
 
 			//TextureData tt = textureAtlas2.AtlasData.GetTextureData ("skirt") as TextureData;
-			Texture2D t = new Texture2D(Screen.width, Screen.height, TextureFormat.ARGB32, false);
-			t.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-			t.Apply();
+			//Texture2D t = new Texture2D(Screen.width, Screen.height, TextureFormat.ARGB32, false);
+			//t.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+			//t.Apply();
 
+			GameObject tt = GameObject.Find ("skirt") as GameObject;
+			print (tt.GetType());
+			tt.GetComponent<SpriteRenderer> ().sprite = _textures3;
+
+			//Texture2D = tt.GetComponent<Renderer> ().material.GetTexture("_MainTex") as Texture2D;
+
+			//TextureMarge.SetTextureMarge (tex1, _textures3 as Texture2D);
 
 
 			TextureAtlas textureAtlas2 = new TextureAtlas (_textures2, atlasData);

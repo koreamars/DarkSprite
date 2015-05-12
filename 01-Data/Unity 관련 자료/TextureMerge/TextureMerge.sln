@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{82217403-85A0-BF3C-8C17-44430A3ADC82}") = "TextureMerge", "Assembly-CSharp.csproj", "{CBC7EDBF-CD0B-A457-4577-A69AB58E22CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC7EDBF-CD0B-A457-4577-A69AB58E22CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC7EDBF-CD0B-A457-4577-A69AB58E22CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC7EDBF-CD0B-A457-4577-A69AB58E22CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC7EDBF-CD0B-A457-4577-A69AB58E22CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+					GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
