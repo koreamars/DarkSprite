@@ -48,8 +48,8 @@ public class MyUnitField : MonoBehaviour {
 
 		MyUnityCamera.GetComponent<Camera>().rect = new Rect (0f, 0, 1, 1);
 
-		DamageTxt.renderer.sortingOrder = 10;
-		DamageTxt.renderer.enabled = false;
+		DamageTxt.GetComponent<Renderer>().sortingOrder = 10;
+		DamageTxt.GetComponent<Renderer>().enabled = false;
 	}
 
 	void Start () {
@@ -97,7 +97,7 @@ public class MyUnitField : MonoBehaviour {
 
 		}
 
-		DamageTxt.renderer.sortingOrder = 50;
+		DamageTxt.GetComponent<Renderer>().sortingOrder = 50;
 
 	}
 
@@ -246,7 +246,7 @@ public class MyUnitField : MonoBehaviour {
 			SelectUnitObj.GetComponent<UnitFrame>().SetDamageSmoke(true);
 		}
 
-		DamageTxt.renderer.enabled = true;
+		DamageTxt.GetComponent<Renderer>().enabled = true;
 		DamageTxt.GetComponent<TextMesh>().text = "-" + damage;
 		DamageTxt.transform.position = SelectUnitObj.transform.position;
 

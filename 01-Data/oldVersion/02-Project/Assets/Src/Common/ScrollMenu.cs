@@ -51,7 +51,7 @@ public class ScrollMenu : MonoBehaviour {
 
 		_ScriptData = ScriptData.getInstence();
 
-		ListBg.renderer.sortingOrder = sortingNum - 2;
+		ListBg.GetComponent<Renderer>().sortingOrder = sortingNum - 2;
 
 		Color btnTxtColor = Color.white;
 		btnTxtColor.r = BtnColor.r;
@@ -196,7 +196,7 @@ public class ScrollMenu : MonoBehaviour {
 
 	internal void CreateBtns() {
 
-		ListBg.renderer.sortingOrder = sortingNum - 2;
+		ListBg.GetComponent<Renderer>().sortingOrder = sortingNum - 2;
 
 		_BtnY = _DefaultBtnY + BtnListStage.transform.position.y;
 

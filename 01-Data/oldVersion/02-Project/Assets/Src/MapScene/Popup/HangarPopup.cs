@@ -52,7 +52,7 @@ public class HangarPopup : MonoBehaviour {
 	void Start() {
 		
 		CloseBtn.GetComponent<ButtonEvent>().SetCallBack(OnPopupClose);
-		SubTitleTxt.renderer.sortingOrder = 2;
+		SubTitleTxt.GetComponent<Renderer>().sortingOrder = 2;
 
 		if(isTest) {
 			StartCoroutine(TestInit());
@@ -542,7 +542,7 @@ public class HangarPopup : MonoBehaviour {
 			_MemberCommentObj.GetComponent<TextMesh>().alignment = TextAlignment.Left;
 			_MemberCommentObj.transform.position = new Vector2(1.32f, 1.32f + this.gameObject.transform.position.y);
 			_MemberCommentObj.transform.parent = this.gameObject.transform;
-			_MemberCommentObj.renderer.enabled = false;
+			_MemberCommentObj.GetComponent<Renderer>().enabled = false;
 			_MemberCommentObj.name = "member comment";
 			_MemberCommentObj.layer = LayerMask.NameToLayer("UI");
 		} else {
@@ -602,7 +602,7 @@ public class HangarPopup : MonoBehaviour {
 			SetBtnsEnable(true);
 			ShowGearView(_SelectMemberId, false, false);
 			_DefaultCraft.transform.position = new Vector2(-2f, 20f);
-			if(_MemberCommentObj != null) _MemberCommentObj.renderer.enabled = false;
+			if(_MemberCommentObj != null) _MemberCommentObj.GetComponent<Renderer>().enabled = false;
 			break;
 		case 1:		// 맴버 디테일 정보.
 			btnName = _ScriptData.GetGameScript(120706).script;
@@ -611,7 +611,7 @@ public class HangarPopup : MonoBehaviour {
 			GearScrollMenu.transform.position = new Vector2(this.gameObject.transform.position.x + scrollX, 
 			                                                this.gameObject.transform.position.y - 20f);
 			GuideArrowManager.getInstence().ShowArrow(SceneType.HangarPopup);
-			if(_MemberCommentObj != null) _MemberCommentObj.renderer.enabled = true;
+			if(_MemberCommentObj != null) _MemberCommentObj.GetComponent<Renderer>().enabled = true;
 			break;
 		case 2:		// 기어 선택창.
 			btnName = _ScriptData.GetGameScript(120706).script;
@@ -620,7 +620,7 @@ public class HangarPopup : MonoBehaviour {
 			GearScrollMenu.transform.position = new Vector2(this.gameObject.transform.position.x + scrollX, 
 			                                                this.gameObject.transform.position.y + scrollY);
 			GuideArrowManager.getInstence().ShowArrow(SceneType.HangarPopup_DetailView);
-			if(_MemberCommentObj != null) _MemberCommentObj.renderer.enabled = false;
+			if(_MemberCommentObj != null) _MemberCommentObj.GetComponent<Renderer>().enabled = false;
 			break;
 		case 3:		// 미리 보기.
 			btnName = _ScriptData.GetGameScript(120706).script;
@@ -631,7 +631,7 @@ public class HangarPopup : MonoBehaviour {
 
 			SetBtnsEnable(false);
 			ShowGearView(_SelectMemberId, false, true);
-			if(_MemberCommentObj != null) _MemberCommentObj.renderer.enabled = true;
+			if(_MemberCommentObj != null) _MemberCommentObj.GetComponent<Renderer>().enabled = true;
 			StartCoroutine(SetCraftField());
 			break;
 		}
@@ -657,7 +657,7 @@ public class HangarPopup : MonoBehaviour {
 		textMesh.anchor = anchor;
 		textMesh.color = color;
 		textMesh.fontSize = fontSize;
-		targetobj.renderer.sortingOrder = 100;
+		targetobj.GetComponent<Renderer>().sortingOrder = 100;
 		
 		return targetobj;
 	}

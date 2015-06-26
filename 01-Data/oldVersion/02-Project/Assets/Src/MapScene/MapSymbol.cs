@@ -27,7 +27,7 @@ public class MapSymbol : MonoBehaviour {
 	public void init(byte townId, byte sortNum) {
 		TownId = townId;
 		_SortNum = sortNum;
-		MapSB.renderer.sortingOrder = sortNum + 1;
+		MapSB.GetComponent<Renderer>().sortingOrder = sortNum + 1;
 
 		CreateTownName(townId);
 		SetTownSymbol(townId);

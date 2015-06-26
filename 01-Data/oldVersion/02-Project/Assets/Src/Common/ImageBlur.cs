@@ -25,7 +25,7 @@ public class ImageBlur : MonoBehaviour {
 	void Update () {
 		
 		if (Input.GetKeyDown(KeyCode.Space))
-			renderer.material.mainTexture = FastBlur( tex, radius, iterations);
+			GetComponent<Renderer>().material.mainTexture = FastBlur( tex, radius, iterations);
 			
 	}
 	

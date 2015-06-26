@@ -52,14 +52,14 @@ public class ListViewObject : MonoBehaviour {
 		} else {								// 맴버형.
 			ShowMemberData((short)(id));
 		}
-		OutLine.renderer.enabled = true;
+		OutLine.GetComponent<Renderer>().enabled = true;
 	}
 
 	public void ClearData() {
 		SpriteRenderer renderer = (SpriteRenderer)Thumbnail.GetComponent ("SpriteRenderer");
 		renderer.sprite = Resources.Load<Sprite>("");
 		SetTitleText("");
-		OutLine.renderer.enabled = false;
+		OutLine.GetComponent<Renderer>().enabled = false;
 
 		if(_DataTxtList != null && _DataTxtList.Count > 0) {
 			foreach(GameObject txtObj in _DataTxtList) {

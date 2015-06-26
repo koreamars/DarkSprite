@@ -22,7 +22,7 @@ public class FirstFightGuide : MonoBehaviour {
 		ScriptData scriptData = ScriptData.getInstence();
 
 		_Bg = this.gameObject.transform.FindChild("fightGuideImg").gameObject;
-		_Bg.renderer.sortingOrder = sortNum - 1;
+		_Bg.GetComponent<Renderer>().sortingOrder = sortNum - 1;
 		_Bg.layer = LayerMask.NameToLayer("UI");
 
 		_TextField1 = CustomTextMesh.SetAddTextMesh(scriptData.GetGameScript(150140).script, 18, TextAnchor.MiddleRight, Color.white, sortNum, "UI");

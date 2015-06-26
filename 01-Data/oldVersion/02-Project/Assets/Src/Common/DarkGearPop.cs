@@ -58,21 +58,21 @@ public class DarkGearPop : MonoBehaviour {
 		CancelBtn.transform.position = new Vector3(1.24f, -2.14f, -5f);
 
 		KakaoBtn.GetComponent<ButtonEvent>().SetCallBack(OnKakaoBtn);
-		KakaoBtn.renderer.enabled = false;
-		KakaoBtn.collider.enabled = false;
+		KakaoBtn.GetComponent<Renderer>().enabled = false;
+		KakaoBtn.GetComponent<Collider>().enabled = false;
 		KakaoBtn.transform.position = new Vector3(0f, -1.99f, -5f);
 
 		CloseBtn.GetComponent<ButtonEvent>().SetCallBack(OnCloseBtn);
-		CloseBtn.renderer.enabled = false;
-		CloseBtn.collider.enabled = false;
+		CloseBtn.GetComponent<Renderer>().enabled = false;
+		CloseBtn.GetComponent<Collider>().enabled = false;
 		CloseBtn.transform.position = new Vector3(2.96f, 1.8f, -5f);
 
-		GetMark.renderer.enabled = false;
+		GetMark.GetComponent<Renderer>().enabled = false;
 
-		KakaoBtn.renderer.sortingOrder = _SortNum + 1;
-		CloseBtn.renderer.sortingOrder = _SortNum + 1;
-		BgObject.renderer.sortingOrder = _SortNum;
-		GetMark.renderer.sortingOrder = _SortNum + 13;
+		KakaoBtn.GetComponent<Renderer>().sortingOrder = _SortNum + 1;
+		CloseBtn.GetComponent<Renderer>().sortingOrder = _SortNum + 1;
+		BgObject.GetComponent<Renderer>().sortingOrder = _SortNum;
+		GetMark.GetComponent<Renderer>().sortingOrder = _SortNum + 13;
 
 		ShowGearView();
 	}
@@ -192,7 +192,7 @@ public class DarkGearPop : MonoBehaviour {
 				_IsSuccess = true;
 				_CurrentDarkGearId = gear.upNextId;
 
-				GetMark.renderer.enabled = true;
+				GetMark.GetComponent<Renderer>().enabled = true;
 				if(_CurrentType == DarkGearPop.BaseType) {
 					OwnGear newOwnGear = UserData.getInstence().GetOwnGearByGearId(_CurrentDarkGearId);
 					if(newOwnGear != null) {
@@ -210,14 +210,14 @@ public class DarkGearPop : MonoBehaviour {
 				_NameStr = ScriptData.getInstence().GetGameScript(newGearData.scriptId).script;
 				_ThumbUrl = "gear/" + newGearData.thumbnailURI + ".jpg";
 
-				KakaoBtn.renderer.enabled = true;
-				KakaoBtn.collider.enabled = true;
-				CloseBtn.renderer.enabled = true;
-				CloseBtn.collider.enabled = true;
+				KakaoBtn.GetComponent<Renderer>().enabled = true;
+				KakaoBtn.GetComponent<Collider>().enabled = true;
+				CloseBtn.GetComponent<Renderer>().enabled = true;
+				CloseBtn.GetComponent<Collider>().enabled = true;
 
 				if(IsTest == false) MissionData.getInstence().AddMissionGoal(MissionGoalType.Get_DarkGear, 1);
 				CancelBtn.GetComponent<CommonBtn>().SetEnabled(false);
-				_SucessPTxt.GetComponent<TextMesh>().renderer.enabled = false;
+				_SucessPTxt.GetComponent<TextMesh>().GetComponent<Renderer>().enabled = false;
 			} else {					// 다크 기어 실패시.
 
 				if(_CurrentType == DarkGearPop.BaseType) {

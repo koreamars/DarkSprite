@@ -3,36 +3,48 @@ using System.Collections;
 
 public class TextureMarge : MonoBehaviour {
 
-	public static Texture2D SetTextureMarge(Texture2D texture1, Texture2D texture2) {
+	public static Texture2D SetTextureMarge(Texture2D texture1, Texture2D texture2, Vector2 startPos) {
 
 		Texture2D merge = new Texture2D(texture1.width, texture1.height);
+		string _test = "";
+		int startX = (int)startPos.x;
+		int startY = (int)startPos.y;
+		int endX = startX + texture2.width;
+		int endY = startY + texture2.height;
 
+		bool _testBool = false;
 		for (int y = 0; y < texture1.height; y++)
 		{
 			for (int x = 0; x < texture1.width; x++)
 			{
 				Color one = texture1.GetPixel(x, y);
-				Color two = texture2.GetPixel(x, y);
-
-				if(two.a > 0) {
-					Color mergeColor = new Color();
-					mergeColor.a = one.a + two.a;
-					if(two.a < 0.2f) {
-						mergeColor.r = (one.r * one.a) + (two.r * two.a);
-						mergeColor.g = (one.g * one.a) + (two.g * two.a);
-						mergeColor.b = (one.b * one.a) + (two.b * two.a);
-					} else {
-						mergeColor.r = two.r;
-						mergeColor.g = two.g;
-						mergeColor.b = two.b;
+				if(x >= startX && y >= startY && x < endX && y < endY) {
+					Color two = texture2.GetPixel(x - startX, y - startY);
+					if(_testBool == false) {
+						_testBool = true;
 					}
-					merge.SetPixel(x, y, mergeColor);
+					if(two.a > 0) {
+						Color mergeColor = new Color();
+						mergeColor.a = one.a + two.a;
+						if(two.a < 0.2f) {
+							mergeColor.r = (one.r * one.a) + (two.r * two.a);
+							mergeColor.g = (one.g * one.a) + (two.g * two.a);
+							mergeColor.b = (one.b * one.a) + (two.b * two.a);
+						} else {
+							mergeColor.r = two.r;
+							mergeColor.g = two.g;
+							mergeColor.b = two.b;
+						}
+						merge.SetPixel(x, y, mergeColor);
+					} else {
+						merge.SetPixel(x, y, one);
+					}
 				} else {
 					merge.SetPixel(x, y, one);
 				}
 			}
 		}
-		
+
 		merge.Apply();
 
 		return merge;

@@ -261,7 +261,7 @@ public class EndPopup : MonoBehaviour {
 			classObj.transform.position = new Vector2(memberObj.transform.position.x - 0.44f, -1.20f);
 			classObj.transform.localScale = new Vector2(0.7f, 0.7f);
 			classObj.transform.parent = this.gameObject.transform;
-			classObj.renderer.sortingOrder = 101;
+			classObj.GetComponent<Renderer>().sortingOrder = 101;
 
 			// 맴버 이름.
 			memberName = SetAddTextMesh(_ScriptData.GetMemberNameByMemberId(member.id), 13, TextAnchor.MiddleCenter, Color.white);
@@ -376,7 +376,7 @@ public class EndPopup : MonoBehaviour {
 		textMesh.anchor = anchor;
 		textMesh.color = color;
 		textMesh.fontSize = fontSize;
-		targetobj.renderer.sortingOrder = 100;
+		targetobj.GetComponent<Renderer>().sortingOrder = 100;
 
 		return targetobj;
 	}

@@ -57,19 +57,19 @@ public class UnitDataBox : MonoBehaviour {
 	}
 
 	public void SortingNum(short num) {
-		SelectBox.renderer.sortingOrder = num;
-		ImgObject.renderer.sortingOrder = num + 2;
-		UnitFrame.renderer.sortingOrder = num + 1;
-		TargetMark.renderer.sortingOrder = num + 4;
-		_LedBar.renderer.sortingOrder = num + 2;
-		AICount.renderer.sortingOrder = num + 3;
-		TurnNumMark.renderer.sortingOrder = num + 3;
-		HPCount.renderer.sortingOrder = num + 3;
-		_TurnCount.renderer.sortingOrder = num + 4;
+		SelectBox.GetComponent<Renderer>().sortingOrder = num;
+		ImgObject.GetComponent<Renderer>().sortingOrder = num + 2;
+		UnitFrame.GetComponent<Renderer>().sortingOrder = num + 1;
+		TargetMark.GetComponent<Renderer>().sortingOrder = num + 4;
+		_LedBar.GetComponent<Renderer>().sortingOrder = num + 2;
+		AICount.GetComponent<Renderer>().sortingOrder = num + 3;
+		TurnNumMark.GetComponent<Renderer>().sortingOrder = num + 3;
+		HPCount.GetComponent<Renderer>().sortingOrder = num + 3;
+		_TurnCount.GetComponent<Renderer>().sortingOrder = num + 4;
 
 		_SortNum = num;
 
-		SelectBox.renderer.enabled = false;
+		SelectBox.GetComponent<Renderer>().enabled = false;
 	}
 
 	public void init(UnitDataBoxModel model, short sortNum, SlotCallback OnSlotCallback) {
@@ -77,7 +77,7 @@ public class UnitDataBox : MonoBehaviour {
 		_SlotCallback = new SlotCallback(OnSlotCallback);
 
 		_LedBar = this.gameObject.transform.FindChild("LedBar").gameObject;
-		_LedBar.renderer.material.color = Color.black;
+		_LedBar.GetComponent<Renderer>().material.color = Color.black;
 
 		Model = model;
 		if(model.isSelect){
@@ -95,7 +95,7 @@ public class UnitDataBox : MonoBehaviour {
 			thumbColor.a = 1f;
 		}
 		ImgChange(model.imgName);
-		ImgObject.renderer.material.color = thumbColor;
+		ImgObject.GetComponent<Renderer>().material.color = thumbColor;
 
 		if(AICount == null) {
 			if(model.type == 0) {
@@ -133,7 +133,7 @@ public class UnitDataBox : MonoBehaviour {
 
 		//ShowActCount(model.ActNum, model.MaxActNum);
 		SortingNum(sortNum);
-		TargetMark.renderer.enabled = false;
+		TargetMark.GetComponent<Renderer>().enabled = false;
 
 	}
 
@@ -151,16 +151,16 @@ public class UnitDataBox : MonoBehaviour {
 			thumbColor.a = 1f;
 		}
 		ImgChange(model.imgName);
-		ImgObject.renderer.material.color = thumbColor;
+		ImgObject.GetComponent<Renderer>().material.color = thumbColor;
 		ShowActCount(model.ActNum, model.MaxActNum);
 
 		byte currentTurn = (byte)(model.turnIndex + 1);
 		if(model.turnIndex == 0) {
-			TurnNumMark.renderer.material.color = TurnColor1;
+			TurnNumMark.GetComponent<Renderer>().material.color = TurnColor1;
 		} else if (model.turnIndex > 0 && model.turnIndex <= 2) {
-			TurnNumMark.renderer.material.color = TurnColor2;
+			TurnNumMark.GetComponent<Renderer>().material.color = TurnColor2;
 		} else {
-			TurnNumMark.renderer.material.color = TurnColor3;
+			TurnNumMark.GetComponent<Renderer>().material.color = TurnColor3;
 		}
 		_TurnCount.GetComponent<TextMesh>().text = currentTurn.ToString();
 		//AICount.transform.position = new Vector2(-0.51f, -0.28f);
@@ -168,13 +168,13 @@ public class UnitDataBox : MonoBehaviour {
 
 		TurnNumMark.transform.position = new Vector2(_TurnCount.transform.position.x + 0.05f, _TurnCount.transform.position.y + 0.02f);
 
-		TargetMark.renderer.enabled = false;
+		TargetMark.GetComponent<Renderer>().enabled = false;
 		SetProgress(model.currentHP);
 
 		if(model.isTarget) {
-			TargetMark.renderer.enabled = true;
+			TargetMark.GetComponent<Renderer>().enabled = true;
 		} else {
-			TargetMark.renderer.enabled = false;
+			TargetMark.GetComponent<Renderer>().enabled = false;
 		}
 	}
 
@@ -195,13 +195,13 @@ public class UnitDataBox : MonoBehaviour {
 		Color textColor;
 		if(current > 60) {
 			textColor = HpGreenColor;
-			_LedBar.renderer.material.color = HpGreenColor;
+			_LedBar.GetComponent<Renderer>().material.color = HpGreenColor;
 		} else if(current <= 60 && current > 20) {
 			textColor = HpYerrowColor;
-			_LedBar.renderer.material.color = HpYerrowColor;
+			_LedBar.GetComponent<Renderer>().material.color = HpYerrowColor;
 		} else {
 			textColor = HpRedColor;
-			_LedBar.renderer.material.color = HpRedColor;
+			_LedBar.GetComponent<Renderer>().material.color = HpRedColor;
 		}
 
 		textColor.r -= 0.4f;
@@ -217,17 +217,17 @@ public class UnitDataBox : MonoBehaviour {
 
 	private void SlotSelect(bool isSelect) {
 		if(isSelect){
-			SelectBox.renderer.enabled = true;
+			SelectBox.GetComponent<Renderer>().enabled = true;
 			//Bg.renderer.enabled = false;
 		} else {
-			SelectBox.renderer.enabled = false;
+			SelectBox.GetComponent<Renderer>().enabled = false;
 			//Bg.renderer.enabled = true;
 		}
 
 	}
 
 	public void TargetSelect() {
-		TargetMark.renderer.enabled = true;
+		TargetMark.GetComponent<Renderer>().enabled = true;
 	}
 
 	void OnMouseDown() {

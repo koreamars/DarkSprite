@@ -58,7 +58,7 @@ public class CorpsPopup : MonoBehaviour {
 
 	public void init() {
 
-		MemberSelectBox.renderer.sortingOrder = 10;
+		MemberSelectBox.GetComponent<Renderer>().sortingOrder = 10;
 
 		_SystemData = SystemData.GetInstance();
 		_MemberData = MemberData.getInstence();
@@ -67,7 +67,7 @@ public class CorpsPopup : MonoBehaviour {
 		_GearData = GearData.getInstence();
 
 		CloseBtn.GetComponent<ButtonEvent>().SetCallBack(OnPopupClose);
-		SubTitleTxt.renderer.sortingOrder = 2;
+		SubTitleTxt.GetComponent<Renderer>().sortingOrder = 2;
 		
 		OptionBtn1.GetComponent<CommonBtn>().SetClick(OnOptionBtn1Click);
 		OptionBtn1.GetComponent<CommonBtn>().Init(0, "", 10, Color.white);

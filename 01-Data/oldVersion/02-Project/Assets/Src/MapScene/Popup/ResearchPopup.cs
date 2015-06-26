@@ -182,7 +182,7 @@ public class ResearchPopup : MonoBehaviour {
 		
 		BoxCollider2D collider = ScrollField.GetComponent<BoxCollider2D>();
 		collider.size = new Vector2(4.7f, slotFieldHeight);
-		collider.center = new Vector2(0, (slotFieldHeight / 2) - (slotFieldHeight / 5));
+		collider.offset = new Vector2(0, (slotFieldHeight / 2) - (slotFieldHeight / 5));
 		
 		CommonBtn commonBtn = ScrollField.GetComponent<CommonBtn>();
 		commonBtn.btnId = -1;
@@ -400,7 +400,7 @@ public class ResearchPopup : MonoBehaviour {
 			GameObject prevObj = _SlotList[_CurrentIndex - 1];
 			prevObj.GetComponent<ResearchSlot>().SelectSlot(false);
 		}
-		MainThumbnail.renderer.enabled = false;
+		MainThumbnail.GetComponent<Renderer>().enabled = false;
 		ResearchBtn.transform.position = new Vector3(-4.05f, -20f, 0);
 
 		//_ChipSlot.GetComponent<ResearchSlot>().SelectSlot(false);
@@ -425,7 +425,7 @@ public class ResearchPopup : MonoBehaviour {
 				return;
 			}
 
-			MainThumbnail.renderer.enabled = true;
+			MainThumbnail.GetComponent<Renderer>().enabled = true;
 			slotObj.GetComponent<ResearchSlot>().SelectSlot(true);
 
 			Gear currentGear = _GearData.GetGearByID(currentReserch.gearId);
@@ -518,7 +518,7 @@ public class ResearchPopup : MonoBehaviour {
 
 			_GearDataUI.GearUpdate(0);
 
-			MainThumbnail.renderer.enabled = true;
+			MainThumbnail.GetComponent<Renderer>().enabled = true;
 
 			SpriteRenderer renderer = (SpriteRenderer)MainThumbnail.GetComponent ("SpriteRenderer");
 			renderer.sprite = Resources.Load<Sprite>("MainScene/Research/Research-CoreMake");

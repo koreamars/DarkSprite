@@ -123,7 +123,7 @@ public class GearDataUI : MonoBehaviour {
 				break;
 			}
 
-			_ThumbnailBg.renderer.enabled = true;
+			_ThumbnailBg.GetComponent<Renderer>().enabled = true;
 
 			
 		} else {
@@ -131,25 +131,25 @@ public class GearDataUI : MonoBehaviour {
 			
 			_GearName.text = "";
 
-			_ThumbnailBg.renderer.enabled = false;
+			_ThumbnailBg.GetComponent<Renderer>().enabled = false;
 
 		}
 	}
 
 	public void SetSorting(int sortNum) {
-		_GearThumb.renderer.sortingOrder = sortNum;
-		_GearName.gameObject.renderer.sortingOrder = sortNum;
-		_DataTitle1.gameObject.renderer.sortingOrder = sortNum;
-		_DataTitle2.gameObject.renderer.sortingOrder = sortNum;
-		_DataTitle3.gameObject.renderer.sortingOrder = sortNum;
-		_DataTitle4.gameObject.renderer.sortingOrder = sortNum;
-		_DataTitle5.gameObject.renderer.sortingOrder = sortNum;
-		_DataValue1.gameObject.renderer.sortingOrder = sortNum;
-		_DataValue2.gameObject.renderer.sortingOrder = sortNum;
-		_DataValue3.gameObject.renderer.sortingOrder = sortNum;
-		_DataValue4.gameObject.renderer.sortingOrder = sortNum;
-		_DataValue5.gameObject.renderer.sortingOrder = sortNum;
-		_ThumbnailBg.renderer.sortingOrder = sortNum - 1;
+		_GearThumb.GetComponent<Renderer>().sortingOrder = sortNum;
+		_GearName.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle1.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle2.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle3.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle4.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle5.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue1.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue2.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue3.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue4.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue5.gameObject.GetComponent<Renderer>().sortingOrder = sortNum;
+		_ThumbnailBg.GetComponent<Renderer>().sortingOrder = sortNum - 1;
 	}
 
 	public void SetSortLayer(string layerName) {

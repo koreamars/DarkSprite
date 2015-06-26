@@ -169,10 +169,10 @@ public class HQPopup : MonoBehaviour {
 		SubTitleTxt.transform.parent = this.gameObject.transform;
 		SubTitleTxt.transform.position = new Vector2(1.24f, 4.19f);
 
-		SearchImg.renderer.sortingOrder = 10;
-		SearchIcon.renderer.sortingOrder = 11;
-		SearchImg.renderer.enabled = false;
-		SearchIcon.renderer.enabled = false;
+		SearchImg.GetComponent<Renderer>().sortingOrder = 10;
+		SearchIcon.GetComponent<Renderer>().sortingOrder = 11;
+		SearchImg.GetComponent<Renderer>().enabled = false;
+		SearchIcon.GetComponent<Renderer>().enabled = false;
 		SearchImg.GetComponent<BoxCollider>().enabled = false;
 
 		_RewardViewer = Instantiate(Resources.Load<GameObject>("Common/RewardViewer")) as GameObject;
@@ -1104,11 +1104,11 @@ public class HQPopup : MonoBehaviour {
 	private void MemberDetailSearch(bool isconfirm) {
 		print("MemberDetailSearch");
 		if(isconfirm) {
-			SearchImg.renderer.enabled = true;
-			SearchImg.renderer.sortingOrder = 20;
+			SearchImg.GetComponent<Renderer>().enabled = true;
+			SearchImg.GetComponent<Renderer>().sortingOrder = 20;
 			Color color = Color.white;
 			color.a = 0f;
-			SearchImg.renderer.material.color = color;
+			SearchImg.GetComponent<Renderer>().material.color = color;
 			iTween.ColorTo(SearchImg, iTween.Hash("a", 1f, "oncomplete", "SearchIconMove", "oncompletetarget", this.gameObject));
 			SearchImg.GetComponent<BoxCollider>().enabled = true;
 
@@ -1123,12 +1123,12 @@ public class HQPopup : MonoBehaviour {
 	}
 
 	private void SearchIconMove() {
-		SearchIcon.renderer.enabled = true;
-		SearchIcon.renderer.sortingOrder = 21;
+		SearchIcon.GetComponent<Renderer>().enabled = true;
+		SearchIcon.GetComponent<Renderer>().sortingOrder = 21;
 		if(_SearchIconMoveCount == 0) {
 			Color color = Color.white;
 			color.a = 0f;
-			SearchIcon.renderer.material.color = color;
+			SearchIcon.GetComponent<Renderer>().material.color = color;
 			iTween.ColorTo(SearchIcon, iTween.Hash("a", 1f));
 		}
 
@@ -1201,7 +1201,7 @@ public class HQPopup : MonoBehaviour {
 		textMesh.anchor = anchor;
 		textMesh.color = color;
 		textMesh.fontSize = fontSize;
-		targetobj.renderer.sortingOrder = 10;
+		targetobj.GetComponent<Renderer>().sortingOrder = 10;
 		
 		return targetobj;
 	}

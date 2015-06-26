@@ -32,12 +32,12 @@ public class ResearchSlot : MonoBehaviour {
 	public void init(int btnId, Research research, byte sortNum) {
 		_BtnId = btnId;
 		_Research = research;
-		BlackBg.renderer.sortingOrder = sortNum;
-		SlotBg.renderer.sortingOrder = sortNum + 3;
-		Thumbnail.renderer.sortingOrder = sortNum + 1;
-		TitleText.renderer.sortingOrder = sortNum + 3;
-		TitleTextBg.renderer.sortingOrder = sortNum + 2;
-		SlotBg.renderer.material.color = _DefaultColor;
+		BlackBg.GetComponent<Renderer>().sortingOrder = sortNum;
+		SlotBg.GetComponent<Renderer>().sortingOrder = sortNum + 3;
+		Thumbnail.GetComponent<Renderer>().sortingOrder = sortNum + 1;
+		TitleText.GetComponent<Renderer>().sortingOrder = sortNum + 3;
+		TitleTextBg.GetComponent<Renderer>().sortingOrder = sortNum + 2;
+		SlotBg.GetComponent<Renderer>().material.color = _DefaultColor;
 		UpdateSlot();
 		SpriteRenderer renderer = (SpriteRenderer)Thumbnail.GetComponent ("SpriteRenderer");
 		Gear gear = GearData.getInstence().GetGearByID(_Research.gearId);
@@ -104,7 +104,7 @@ public class ResearchSlot : MonoBehaviour {
 
 		}
 		TitleText.GetComponent<TextMesh>().color = textColor;
-		SlotBg.renderer.material.color = _DefaultColor;
+		SlotBg.GetComponent<Renderer>().material.color = _DefaultColor;
 		SpriteRenderer renderer = (SpriteRenderer)Thumbnail.GetComponent ("SpriteRenderer");
 		renderer.color = _ThumbAlpha;
 	}
@@ -118,10 +118,10 @@ public class ResearchSlot : MonoBehaviour {
 			color.r = 1f;
 			color.g = 0.5f;
 			color.b = 1f;
-			SlotBg.renderer.material.color = color;
+			SlotBg.GetComponent<Renderer>().material.color = color;
 			//color.a = 1;
 		} else {
-			SlotBg.renderer.material.color = _DefaultColor;
+			SlotBg.GetComponent<Renderer>().material.color = _DefaultColor;
 			//color.a = 0;
 		}
 

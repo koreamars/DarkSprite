@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Src\Common\TextureMarge.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Src\BattleScene\UnitBody.cs">
     <Files>
-      <File FileName="Assets\Src\Common\TextureMarge.cs" Line="61" Column="6" />
+      <File FileName="Assets\Src\Common\TextureMarge.cs" Line="6" Column="41" />
+      <File FileName="Assets\Twitter.cs" Line="200" Column="35" />
+      <File FileName="Assets\Src\MapScene\Popup\HQPopup.cs" Line="76" Column="39" />
+      <File FileName="Assets\Src\BattleScene\CharacterHead.cs" Line="209" Column="60" />
+      <File FileName="Assets\Src\BattleScene\UnitBody.cs" Line="76" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

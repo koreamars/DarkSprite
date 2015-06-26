@@ -177,17 +177,17 @@ public class CharacterHead : MonoBehaviour {
 		Transform LightHair = BaseHair.transform.FindChild("LightHair");
 		Transform Accessory = BaseHair.transform.FindChild("Accessory");
 
-		Accessory.renderer.sortingOrder = sortNum + 5;
-		LightHair.renderer.sortingOrder = sortNum + 4;
-		FrontHair.renderer.sortingOrder = sortNum + 3;
-		BackHair.renderer.sortingOrder = sortNum;
+		Accessory.GetComponent<Renderer>().sortingOrder = sortNum + 5;
+		LightHair.GetComponent<Renderer>().sortingOrder = sortNum + 4;
+		FrontHair.GetComponent<Renderer>().sortingOrder = sortNum + 3;
+		BackHair.GetComponent<Renderer>().sortingOrder = sortNum;
 
-		BaseFaceMask.renderer.sortingOrder = sortNum + 2;
-		BaseLip.renderer.sortingOrder = sortNum + 4;
-		BaseEye.renderer.sortingOrder = sortNum + 5;
-		BaseEyeBg.renderer.sortingOrder = sortNum + 4;
-		BaseEyeline.renderer.sortingOrder = sortNum + 4;
-		BaseEyeLight.renderer.sortingOrder = sortNum + 6;
+		BaseFaceMask.GetComponent<Renderer>().sortingOrder = sortNum + 2;
+		BaseLip.GetComponent<Renderer>().sortingOrder = sortNum + 4;
+		BaseEye.GetComponent<Renderer>().sortingOrder = sortNum + 5;
+		BaseEyeBg.GetComponent<Renderer>().sortingOrder = sortNum + 4;
+		BaseEyeline.GetComponent<Renderer>().sortingOrder = sortNum + 4;
+		BaseEyeLight.GetComponent<Renderer>().sortingOrder = sortNum + 6;
 	}
 
 	private void SpriteTextureChange(GameObject sprite, string uri) {

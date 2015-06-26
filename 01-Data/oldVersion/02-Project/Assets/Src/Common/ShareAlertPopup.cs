@@ -32,18 +32,18 @@ public class ShareAlertPopup : MonoBehaviour {
 		CommentTxt2.GetComponent<TextMesh>().text = "";
 		CommentTxt3.GetComponent<TextMesh>().text = "";
 		CommentTxt4.GetComponent<TextMesh>().text = "";
-		CommentTxt1.renderer.sortingOrder = sortingNum + 1;
-		CommentTxt2.renderer.sortingOrder = sortingNum + 1;
-		CommentTxt3.renderer.sortingOrder = sortingNum + 1;
-		CommentTxt4.renderer.sortingOrder = sortingNum + 1;
-		AlertBg.renderer.sortingOrder = sortingNum;
+		CommentTxt1.GetComponent<Renderer>().sortingOrder = sortingNum + 1;
+		CommentTxt2.GetComponent<Renderer>().sortingOrder = sortingNum + 1;
+		CommentTxt3.GetComponent<Renderer>().sortingOrder = sortingNum + 1;
+		CommentTxt4.GetComponent<Renderer>().sortingOrder = sortingNum + 1;
+		AlertBg.GetComponent<Renderer>().sortingOrder = sortingNum;
 		AlertBg.transform.localScale = new Vector2(1.1f, 1.1f);
 
 		CloseBtn.GetComponent<ButtonEvent>().SetCallBack(OnCloseBtn);
-		CloseBtn.renderer.sortingOrder = sortingNum;
+		CloseBtn.GetComponent<Renderer>().sortingOrder = sortingNum;
 
 		KakaoBtn.GetComponent<ButtonEvent>().SetCallBack(OnkakaoBtn);
-		KakaoBtn.renderer.sortingOrder = sortingNum;
+		KakaoBtn.GetComponent<Renderer>().sortingOrder = sortingNum;
 
 		string currentComment = comment;
 		currentComment = TextView(CommentTxt1, currentComment);

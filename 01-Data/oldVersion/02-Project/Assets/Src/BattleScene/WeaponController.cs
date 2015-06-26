@@ -39,15 +39,15 @@ public class WeaponController : MonoBehaviour {
 	}
 
 	public void SetSorting(int num) {
-		WeaponImg.renderer.sortingOrder = num;
-		EffectImg.renderer.sortingOrder = num + 1;
+		WeaponImg.GetComponent<Renderer>().sortingOrder = num;
+		EffectImg.GetComponent<Renderer>().sortingOrder = num + 1;
 	}
 
 	public void Fire() {
 		//print("Fire : " + _isSound);
 		if(UserData.getInstence().Option_Sound == true && _isSound) {
 			print("play audio.");
-			audio.Play();
+			GetComponent<AudioSource>().Play();
 		}
 	}
 

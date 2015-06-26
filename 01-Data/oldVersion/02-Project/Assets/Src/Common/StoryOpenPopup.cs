@@ -12,7 +12,7 @@ public class StoryOpenPopup : MonoBehaviour {
 	private MainBtnUpdate _MainBtnUpdate;
 
 	void Start() {
-		MainBg.renderer.sortingOrder = 299;
+		MainBg.GetComponent<Renderer>().sortingOrder = 299;
 
 		_OkayBtn = Instantiate(Resources.Load<GameObject>("Common/CommonBtn01")) as GameObject;
 		_OkayBtn.GetComponent<CommonBtn>().Init(0, "스토리팩 구매", 312, Color.white);
@@ -25,7 +25,7 @@ public class StoryOpenPopup : MonoBehaviour {
 		_CancelBtn.GetComponent<BoxCollider>().size = new Vector3(2f,2f, 1f);
 		_CancelBtn.AddComponent<SpriteRenderer>();
 		_CancelBtn.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("MainScene/Popup/PopupBase/PopupCloseBtn");
-		_CancelBtn.renderer.sortingOrder = 302;
+		_CancelBtn.GetComponent<Renderer>().sortingOrder = 302;
 		_CancelBtn.transform.parent = this.gameObject.transform;
 		_CancelBtn.transform.localScale = new Vector2(1.6f, 1.6f);
 		_CancelBtn.transform.position = new Vector2(4.8f, 3.4f);

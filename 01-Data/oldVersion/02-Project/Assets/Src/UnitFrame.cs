@@ -107,19 +107,19 @@ public class UnitFrame : MonoBehaviour {
 
 		_SortNum = num;
 
-		AirFrameWing.renderer.sortingOrder = _SortNum + 11;
+		AirFrameWing.GetComponent<Renderer>().sortingOrder = _SortNum + 11;
 
 		if(Weapon3 != null) Weapon3.SetSorting(_SortNum + 10);
 
 		Weapon1.SetSorting(_SortNum + 9);
 
-		AirFrameFront.renderer.sortingOrder = _SortNum + 8;
+		AirFrameFront.GetComponent<Renderer>().sortingOrder = _SortNum + 8;
 
 		// 바디 (7 , -3)
 
-		AirFrameBack.renderer.sortingOrder = _SortNum - 5;
+		AirFrameBack.GetComponent<Renderer>().sortingOrder = _SortNum - 5;
 
-		EngineFrame.renderer.sortingOrder = _SortNum - 6;
+		EngineFrame.GetComponent<Renderer>().sortingOrder = _SortNum - 6;
 
 		Weapon2.SetSorting(_SortNum - 6);
 

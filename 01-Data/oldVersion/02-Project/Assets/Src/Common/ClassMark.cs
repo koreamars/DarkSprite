@@ -31,7 +31,7 @@ public class ClassMark : MonoBehaviour {
 	}
 
 	public void SetEnabled(bool state) {
-		MarkState.renderer.enabled = state;
+		MarkState.GetComponent<Renderer>().enabled = state;
 	}
 
 	public void SetChangeClass(string id) {
@@ -43,7 +43,7 @@ public class ClassMark : MonoBehaviour {
 
 	public void SetSortingNum(int num) {
 		SortingNum = num;
-		MarkState.renderer.sortingOrder = SortingNum;
+		MarkState.GetComponent<Renderer>().sortingOrder = SortingNum;
 	}
 
 }

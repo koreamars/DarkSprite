@@ -42,9 +42,9 @@ public class UnitSelectPopup : MonoBehaviour {
 		_CloseCommonBtn = CloseBtn.GetComponent<ButtonEvent>();
 		_CloseCommonBtn.SetCallBack(OnCloseEvent);
 
-		PopupBg.renderer.sortingOrder = SortingNum - 2;
-		CloseBtn.renderer.sortingOrder = SortingNum;
-		TitleTxt.renderer.sortingOrder = SortingNum;
+		PopupBg.GetComponent<Renderer>().sortingOrder = SortingNum - 2;
+		CloseBtn.GetComponent<Renderer>().sortingOrder = SortingNum;
+		TitleTxt.GetComponent<Renderer>().sortingOrder = SortingNum;
 		_ScrollMenu.sortingNum = SortingNum;
 
 		_TitleTxtMesh.text = ScriptData.getInstence().GetGameScript(110005).script;
@@ -111,9 +111,9 @@ public class UnitSelectPopup : MonoBehaviour {
 			index ++;
 		}
 
-		PopupBg.renderer.sortingOrder = SortingNum - 2;
-		CloseBtn.renderer.sortingOrder = SortingNum;
-		TitleTxt.renderer.sortingOrder = SortingNum;
+		PopupBg.GetComponent<Renderer>().sortingOrder = SortingNum - 2;
+		CloseBtn.GetComponent<Renderer>().sortingOrder = SortingNum;
+		TitleTxt.GetComponent<Renderer>().sortingOrder = SortingNum;
 		_ScrollMenu.sortingNum = SortingNum + 1;
 		_ScrollMenu.BtnColor = Color.white;
 		_ScrollMenu.SetMenuClick(OnSelectClickEvent);

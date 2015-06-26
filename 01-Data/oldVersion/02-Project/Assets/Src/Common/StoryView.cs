@@ -62,7 +62,7 @@ public class StoryView : MonoBehaviour {
 
 	void Awake() {
 
-		BlackBg.renderer.enabled = false;
+		BlackBg.GetComponent<Renderer>().enabled = false;
 		int windowHeight = Screen.height / 3;
 		//_WindowRect = new Rect(20, (Screen.height - windowHeight) - 20, Screen.width - 40, windowHeight);
 		_WindowRect = new Rect(0, 0, Screen.width, Screen.height);
@@ -133,7 +133,7 @@ public class StoryView : MonoBehaviour {
 			_Npc1Renderer = _NPC1.AddComponent<SpriteRenderer>();
 			_NPC1.transform.localScale = new Vector3(npcScale, npcScale, npcScale);
 		} else {
-			_NPC1.renderer.enabled = true;
+			_NPC1.GetComponent<Renderer>().enabled = true;
 		}
 
 		if(_NPC2 == null){
@@ -143,7 +143,7 @@ public class StoryView : MonoBehaviour {
 			_Npc2Renderer = _NPC2.AddComponent<SpriteRenderer>();
 			_NPC2.transform.localScale = new Vector3(npcScale, npcScale, npcScale);
 		} else {
-			_NPC2.renderer.enabled = true;
+			_NPC2.GetComponent<Renderer>().enabled = true;
 		}
 
 		if(_NPC3 == null){
@@ -153,7 +153,7 @@ public class StoryView : MonoBehaviour {
 			_Npc3Renderer = _NPC3.AddComponent<SpriteRenderer>();
 			_NPC3.transform.localScale = new Vector3(npcScale, npcScale, npcScale);
 		} else {
-			_NPC3.renderer.enabled = true;
+			_NPC3.GetComponent<Renderer>().enabled = true;
 		}
 
 		if(NpcType == NPCType.None || viewType == StoryViewType.GuideType) {
@@ -162,9 +162,9 @@ public class StoryView : MonoBehaviour {
 			_Npc3Renderer.sprite = Resources.Load<Sprite>("NPC/npc00");
 		}
 
-		_NPC1.renderer.sortingOrder = 400;
-		_NPC2.renderer.sortingOrder = 400;
-		_NPC3.renderer.sortingOrder = 400;
+		_NPC1.GetComponent<Renderer>().sortingOrder = 400;
+		_NPC2.GetComponent<Renderer>().sortingOrder = 400;
+		_NPC3.GetComponent<Renderer>().sortingOrder = 400;
 
 		_NPCPos = NpcPos;
 
@@ -185,15 +185,15 @@ public class StoryView : MonoBehaviour {
 			}
 
 			if(NpcPos == NPCPositionType.Center) {
-				_NPC1.renderer.sortingOrder = 500;
+				_NPC1.GetComponent<Renderer>().sortingOrder = 500;
 				_NPC1.transform.position = new Vector3(0f, -2.36f, 0f);
 				_Npc1Renderer.sprite = npcSprite;
 			} else if(NpcPos == NPCPositionType.Right) {
-				_NPC2.renderer.sortingOrder = 500;
+				_NPC2.GetComponent<Renderer>().sortingOrder = 500;
 				_NPC2.transform.position = new Vector3(4.99f, -2.36f, 0f);
 				_Npc2Renderer.sprite = npcSprite;
 			} else if(NpcPos == NPCPositionType.Left) {
-				_NPC3.renderer.sortingOrder = 500;
+				_NPC3.GetComponent<Renderer>().sortingOrder = 500;
 				_NPC3.transform.localScale = new Vector3(npcScale * -1f, npcScale, npcScale);
 				_NPC3.transform.position = new Vector3(-4f, -2.36f, 0f);
 				_Npc3Renderer.sprite = npcSprite;
@@ -206,7 +206,7 @@ public class StoryView : MonoBehaviour {
 
 			npcSprite = Resources.Load<Sprite>("Common/GuideImage/GuideImg" + NpcType);
 
-			_NPC1.renderer.sortingOrder = 500;
+			_NPC1.GetComponent<Renderer>().sortingOrder = 500;
 			_NPC1.transform.position = new Vector3(0f, -2.36f, 0f);
 			_Npc1Renderer.sprite = npcSprite;
 		}
@@ -231,7 +231,7 @@ public class StoryView : MonoBehaviour {
 
 		_IsShowWindow = true;
 
-		BlackBg.renderer.enabled = true;
+		BlackBg.GetComponent<Renderer>().enabled = true;
 	}
 
 	public void ShowMessageWindow(string thumb, string NpcName, string StoryStr, BtnCallBack onBtnCallback) {
@@ -250,10 +250,10 @@ public class StoryView : MonoBehaviour {
 	public void ShowStageView(string title, string message, BtnCallBack onEndCallback) {
 		_Callback = new BtnCallBack(onEndCallback);
 
-		BlackBg.renderer.enabled = true;
+		BlackBg.GetComponent<Renderer>().enabled = true;
 		Color BlackBgColor = Color.white;
 		BlackBgColor.a = 1f;
-		BlackBg.renderer.material.color = BlackBgColor;
+		BlackBg.GetComponent<Renderer>().material.color = BlackBgColor;
 		iTween.ColorFrom(BlackBg, iTween.Hash("a", 0f));
 
 		_StageTitleTxt = Instantiate(Resources.Load<GameObject>("OutlineFont")) as GameObject;
@@ -291,8 +291,8 @@ public class StoryView : MonoBehaviour {
 	private void HideStageViewComplete() {
 		Color BlackBgColor = Color.white;
 		BlackBgColor.a = 1f;
-		BlackBg.renderer.material.color = BlackBgColor;
-		BlackBg.renderer.enabled = false;
+		BlackBg.GetComponent<Renderer>().material.color = BlackBgColor;
+		BlackBg.GetComponent<Renderer>().enabled = false;
 		Destroy(_StageTitleTxt);
 		Destroy(_StageMessageTxt);
 		_StageTitleTxt = null;
@@ -303,18 +303,18 @@ public class StoryView : MonoBehaviour {
 
 	public void HideStoryWindow() {
 		if(_NPC1 != null) {
-			_NPC1.renderer.enabled = false;
+			_NPC1.GetComponent<Renderer>().enabled = false;
 			_Npc1Renderer.sprite = Resources.Load<Sprite>("NPC/npc00");
 		}
 		if(_NPC2 != null) {
-			_NPC2.renderer.enabled = false;
+			_NPC2.GetComponent<Renderer>().enabled = false;
 			_Npc2Renderer.sprite = Resources.Load<Sprite>("NPC/npc00");
 		}
 		if(_NPC3 != null) {
-			_NPC3.renderer.enabled = false;
+			_NPC3.GetComponent<Renderer>().enabled = false;
 			_Npc3Renderer.sprite = Resources.Load<Sprite>("NPC/npc00");
 		}
-		BlackBg.renderer.enabled = false;
+		BlackBg.GetComponent<Renderer>().enabled = false;
 		_IsShowWindow = false;
 	}
 

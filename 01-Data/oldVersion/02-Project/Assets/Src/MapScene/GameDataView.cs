@@ -19,9 +19,9 @@ public class GameDataView : MonoBehaviour {
 		_UserData = UserData.getInstence();
 		
 		GameLog.Log("GameDataView");
-		CoinTxt.renderer.sortingOrder = -4;
-		CoreTxt.renderer.sortingOrder = -4;
-		DebrisTxt.renderer.sortingOrder = -4;
+		CoinTxt.GetComponent<Renderer>().sortingOrder = -4;
+		CoreTxt.GetComponent<Renderer>().sortingOrder = -4;
+		DebrisTxt.GetComponent<Renderer>().sortingOrder = -4;
 
 	}
 

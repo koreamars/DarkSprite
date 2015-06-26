@@ -179,7 +179,7 @@ public class SystemData : MonoBehaviour {
 		GameObject loadingMark = new GameObject();
 		loadingMark.AddComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Common/LoadingMark");
 		loadingMark.name = "LoadingMark";
-		loadingMark.renderer.sortingOrder = 101;
+		loadingMark.GetComponent<Renderer>().sortingOrder = 101;
 		loadingMark.layer = LayerMask.NameToLayer("Alert");
 
 		return loadingMark;

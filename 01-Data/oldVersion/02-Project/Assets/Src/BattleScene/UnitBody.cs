@@ -132,15 +132,15 @@ public class UnitBody : MonoBehaviour {
 	}
 
 	private void SetBodySorting(short sortNum) {
-		NudeBody.renderer.sortingOrder = sortNum;
-		NudeLeftLeg.renderer.sortingOrder = sortNum + 3;
-		NudeRightLeg.renderer.sortingOrder = sortNum - 3;
-		NudeLeftThigh.renderer.sortingOrder = sortNum + 2;
-		NudeRightThigh.renderer.sortingOrder = sortNum - 3;
-		NudeLeftArm.renderer.sortingOrder = sortNum + 5;
-		NudeRightArm.renderer.sortingOrder = sortNum - 3;
-		NudeLeftHand.renderer.sortingOrder = sortNum + 6;
-		NudeRightHand.renderer.sortingOrder = sortNum - 4;
+		NudeBody.GetComponent<Renderer>().sortingOrder = sortNum;
+		NudeLeftLeg.GetComponent<Renderer>().sortingOrder = sortNum + 3;
+		NudeRightLeg.GetComponent<Renderer>().sortingOrder = sortNum - 3;
+		NudeLeftThigh.GetComponent<Renderer>().sortingOrder = sortNum + 2;
+		NudeRightThigh.GetComponent<Renderer>().sortingOrder = sortNum - 3;
+		NudeLeftArm.GetComponent<Renderer>().sortingOrder = sortNum + 5;
+		NudeRightArm.GetComponent<Renderer>().sortingOrder = sortNum - 3;
+		NudeLeftHand.GetComponent<Renderer>().sortingOrder = sortNum + 6;
+		NudeRightHand.GetComponent<Renderer>().sortingOrder = sortNum - 4;
 
 	}
 

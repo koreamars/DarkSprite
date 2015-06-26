@@ -15,120 +15,130 @@ using DragonBones.Animation;
 using DragonBones.Objects;
 using DragonBones.Display;
 using DragonBones.Textures;
+using System.Collections;
 using System.Collections.Generic;
 using Com.Viperstudio.Utils;
 using UnityEngine;
 
-namespace LastCastle
+public class CharactorManager :MonoBehaviour
 {
-	public class CharactorManager :MonoBehaviour
+	public GameObject _unitController;
+
+	void Awake ()
 	{
-		void Awake ()
-		{
-			//Application.targetFrameRate = 30;
-
-		}
-
-		void Start ()
-		{
-			//read and parse skeleton josn into SkeletonData
-			TextAsset jsonReader = (TextAsset)Resources.Load("skeleton.json", typeof(TextAsset));
-			TextReader reader = new StringReader (jsonReader.text);
-			Dictionary<String, System.Object> skeletonRawData = Json.Deserialize (reader) as Dictionary<String, System.Object>;
-			SkeletonData skeletonData = ObjectDataParser.ParseSkeletonData (skeletonRawData);
-
-			//read and parse texture atlas josn into TextureAtlas
-			Texture _textures = Resources.Load<Texture>("texture");
-			jsonReader = (TextAsset)Resources.Load("texture.json", typeof(TextAsset));
-			reader = new StringReader (jsonReader.text);
-			Dictionary<String, System.Object> atlasRawData = Json.Deserialize (reader) as Dictionary<String, System.Object>;
-			AtlasData atlasData = AtlasDataParser.ParseAtlasData (atlasRawData);
-			TextureAtlas textureAtlas = new TextureAtlas (_textures, atlasData);
-
-			//use the above data to make factory
-			UnityFactory factory = new UnityFactory ();
-			factory.AddSkeletonData (skeletonData, "BaseUnitAni");
-			factory.AddTextureAtlas (textureAtlas, "BaseUnitAni");
-
-			Texture _textures2 = Resources.Load<Texture>("texture2");
-			jsonReader = (TextAsset)Resources.Load("texture2.json", typeof(TextAsset));
-			reader = new StringReader (jsonReader.text);
-			Dictionary<String, System.Object> atlasRawData2 = Json.Deserialize (reader) as Dictionary<String, System.Object>;
-			AtlasData atlasData2 = AtlasDataParser.ParseAtlasData (atlasRawData2);
-
-			Sprite _textures3 = Resources.Load<Sprite>("skirtTest");
-
-			//TextureData tt = textureAtlas2.AtlasData.GetTextureData ("skirt") as TextureData;
-			//Texture2D t = new Texture2D(Screen.width, Screen.height, TextureFormat.ARGB32, false);
-			//t.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-			//t.Apply();
-
-			GameObject tt = GameObject.Find ("skirt") as GameObject;
-			print (tt.GetType());
-			tt.GetComponent<SpriteRenderer> ().sprite = _textures3;
-
-			//Texture2D = tt.GetComponent<Renderer> ().material.GetTexture("_MainTex") as Texture2D;
-
-			//TextureMarge.SetTextureMarge (tex1, _textures3 as Texture2D);
-
-
-			TextureAtlas textureAtlas2 = new TextureAtlas (_textures2, atlasData);
-
-			factory.AddSkeletonData (skeletonData, "BaseUnitAni2");
-			factory.AddTextureAtlas (textureAtlas2, "BaseUnitAni2");
-
-			//print ("textureAtlas2 : " + textureAtlas2.Name);
-			//add 20 centaur into scene at some random positions.
-			System.Random random = new System.Random();
-
-			//add 20 bird into scene at some random positions.
-			float index = 0f;
-			Armature armature = null;
-			for (int j=0; j<6; j++) {
-				if(j == 5) {
-					armature = factory.BuildArmature ("BaseUnitAni", null, "BaseUnitAni", "BaseUnitAni");
-				} else {
-					armature = factory.BuildArmature ("BaseUnitAni", null, "BaseUnitAni", "BaseUnitAni2");
-				}
-				armature.AdvanceTime (0f);
-				((armature.Display as UnityArmatureDisplay).Display as GameObject).transform.position = new Vector3(index * 5f + 5f, 10, index * 10);
-				WorldClock.Clock.Add (armature);
-
-				armature.Animation.GotoAndPlay ("idle", -1, -1, 0);
-				index ++;
+		//Application.targetFrameRate = 30;
+		
+	}
+	
+	void Start ()
+	{
+		/*
+		//read and parse skeleton josn into SkeletonData
+		TextAsset jsonReader = (TextAsset)Resources.Load("skeleton.json", typeof(TextAsset));
+		TextReader reader = new StringReader (jsonReader.text);
+		Dictionary<String, System.Object> skeletonRawData = Json.Deserialize (reader) as Dictionary<String, System.Object>;
+		SkeletonData skeletonData = ObjectDataParser.ParseSkeletonData (skeletonRawData);
+		
+		//read and parse texture atlas josn into TextureAtlas
+		Texture _textures = Resources.Load<Texture>("texture");
+		jsonReader = (TextAsset)Resources.Load("texture.json", typeof(TextAsset));
+		reader = new StringReader (jsonReader.text);
+		Dictionary<String, System.Object> atlasRawData = Json.Deserialize (reader) as Dictionary<String, System.Object>;
+		AtlasData atlasData = AtlasDataParser.ParseAtlasData (atlasRawData);
+		TextureAtlas textureAtlas = new TextureAtlas (_textures, atlasData);
+		
+		//use the above data to make factory
+		UnityFactory factory = new UnityFactory ();
+		factory.AddSkeletonData (skeletonData, "BaseUnitAni");
+		factory.AddTextureAtlas (textureAtlas, "BaseUnitAni");
+		
+		Texture _textures2 = Resources.Load<Texture>("texture2");
+		jsonReader = (TextAsset)Resources.Load("texture2.json", typeof(TextAsset));
+		reader = new StringReader (jsonReader.text);
+		Dictionary<String, System.Object> atlasRawData2 = Json.Deserialize (reader) as Dictionary<String, System.Object>;
+		AtlasData atlasData2 = AtlasDataParser.ParseAtlasData (atlasRawData2);
+		
+		TextureAtlas textureAtlas2 = new TextureAtlas (_textures2, atlasData);
+		
+		factory.AddSkeletonData (skeletonData, "BaseUnitAni2");
+		factory.AddTextureAtlas (textureAtlas2, "BaseUnitAni2");
+		
+		//print ("textureAtlas2 : " + textureAtlas2.Name);
+		//add 20 centaur into scene at some random positions.
+		System.Random random = new System.Random();
+		
+		//add 20 bird into scene at some random positions.
+		float index = 0f;
+		Armature armature = null;
+		for (int j=0; j<6; j++) {
+			if(j == 5) {
+				armature = factory.BuildArmature ("BaseUnitAni", null, "BaseUnitAni", "BaseUnitAni");
+			} else {
+				armature = factory.BuildArmature ("BaseUnitAni", null, "BaseUnitAni", "BaseUnitAni2");
 			}
-
-			Bone subBone1 = armature.GetBone("skirt.png");
-			Bone subBone2 = armature.GetBone("right-hand.png");
-
-
-			//UnityBoneDisplay newTexture = factory.GetTextureDisplay ("skirt", "BaseUnitAni") as UnityBoneDisplay;
-			//UnityBoneDisplay newTexture = new UnityBoneDisplay (textureAtlas2, "skirt", 0f, 0f);
-
-			//subBone1.Slot._displayBridge.UpdateColor (10f, 10f, 0f, 0f, 1f, 1f, 1f, 1f);
-			//subBone.updateColor (1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, true);
-			//subBone1.Slot.setArmature (subBone2.Armature);
-			//subBone2.Display = subBone1.Display;
-			//print ("newTexture : " + newTexture);
-			//print ("subBone1 : " + subBone1.Display);
-			//subBone1.Dispose ();
-			//UnityBoneDisplay display = subBone1.Display as UnityBoneDisplay;
-			//display.Dispose ();
-			//subBone1.Display = newTexture;
-			//print ("display : " + ((subBone1.Armature.Display as UnityArmatureDisplay).Display as GameObject).renderer.material);
-			//((subBone1.Armature.Display as UnityArmatureDisplay).Display as GameObject).renderer.material.color = Color.black;
-
-			//TextureAtlas testAtlas = factory.GetTextureAtlas ("BaseUnitAni");
-			//testAtlas.Material.color = Color.black;
-			print ("complete.");
+			armature.AdvanceTime (0f);
+			((armature.Display as UnityArmatureDisplay).Display as GameObject).transform.position = new Vector3(index * 5f + 5f, 10, index * 10);
+			WorldClock.Clock.Add (armature);
+			
+			armature.Animation.GotoAndPlay ("idle", -1, -1, 0);
+			index ++;
 		}
 		
-		// Update is called once per frame
-		void Update ()
-		{
-			WorldClock.Clock.AdvanceTime (Time.deltaTime);
-		}
+		Bone subBone1 = armature.GetBone("skirt.png");
+		Bone subBone2 = armature.GetBone("right-hand.png");
+		
+		
+		//UnityBoneDisplay newTexture = factory.GetTextureDisplay ("skirt", "BaseUnitAni") as UnityBoneDisplay;
+		//UnityBoneDisplay newTexture = new UnityBoneDisplay (textureAtlas2, "skirt", 0f, 0f);
+		
+		//subBone1.Slot._displayBridge.UpdateColor (10f, 10f, 0f, 0f, 1f, 1f, 1f, 1f);
+		//subBone.updateColor (1f, 1f, 1f, 1f, 1f, 1f, 1f, 1f, true);
+		//subBone1.Slot.setArmature (subBone2.Armature);
+		//subBone2.Display = subBone1.Display;
+		//print ("newTexture : " + newTexture);
+		//print ("subBone1 : " + subBone1.Display);
+		//subBone1.Dispose ();
+		//UnityBoneDisplay display = subBone1.Display as UnityBoneDisplay;
+		//display.Dispose ();
+		//subBone1.Display = newTexture;
+		//print ("display : " + ((subBone1.Armature.Display as UnityArmatureDisplay).Display as GameObject).renderer.material);
+		//((subBone1.Armature.Display as UnityArmatureDisplay).Display as GameObject).renderer.material.color = Color.black;
+		
+		//TextureAtlas testAtlas = factory.GetTextureAtlas ("BaseUnitAni");
+		//testAtlas.Material.color = Color.black;
+		print ("complete.");
+		*/
 
+		_unitController = new GameObject ();
+		_unitController.AddComponent<UnitController> ();
+		///UnitController controller = _unitController.GetComponent<UnitController> ();
+		//controller.setPosition (new Vector3 (18, 10, 0));
+		StartCoroutine (showCharacter());
 	}
+
+	IEnumerator showCharacter () {
+		//GameObject unitController = new GameObject ();
+		//unitController.AddComponent<UnitController> ();
+		UnitController controller = _unitController.GetComponent<UnitController> ();
+
+		yield return StartCoroutine (controller.Init ());
+
+		yield return StartCoroutine(controller.showArmature());
+		//controller.setPosition (new Vector3 (8, 10, 0));
+		/*
+		yield return StartCoroutine(controller.updateArmature());
+
+		yield return StartCoroutine(controller.showArmature());
+		controller.setPosition (new Vector3 (28, 10, 0));
+		*/
+	}
+
+	
+	// Update is called once per frame
+	void Update ()
+	{
+		WorldClock.Clock.AdvanceTime (Time.deltaTime);
+	}
+	
 }
 

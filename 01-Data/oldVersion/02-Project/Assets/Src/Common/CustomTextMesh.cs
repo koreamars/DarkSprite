@@ -11,7 +11,7 @@ public class CustomTextMesh : MonoBehaviour {
 		textMesh.anchor = anchor;
 		textMesh.color = color;
 		textMesh.fontSize = fontSize;
-		targetobj.renderer.sortingOrder = sortNum;
+		targetobj.GetComponent<Renderer>().sortingOrder = sortNum;
 		
 		return targetobj;
 	}

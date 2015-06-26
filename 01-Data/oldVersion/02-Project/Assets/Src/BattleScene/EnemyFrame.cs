@@ -20,7 +20,7 @@ public class EnemyFrame : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		SelectMark.renderer.enabled = false;
+		SelectMark.GetComponent<Renderer>().enabled = false;
 	}
 
 	public void SetEnemyId(byte id) {
@@ -40,7 +40,7 @@ public class EnemyFrame : MonoBehaviour {
 	}
 	
 	public void EnemySelectMark(bool isSelect) {
-		SelectMark.renderer.enabled = isSelect;
+		SelectMark.GetComponent<Renderer>().enabled = isSelect;
 	}
 
 	public void SetCallBack(BtnCallBack onCallBack) {

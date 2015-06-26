@@ -71,9 +71,9 @@ public class CommonBtn : MonoBehaviour {
 		TxtColor.g = color.g;
 		TxtColor.b = color.b;
 
-		if(OnbtnImg != null) OnbtnImg.renderer.sortingOrder = sortNum - 1;
-		if(OffBtnImg != null) OffBtnImg.renderer.sortingOrder = sortNum - 1;
-		if(SelectBtnImg != null) SelectBtnImg.renderer.sortingOrder = sortNum - 1;
+		if(OnbtnImg != null) OnbtnImg.GetComponent<Renderer>().sortingOrder = sortNum - 1;
+		if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().sortingOrder = sortNum - 1;
+		if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().sortingOrder = sortNum - 1;
 		SortingNum = sortNum;
 
 		SetTxtColor(TxtColor);
@@ -87,15 +87,15 @@ public class CommonBtn : MonoBehaviour {
 		_IsSelect = isSelect;
 		if(_IsSelect == true)
 		{
-			if(OffBtnImg != null) OffBtnImg.renderer.enabled = false;
-			if(OnbtnImg != null) OnbtnImg.renderer.enabled = false;
-			if(SelectBtnImg != null) SelectBtnImg.renderer.enabled = true;
+			if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().enabled = false;
+			if(OnbtnImg != null) OnbtnImg.GetComponent<Renderer>().enabled = false;
+			if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().enabled = true;
 		}
 		else
 		{
-			if(OffBtnImg != null) OffBtnImg.renderer.enabled = true;
-			if(OnbtnImg != null) OnbtnImg.renderer.enabled = false;
-			if(SelectBtnImg != null) SelectBtnImg.renderer.enabled = false;
+			if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().enabled = true;
+			if(OnbtnImg != null) OnbtnImg.GetComponent<Renderer>().enabled = false;
+			if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().enabled = false;
 		}
 	}
 
@@ -134,13 +134,13 @@ public class CommonBtn : MonoBehaviour {
 
 	public Vector2 GetBtnSize() {
 
-		return new Vector2(OffBtnImg.renderer.bounds.size.x, OffBtnImg.renderer.bounds.size.y);
+		return new Vector2(OffBtnImg.GetComponent<Renderer>().bounds.size.x, OffBtnImg.GetComponent<Renderer>().bounds.size.y);
 	}
 
 	public void SetAlpha(float alpha) {
-		if(OnbtnImg != null) OnbtnImg.renderer.material.color = new Color(1, 1, 1, alpha);
-		if(OffBtnImg != null) OffBtnImg.renderer.material.color = new Color(1, 1, 1, alpha);
-		if(SelectBtnImg != null) SelectBtnImg.renderer.material.color = new Color(1, 1, 1, alpha);
+		if(OnbtnImg != null) OnbtnImg.GetComponent<Renderer>().material.color = new Color(1, 1, 1, alpha);
+		if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().material.color = new Color(1, 1, 1, alpha);
+		if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().material.color = new Color(1, 1, 1, alpha);
 		TxtColor.a = alpha;
 		if(BtnNameTxt != null) BtnNameTxt.GetComponent<OutLineFont>().SetFontColor(TxtColor);
 	}
@@ -159,9 +159,9 @@ public class CommonBtn : MonoBehaviour {
 		} else {
 			_IsEnable = false;
 			if(BtnNameTxt != null) BtnNameTxt.GetComponent<OutLineFont>().SetEnable(_IsEnable);
-			if(OffBtnImg != null) OffBtnImg.renderer.enabled = false;
-			if(OnbtnImg != null) OnbtnImg.renderer.enabled = false;
-			if(SelectBtnImg != null) SelectBtnImg.renderer.enabled = false;
+			if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().enabled = false;
+			if(OnbtnImg != null) OnbtnImg.GetComponent<Renderer>().enabled = false;
+			if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().enabled = false;
 		}
 	}
 
@@ -170,12 +170,12 @@ public class CommonBtn : MonoBehaviour {
 		print("OnMouseDown");
 		if(_IsEnable == false) return;
 		_MouseMove = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-		if(SelectBtnImg != null) SelectBtnImg.renderer.enabled = false;
+		if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().enabled = false;
 		if(OnbtnImg != null) {
-			if(OffBtnImg != null) OffBtnImg.renderer.enabled = false;
-			OnbtnImg.renderer.enabled = true;
+			if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().enabled = false;
+			OnbtnImg.GetComponent<Renderer>().enabled = true;
 		} else {
-			if(OffBtnImg != null) OffBtnImg.renderer.enabled = true;
+			if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().enabled = true;
 		}
 		if(_BtnDownCallback != null) _BtnDownCallback(btnId);
 	}
@@ -186,15 +186,15 @@ public class CommonBtn : MonoBehaviour {
 		if(_IsEnable == false) return;
 		if(_IsSelect == true)
 		{
-			if(OffBtnImg != null) OffBtnImg.renderer.enabled = false;
-			if(OnbtnImg != null) OnbtnImg.renderer.enabled = false;
-			if(SelectBtnImg != null) SelectBtnImg.renderer.enabled = true;
+			if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().enabled = false;
+			if(OnbtnImg != null) OnbtnImg.GetComponent<Renderer>().enabled = false;
+			if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().enabled = true;
 		}
 		else
 		{
-			if(OffBtnImg != null) OffBtnImg.renderer.enabled = false;
-			if(OnbtnImg != null) OnbtnImg.renderer.enabled = true;
-			if(SelectBtnImg != null) SelectBtnImg.renderer.enabled = false;
+			if(OffBtnImg != null) OffBtnImg.GetComponent<Renderer>().enabled = false;
+			if(OnbtnImg != null) OnbtnImg.GetComponent<Renderer>().enabled = true;
+			if(SelectBtnImg != null) SelectBtnImg.GetComponent<Renderer>().enabled = false;
 		}
 		SetBtnSelect(false);
 		if(_Callback != null) _Callback(btnId);

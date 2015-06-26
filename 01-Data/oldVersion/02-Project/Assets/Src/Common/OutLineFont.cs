@@ -83,15 +83,15 @@ public class OutLineFont : MonoBehaviour {
 	public void SetSort(int sortNum) {
 		if(_MainTextField == null) CreateFont();
 		_SortNumber = sortNum;
-		_MainTextField.renderer.sortingOrder = _SortNumber + 1;
-		_LineTextField1.renderer.sortingOrder = _SortNumber;
-		_LineTextField2.renderer.sortingOrder = _SortNumber;
-		_LineTextField3.renderer.sortingOrder = _SortNumber;
-		_LineTextField4.renderer.sortingOrder = _SortNumber;
-		_LineTextField5.renderer.sortingOrder = _SortNumber;
-		_LineTextField6.renderer.sortingOrder = _SortNumber;
-		_LineTextField7.renderer.sortingOrder = _SortNumber;
-		_LineTextField8.renderer.sortingOrder = _SortNumber;
+		_MainTextField.GetComponent<Renderer>().sortingOrder = _SortNumber + 1;
+		_LineTextField1.GetComponent<Renderer>().sortingOrder = _SortNumber;
+		_LineTextField2.GetComponent<Renderer>().sortingOrder = _SortNumber;
+		_LineTextField3.GetComponent<Renderer>().sortingOrder = _SortNumber;
+		_LineTextField4.GetComponent<Renderer>().sortingOrder = _SortNumber;
+		_LineTextField5.GetComponent<Renderer>().sortingOrder = _SortNumber;
+		_LineTextField6.GetComponent<Renderer>().sortingOrder = _SortNumber;
+		_LineTextField7.GetComponent<Renderer>().sortingOrder = _SortNumber;
+		_LineTextField8.GetComponent<Renderer>().sortingOrder = _SortNumber;
 	}
 
 	/** 폰트 컬러 설정 */
@@ -150,19 +150,19 @@ public class OutLineFont : MonoBehaviour {
 
 	public void SetEnable(bool isEnable) {
 		if(_MainTextField == null) CreateFont();
-		_MainTextField.renderer.enabled = isEnable;
-		_LineTextField1.renderer.enabled = isEnable;
-		_LineTextField2.renderer.enabled = isEnable;
-		_LineTextField3.renderer.enabled = isEnable;
-		_LineTextField4.renderer.enabled = isEnable;
-		_LineTextField5.renderer.enabled = isEnable;
-		_LineTextField6.renderer.enabled = isEnable;
-		_LineTextField7.renderer.enabled = isEnable;
-		_LineTextField8.renderer.enabled = isEnable;
+		_MainTextField.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField1.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField2.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField3.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField4.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField5.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField6.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField7.GetComponent<Renderer>().enabled = isEnable;
+		_LineTextField8.GetComponent<Renderer>().enabled = isEnable;
 	}
 
 	public float GetTextWidth() {
-		return _MainTextField.renderer.bounds.size.x;
+		return _MainTextField.GetComponent<Renderer>().bounds.size.x;
 	}
 
 	/** 텍스트 생성. */

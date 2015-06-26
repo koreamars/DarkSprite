@@ -245,7 +245,7 @@ public class DarkGearPopup : MonoBehaviour {
 		textMesh.anchor = anchor;
 		textMesh.color = color;
 		textMesh.fontSize = fontSize;
-		targetobj.renderer.sortingOrder = 100;
+		targetobj.GetComponent<Renderer>().sortingOrder = 100;
 		
 		return targetobj;
 	}

@@ -48,7 +48,7 @@ public class EnemyField : MonoBehaviour {
 			, new Vector2(0.45f, 0.45f)
 			, new Vector2(0.25f, 0.25f)};
 
-		DamageTxt.renderer.sortingOrder = 10;
+		DamageTxt.GetComponent<Renderer>().sortingOrder = 10;
 
 		if(isTest) {
 
@@ -104,7 +104,7 @@ public class EnemyField : MonoBehaviour {
 
 	public void SetEnemyHitAni(byte type, short damage) {
 
-		DamageTxt.renderer.enabled = true;
+		DamageTxt.GetComponent<Renderer>().enabled = true;
 		GameObject enemyObj = _EnemyList[_CurrentEnemyIndex - 1] as GameObject;
 		enemyObj.GetComponent<EnemyFrame>().SetHitAni(type);
 

@@ -48,7 +48,7 @@ public class CloudEffect : MonoBehaviour {
 		}
 
 		GameObject cloudObj = SetAddSpriteRenderer("BattleScene/Cloud0" + _cloudCount, cloudColor, 0, objName);
-		cloudObj.renderer.sortingOrder = -20;
+		cloudObj.GetComponent<Renderer>().sortingOrder = -20;
 		cloudObj.transform.position = new Vector2(startX, 22f + startY);
 		cloudObj.transform.localScale = new Vector3(scale, scale, scale);
 		iTween.MoveTo(cloudObj, iTween.Hash("x", endX, "y", 32f + startY, "speed", speed, "oncomplete", "CloudMoveEnd", "oncompletetarget", this.gameObject

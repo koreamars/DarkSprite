@@ -58,8 +58,8 @@ public class MainScene : MonoBehaviour {
 		float windowScale = (float)(Screen.width) / (float)(Screen.height);
 
 		if(windowScale < 1.5f) {
-			Camera UICamera = GameObject.Find("UICamera").camera;
-			Camera ResearchCamera = GameObject.Find("ResearchCamera").camera;
+			Camera UICamera = GameObject.Find("UICamera").GetComponent<Camera>();
+			Camera ResearchCamera = GameObject.Find("ResearchCamera").GetComponent<Camera>();
 			_OrthographicSize = 5f * (2.5f - windowScale);
 			UICamera.orthographicSize = _OrthographicSize;
 
@@ -259,7 +259,7 @@ public class MainScene : MonoBehaviour {
 			MissionView.transform.position = new Vector2(0, _OrthographicSize - 5f);
 
 			if(_StoryChargeObj != null) {
-				_StoryChargeObj.renderer.enabled = true;
+				_StoryChargeObj.GetComponent<Renderer>().enabled = true;
 				_StoryChargeObj.GetComponent<BoxCollider2D>().enabled = true;
 			}
 
@@ -270,7 +270,7 @@ public class MainScene : MonoBehaviour {
 			MissionView.transform.position = new Vector2(0, -10f);
 
 			if(_StoryChargeObj != null) {
-				_StoryChargeObj.renderer.enabled = false;
+				_StoryChargeObj.GetComponent<Renderer>().enabled = false;
 				_StoryChargeObj.GetComponent<BoxCollider2D>().enabled = false;
 			}
 		}
@@ -512,7 +512,7 @@ public class MainScene : MonoBehaviour {
 		if(_UserData.Option_Sound) PopupClickAudio.Play();
 		iTween.MoveFrom(PopupPanel, iTween.Hash("y", 2,"speed", 20f, "easetype", iTween.EaseType.easeOutSine
 		                                        , "oncomplete", "PopupOpenComplete", "oncompletetarget", this.gameObject));
-		BlackBox.renderer.sortingOrder = 1;
+		BlackBox.GetComponent<Renderer>().sortingOrder = 1;
 
 	}
 

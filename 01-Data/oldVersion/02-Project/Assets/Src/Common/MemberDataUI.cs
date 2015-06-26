@@ -52,22 +52,22 @@ public class MemberDataUI : MonoBehaviour {
 		_ThumbnailBg = this.gameObject.transform.FindChild("ThumbnailBg").gameObject;
 		_StateSymbol = this.gameObject.transform.FindChild("StateSymbol").gameObject;
 
-		_MemberThumb.renderer.sortingOrder = sortNum + 1;
-		_MemberClass.renderer.sortingOrder = sortNum;
-		_MemberName.renderer.sortingOrder = sortNum;
-		_MemberClassName.renderer.sortingOrder = sortNum;
-		_DataTitle1.renderer.sortingOrder = sortNum;
-		_DataTitle2.renderer.sortingOrder = sortNum;
-		_DataTitle3.renderer.sortingOrder = sortNum;
-		_DataTitle4.renderer.sortingOrder = sortNum;
-		_DataTitle5.renderer.sortingOrder = sortNum;
-		_DataValue1.renderer.sortingOrder = sortNum;
-		_DataValue2.renderer.sortingOrder = sortNum;
-		_DataValue3.renderer.sortingOrder = sortNum;
-		_DataValue4.renderer.sortingOrder = sortNum;
-		_DataValue5.renderer.sortingOrder = sortNum;
-		_ThumbnailBg.renderer.sortingOrder = sortNum;
-		_StateSymbol.renderer.sortingOrder = sortNum;
+		_MemberThumb.GetComponent<Renderer>().sortingOrder = sortNum + 1;
+		_MemberClass.GetComponent<Renderer>().sortingOrder = sortNum;
+		_MemberName.GetComponent<Renderer>().sortingOrder = sortNum;
+		_MemberClassName.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle1.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle2.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle3.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle4.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataTitle5.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue1.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue2.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue3.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue4.GetComponent<Renderer>().sortingOrder = sortNum;
+		_DataValue5.GetComponent<Renderer>().sortingOrder = sortNum;
+		_ThumbnailBg.GetComponent<Renderer>().sortingOrder = sortNum;
+		_StateSymbol.GetComponent<Renderer>().sortingOrder = sortNum;
 
 	}
 
@@ -147,7 +147,7 @@ public class MemberDataUI : MonoBehaviour {
 			_DataValue4.text = "<color=" + umpColor + ">" + member.UMP.ToString() + "(" + warCount + ")</color>";
 			_DataValue5.text = member.TotalIA.ToString();
 
-			_ThumbnailBg.renderer.enabled = true;
+			_ThumbnailBg.GetComponent<Renderer>().enabled = true;
 
 			string stateStr = "";
 			if(member.state == MemberStateType.Wound) {
@@ -177,7 +177,7 @@ public class MemberDataUI : MonoBehaviour {
 				_DataValue4.text = "";
 				_DataValue5.text = "";
 
-				_ThumbnailBg.renderer.enabled = true;
+				_ThumbnailBg.GetComponent<Renderer>().enabled = true;
 
 			} else {
 				SetSpriteChange(_MemberThumb, "MemberImg/");
@@ -196,7 +196,7 @@ public class MemberDataUI : MonoBehaviour {
 				_DataValue4.text = "";
 				_DataValue5.text = "";
 				
-				_ThumbnailBg.renderer.enabled = false;
+				_ThumbnailBg.GetComponent<Renderer>().enabled = false;
 			}
 
 			SetSpriteChange(_StateSymbol, "");

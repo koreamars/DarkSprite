@@ -1,0 +1,47 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-884
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=464 outsize=464 ok=1
+Cmd: preprocess
+  insize=1101 outsize=1056 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6961 outsize=3265 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6961 outsize=1453 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3932 outsize=2737 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3932 outsize=2135 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3350 outsize=2087 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3350 outsize=1250 kw= ok=1
+Cmd: preprocess
+  insize=1654 outsize=1034 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=898 outsize=1599 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=898 outsize=502 kw= ok=1
+Cmd: preprocess
+  insize=1574 outsize=702 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1174 outsize=1461 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1174 outsize=1071 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1642 outsize=1274 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1642 outsize=908 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=959 outsize=1071 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=959 outsize=600 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=541 outsize=3517 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=541 outsize=437 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6810 outsize=3647 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6810 outsize=1298 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1

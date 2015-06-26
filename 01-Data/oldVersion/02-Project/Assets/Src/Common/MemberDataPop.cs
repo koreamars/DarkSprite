@@ -61,12 +61,12 @@ public class MemberDataPop : MonoBehaviour {
 		_MemberDataUI.MemberUpdate(_CurrentMemberId, true);
 		_MemberDataUI.SetSortLayer("Alert");
 
-		GetMark.renderer.sortingOrder = _SortNum + 7;
-		CloseBtn.renderer.sortingOrder = _SortNum + 1;
-		KakaoBtn.renderer.sortingOrder = _SortNum + 1;
-		BgObject.renderer.sortingOrder = _SortNum;
-		_titleTxt.renderer.sortingOrder = _SortNum + 1;
-		_CommentTxt.renderer.sortingOrder = _SortNum + 1;
+		GetMark.GetComponent<Renderer>().sortingOrder = _SortNum + 7;
+		CloseBtn.GetComponent<Renderer>().sortingOrder = _SortNum + 1;
+		KakaoBtn.GetComponent<Renderer>().sortingOrder = _SortNum + 1;
+		BgObject.GetComponent<Renderer>().sortingOrder = _SortNum;
+		_titleTxt.GetComponent<Renderer>().sortingOrder = _SortNum + 1;
+		_CommentTxt.GetComponent<Renderer>().sortingOrder = _SortNum + 1;
 
 		CloseBtn.GetComponent<ButtonEvent>().SetCallBack(OnCloseBtn);
 		KakaoBtn.GetComponent<ButtonEvent>().SetCallBack(OnKakaoBtn);

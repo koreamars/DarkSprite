@@ -136,7 +136,8 @@ namespace Twitter
             var headers = new Hashtable();
             headers["Authorization"] = GetFinalOAuthHeader("POST", RequestTokenURL, parameters);
 
-            return new WWW(RequestTokenURL, form.data, headers);
+            //return new WWW(RequestTokenURL, form.data, headers);
+			return new WWW(RequestTokenURL);
         }
 
         private static WWW WWWAccessToken(string consumerKey, string consumerSecret, string requestToken, string pin)
@@ -154,7 +155,8 @@ namespace Twitter
 
             headers["Authorization"] = GetFinalOAuthHeader("POST", AccessTokenURL, parameters);
 
-            return new WWW(AccessTokenURL, dummmy, headers);
+            //return new WWW(AccessTokenURL, dummmy, headers);
+			return new WWW(AccessTokenURL);
         }
 
         private static string GetHeaderWithAccessToken(string httpRequestType, string apiURL, string consumerKey, string consumerSecret, AccessTokenResponse response, Dictionary<string, string> parameters)
@@ -194,7 +196,8 @@ namespace Twitter
                 var headers = new Hashtable();
                 headers["Authorization"] = GetHeaderWithAccessToken("POST", PostTweetURL, consumerKey, consumerSecret, response, parameters);
 
-                WWW web = new WWW(PostTweetURL, form.data, headers);
+                //WWW web = new WWW(PostTweetURL, form.data, headers);
+				WWW web = new WWW(PostTweetURL);
                 yield return web;
 
                 if (!string.IsNullOrEmpty(web.error))

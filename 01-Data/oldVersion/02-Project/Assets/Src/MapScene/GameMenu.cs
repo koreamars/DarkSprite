@@ -27,37 +27,37 @@ public class GameMenu : MonoBehaviour {
 
 	public void DataUpdate() {
 
-		CommoBtn.renderer.enabled = true;
+		CommoBtn.GetComponent<Renderer>().enabled = true;
 		CommoBtn.GetComponent<BoxCollider2D>().enabled = true;
-		ResearchBtn.renderer.enabled = true;
+		ResearchBtn.GetComponent<Renderer>().enabled = true;
 		ResearchBtn.GetComponent<BoxCollider2D>().enabled = true;
-		FactoryBtn.renderer.enabled = true;
+		FactoryBtn.GetComponent<Renderer>().enabled = true;
 		FactoryBtn.GetComponent<BoxCollider2D>().enabled = true;
-		CorpsBtn.renderer.enabled = true;
+		CorpsBtn.GetComponent<Renderer>().enabled = true;
 		CorpsBtn.GetComponent<BoxCollider2D>().enabled = true;
-		HangarBtn.renderer.enabled = true;
+		HangarBtn.GetComponent<Renderer>().enabled = true;
 		HangarBtn.GetComponent<BoxCollider2D>().enabled = true;
 
 		int storyStep = UserData.getInstence().StoryStepId;
 		
 		if(storyStep < 3) {	// 작전 지휘소.
-			CommoBtn.renderer.enabled = false;
+			CommoBtn.GetComponent<Renderer>().enabled = false;
 			CommoBtn.GetComponent<BoxCollider2D>().enabled = false;
 		}
 		if(storyStep < 5) {	// 연구소.
-			ResearchBtn.renderer.enabled = false;
+			ResearchBtn.GetComponent<Renderer>().enabled = false;
 			ResearchBtn.GetComponent<BoxCollider2D>().enabled = false;
 		}
 		if(storyStep < 7) {	// 공장.
-			FactoryBtn.renderer.enabled = false;
+			FactoryBtn.GetComponent<Renderer>().enabled = false;
 			FactoryBtn.GetComponent<BoxCollider2D>().enabled = false;
 		}
 		if(storyStep < 14) {	// 부대.
-			CorpsBtn.renderer.enabled = false;
+			CorpsBtn.GetComponent<Renderer>().enabled = false;
 			CorpsBtn.GetComponent<BoxCollider2D>().enabled = false;
 		}
 		if(storyStep < 9) {	// 행거.
-			HangarBtn.renderer.enabled = false;
+			HangarBtn.GetComponent<Renderer>().enabled = false;
 			HangarBtn.GetComponent<BoxCollider2D>().enabled = false;
 		}
 
@@ -74,9 +74,9 @@ public class GameMenu : MonoBehaviour {
 			_TaxSymbol.transform.parent = this.gameObject.transform;
 		}
 		if(UserData.getInstence().IsGetTax == true) {
-			_TaxSymbol.renderer.enabled = true;
+			_TaxSymbol.GetComponent<Renderer>().enabled = true;
 		} else {
-			_TaxSymbol.renderer.enabled = false;
+			_TaxSymbol.GetComponent<Renderer>().enabled = false;
 		}
 	}
 
