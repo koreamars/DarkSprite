@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F713378-7617-49C8-A6B4-0C282A6C088D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmoothMoves</RootNamespace>
+    <AssemblyName>SmoothMoves_Runtime</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimationBone.cs" />
+    <Compile Include="AnimationBoneCollider.cs" />
+    <Compile Include="AnimationClipBone.cs" />
+    <Compile Include="AnimationClipBone_Lite.cs" />
+    <Compile Include="AnimationClipSM.cs" />
+    <Compile Include="AnimationClipSM_Lite.cs" />
+    <Compile Include="AnimationClipTriggerFrames.cs" />
+    <Compile Include="AnimationCurveSerializable.cs" />
+    <Compile Include="AnimationManager.cs" />
+    <Compile Include="AnimationStateSM.cs" />
+    <Compile Include="AnimationState_Enumerator.cs" />
+    <Compile Include="BoneAnimation.cs" />
+    <Compile Include="BoneAnimationData.cs" />
+    <Compile Include="BoneColor.cs" />
+    <Compile Include="BoneColorAnimation.cs" />
+    <Compile Include="BoneData.cs" />
+    <Compile Include="BoneFrame.cs" />
+    <Compile Include="BoneQuad.cs" />
+    <Compile Include="BoneTree.cs" />
+    <Compile Include="ColliderSM.cs" />
+    <Compile Include="ColliderTriggerEvent.cs" />
+    <Compile Include="CollisionEvent.cs" />
+    <Compile Include="DFSBoneNode.cs" />
+    <Compile Include="KeyframeColorCurveParameter.cs" />
+    <Compile Include="KeyframeFloatCurveParameter.cs" />
+    <Compile Include="KeyframeSM.cs" />
+    <Compile Include="KeyframeVector2CurveParameter.cs" />
+    <Compile Include="KeyframeVector3CurveParameter.cs" />
+    <Compile Include="MeshQuad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="SubMesh.cs" />
+    <Compile Include="TextureAtlas.cs" />
+    <Compile Include="TextureAtlasDictionary.cs" />
+    <Compile Include="TextureFunctionMonoBehaviour.cs" />
+    <Compile Include="TextureSearchReplace.cs" />
+    <Compile Include="TextureSelect.cs" />
+    <Compile Include="TriggerFrame.cs" />
+    <Compile Include="TriggerFrameBone.cs" />
+    <Compile Include="TriggerFrameBoneCurrent.cs" />
+    <Compile Include="UserTriggerEvent.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

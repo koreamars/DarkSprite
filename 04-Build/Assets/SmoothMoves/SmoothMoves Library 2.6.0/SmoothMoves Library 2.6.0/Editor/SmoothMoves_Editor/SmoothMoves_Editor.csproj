@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2511D51-3465-4416-92A6-7E8DB02A3522}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmoothMoves_Editor</RootNamespace>
+    <AssemblyName>SmoothMoves_Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SmoothMoves_Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\SmoothMoves_Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\CollisionArc.cs" />
+    <Compile Include="Components\ColorBlendAnimationComponent.cs" />
+    <Compile Include="Components\DisplayTexture.cs" />
+    <Compile Include="Components\DraggableBone.cs" />
+    <Compile Include="Components\TextureSearchReplaceComponent.cs" />
+    <Compile Include="Components\TextureSelectComponent.cs" />
+    <Compile Include="Components\ValueLabel.cs" />
+    <Compile Include="Editor Windows\AnimationCurveEditorWindow.cs" />
+    <Compile Include="Editor Windows\BoneAnimationDataEditorWindow.cs" />
+    <Compile Include="Editor Windows\TextureAtlasEditorWindow.cs" />
+    <Compile Include="Editor Windows\TextureSelectComponentPivotEditorWindow.cs" />
+    <Compile Include="Editor Windows\WelcomeScreen.cs" />
+    <Compile Include="Inspectors\BoneAnimationDataInspector.cs" />
+    <Compile Include="Inspectors\SpriteInspector.cs" />
+    <Compile Include="Inspectors\TextureAtlasInspector.cs" />
+    <Compile Include="Inspectors\TextureFunctionInspector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AnimationCurveResources.cs" />
+    <Compile Include="Resources\Resources.cs" />
+    <Compile Include="Resources\Style.cs" />
+    <Compile Include="Utilities\AnimationHelper.cs" />
+    <Compile Include="Utilities\EditorHelper.cs" />
+    <Compile Include="Utilities\GUIHelper.cs" />
+    <Compile Include="Utilities\Menus.cs" />
+    <Compile Include="Utilities\SmoothMovesStartup.cs" />
+    <Compile Include="Utilities\TextureManager.cs" />
+    <Compile Include="Windows\AnimationControlsWindow.cs" />
+    <Compile Include="Windows\AnimationTexturePivotWindow.cs" />
+    <Compile Include="Windows\AnimationWindow.cs" />
+    <Compile Include="Windows\BoneColorWindow.cs" />
+    <Compile Include="Windows\BonePropertiesWindow.cs" />
+    <Compile Include="Windows\BoneWindow.cs" />
+    <Compile Include="Windows\ClipBrowserWindow.cs" />
+    <Compile Include="Windows\SetAtlasesWindow.cs" />
+    <Compile Include="Windows\SettingsWindow.cs" />
+    <Compile Include="Windows\TexturePivotWindow.cs" />
+    <Compile Include="Windows\TextureSelectionWindow.cs" />
+    <Compile Include="Windows\TimelineWindow.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedResources\Arrow.png" />
+    <EmbeddedResource Include="EmbeddedResources\AutoBuild_off.png" />
+    <EmbeddedResource Include="EmbeddedResources\AutoBuild_on.png" />
+    <EmbeddedResource Include="EmbeddedResources\BoneColorNone.png" />
+    <EmbeddedResource Include="EmbeddedResources\BoneInactive.png" />
+    <EmbeddedResource Include="EmbeddedResources\BuildPrefabs_off.png" />
+    <EmbeddedResource Include="EmbeddedResources\BuildPrefabs_on.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonAdd.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonAddLarge.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonAdvanceFrameBackward.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonAdvanceFrameForward.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonArrowBackwardSmall.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonArrowForwardSmall.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonBoundsOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonBoundsOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonCenter.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonContrast.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonDoubleArrowBackSmall.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonDoubleArrowBackwardSmall.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonDoubleArrowForwardSmall.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonDown.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonEmptyOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonEmptyOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonGridOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonGridOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonLockPivotDefaultOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonLockPivotDefaultOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonPivotOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonPivotOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonPlay.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonRemoveBlankKeyframes.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonSettings.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonStop.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonSubtract.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonUp.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonUpdateMesh.png" />
+    <EmbeddedResource Include="EmbeddedResources\ButtonZoomOne.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorBrokenOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorBrokenOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorDeleteNode.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorFlat.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSetOne.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSetZero.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSideConstantOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSideConstantOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSideFreeOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSideFreeOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSideLinearOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSideLinearOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSmoothOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\CurveEditorSmoothOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\Degree.png" />
+    <EmbeddedResource Include="EmbeddedResources\EyeClosed.png" />
+    <EmbeddedResource Include="EmbeddedResources\EyeOpen.png" />
+    <EmbeddedResource Include="EmbeddedResources\ForceBuild.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveAddNode.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveNode.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveNodeSelected.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveTangentHandle.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveTimeBackward.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveTimeForward.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveValueDown.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoCurveValueUp.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoDepthDown.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoDepthUp.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoMoveArrow.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoMoveFreeBox.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoRotateRing.png" />
+    <EmbeddedResource Include="EmbeddedResources\GizmoScaleBar.png" />
+    <EmbeddedResource Include="EmbeddedResources\Hierarchy_Blank.png" />
+    <EmbeddedResource Include="EmbeddedResources\Hierarchy_LastChild.png" />
+    <EmbeddedResource Include="EmbeddedResources\Hierarchy_MiddleChild.png" />
+    <EmbeddedResource Include="EmbeddedResources\Hierarchy_Vertical.png" />
+    <EmbeddedResource Include="EmbeddedResources\ImageScaleButtonOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\ImageScaleButtonOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\LocalScaleButtonOff.png" />
+    <EmbeddedResource Include="EmbeddedResources\LocalScaleButtonOn.png" />
+    <EmbeddedResource Include="EmbeddedResources\LogConsole_off.png" />
+    <EmbeddedResource Include="EmbeddedResources\LogConsole_on.png" />
+    <EmbeddedResource Include="EmbeddedResources\MoveSelectedFramesBackward_Off.png" />
+    <EmbeddedResource Include="EmbeddedResources\MoveSelectedFramesBackward_On.png" />
+    <EmbeddedResource Include="EmbeddedResources\MoveSelectedFramesForward_Off.png" />
+    <EmbeddedResource Include="EmbeddedResources\MoveSelectedFramesForward_On.png" />
+    <EmbeddedResource Include="EmbeddedResources\PivotButton.png" />
+    <EmbeddedResource Include="EmbeddedResources\SmoothMovesIcon_AnimationData_16.png" />
+    <EmbeddedResource Include="EmbeddedResources\SmoothMovesIcon_BoneAnimation_16.png" />
+    <EmbeddedResource Include="EmbeddedResources\SmoothMovesIcon_TextureAtlas_16.png" />
+    <EmbeddedResource Include="EmbeddedResources\SmoothMoves_Logo.png" />
+    <EmbeddedResource Include="EmbeddedResources\Warning.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

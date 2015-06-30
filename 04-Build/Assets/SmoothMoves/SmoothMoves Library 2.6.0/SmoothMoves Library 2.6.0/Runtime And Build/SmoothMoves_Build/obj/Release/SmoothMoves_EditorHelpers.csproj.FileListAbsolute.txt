@@ -1,0 +1,14 @@
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_EditorHelpers.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_EditorHelpers.pdb
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\SmoothMoves_EditorHelpers\obj\Release\ResolveAssemblyReference.cache
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\SmoothMoves_EditorHelpers\obj\Release\SmoothMoves_EditorHelpers.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\SmoothMoves_EditorHelpers\obj\Release\SmoothMoves_EditorHelpers.pdb
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_Runtime.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_Runtime.pdb
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_EditorHelpers.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_EditorHelpers.pdb
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_Runtime.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_EditorHelpers\bin\Release\SmoothMoves_Runtime.pdb
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_EditorHelpers\obj\Release\ResolveAssemblyReference.cache
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_EditorHelpers\obj\Release\SmoothMoves_EditorHelpers.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_EditorHelpers\obj\Release\SmoothMoves_EditorHelpers.pdb

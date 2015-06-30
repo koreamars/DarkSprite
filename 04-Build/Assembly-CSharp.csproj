@@ -46,77 +46,116 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\script\CharacterManager__.cs" />
-     <Compile Include="Assets\script\CharactorManager.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Events\Event.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Events\EventDispatcher.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Geom\ColorTransform.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Geom\Matrix.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Geom\Point.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Utils\FPS.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Utils\Json.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Utils\Logger.cs" />
-     <Compile Include="Assets\script\Com\Viperstudio\Utils\Matrix.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_CameraController.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_Chef.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_DifficultyLevel.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_FX.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_FXManager.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_GUIManager.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_GameManager.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_InputManager.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_MusicManager.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_Pasta.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_PastaManager.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_ProgressBar.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_Room.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_Score.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_SoundFXManager.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_TouchPad.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_Weapon.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_WeaponProperties.cs" />
+     <Compile Include="Assets\Rise of the Dough\Scripts\ROTD_WeaponUpgrade.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\BoneAnimationInspector.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\BuildHelper.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\ControlPanel.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationBone.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationBoneCollider.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationClipBone.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationClipBone_Lite.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationClipSM.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationClipSM_Lite.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationClipTriggerFrames.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationCurveSerializable.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationManager.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationStateSM.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\AnimationState_Enumerator.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneAnimation.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneAnimationData.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneColor.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneColorAnimation.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneData.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneFrame.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneQuad.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\BoneTree.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\ColliderSM.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\ColliderTriggerEvent.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\CollisionEvent.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\DFSBoneNode.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\KeyframeColorCurveParameter.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\KeyframeFloatCurveParameter.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\KeyframeSM.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\KeyframeVector2CurveParameter.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\KeyframeVector3CurveParameter.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\MeshQuad.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\Sprite.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\SubMesh.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TextureAtlas.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TextureAtlasDictionary.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TextureFunctionMonoBehaviour.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TextureSearchReplace.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TextureSelect.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TriggerFrame.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TriggerFrameBone.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\TriggerFrameBoneCurrent.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\UserTriggerEvent.cs" />
      <Compile Include="Assets\script\Common\TextureMarge.cs" />
-     <Compile Include="Assets\script\Controller\Unit\CharacterController.cs" />
-     <Compile Include="Assets\script\Controller\Unit\UnitController.cs" />
-     <Compile Include="Assets\script\DragonBones\Animation\Animation.cs" />
-     <Compile Include="Assets\script\DragonBones\Animation\AnimationState.cs" />
-     <Compile Include="Assets\script\DragonBones\Animation\IAnimatable.cs" />
-     <Compile Include="Assets\script\DragonBones\Animation\TimelineState.cs" />
-     <Compile Include="Assets\script\DragonBones\Animation\WorldClock.cs" />
-     <Compile Include="Assets\script\DragonBones\Armature.cs" />
-     <Compile Include="Assets\script\DragonBones\AssemblyInfo.cs" />
-     <Compile Include="Assets\script\DragonBones\Bone.cs" />
-     <Compile Include="Assets\script\DragonBones\Core\DBObject.cs" />
-     <Compile Include="Assets\script\DragonBones\Core\DragonBones.cs" />
-     <Compile Include="Assets\script\DragonBones\Display\IDisplayBridge.cs" />
-     <Compile Include="Assets\script\DragonBones\Display\UnityArmatureDisplay.cs" />
-     <Compile Include="Assets\script\DragonBones\Display\UnityBoneDisplay.cs" />
-     <Compile Include="Assets\script\DragonBones\Display\UnityDisplayBridge.cs" />
-     <Compile Include="Assets\script\DragonBones\Events\AnimationEvent.cs" />
-     <Compile Include="Assets\script\DragonBones\Events\ArmatureEvent.cs" />
-     <Compile Include="Assets\script\DragonBones\Events\FrameEvent.cs" />
-     <Compile Include="Assets\script\DragonBones\Events\SoundEvent.cs" />
-     <Compile Include="Assets\script\DragonBones\Events\SoundEventManager.cs" />
-     <Compile Include="Assets\script\DragonBones\Factorys\BaseFactory.cs" />
-     <Compile Include="Assets\script\DragonBones\Factorys\UnityFactory.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\AnimationData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\ArmatureData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\AtlasData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\AtlasDataParser.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\BoneData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\DBTransform.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\DataParser.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\DisplayData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\Frame.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\ObjectDataParser.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\SkeletonData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\SkinData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\SlotData.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\Timeline.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\TransformFrame.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\TransformTimeline.cs" />
-     <Compile Include="Assets\script\DragonBones\Objects\XMLDataParser.cs" />
-     <Compile Include="Assets\script\DragonBones\Slot.cs" />
-     <Compile Include="Assets\script\DragonBones\Textures\TextureAtlas.cs" />
-     <Compile Include="Assets\script\DragonBones\Utils\BytesType.cs" />
-     <Compile Include="Assets\script\DragonBones\Utils\ConstValues.cs" />
-     <Compile Include="Assets\script\DragonBones\Utils\DBDataUtil.cs" />
-     <Compile Include="Assets\script\DragonBones\Utils\TransformUtil.cs" />
-     <Compile Include="Assets\script\DragonBones\Utils\parseOldXMLData.cs" />
-     <Compile Include="Assets\script\Model\DefaultModel.cs" />
-     <Compile Include="Assets\script\Model\Unit\CharacterModel.cs" />
-     <Compile Include="Assets\script\Model\Unit\UnitModel.cs" />
-     <Compile Include="Assets\script\TestCharacter.cs" />
-     <Compile Include="Assets\script\View\DefaultView.cs" />
-     <Compile Include="Assets\script\View\Unit\CharacterView.cs" />
      <None Include="Assets\Resources\skeleton.json.txt" />
      <None Include="Assets\Resources\Transparent_DepthOrderUnlit.shader" />
+     <None Include="Assets\SmoothMoves\readme.txt" />
      <None Include="Assets\Resources\texture2.json.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\obj\Release\SmoothMoves_EditorHelpers.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\obj\Debug\SmoothMoves_Build.csproj.FileListAbsolute.txt" />
      <None Include="Assets\Resources\texture.json.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\obj\Release\SmoothMoves_Runtime.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\obj\Release\SmoothMoves_Editor.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\obj\Debug\SmoothMoves_Runtime.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\Rise of the Dough\readme.txt" />
+     <None Include="Assets\Rise of the Dough\Music\tangor - credits.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\obj\Release\SmoothMoves_Build.csproj.FileListAbsolute.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/Plugins/SmoothMoves/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/bin/Release/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Build">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/bin/Release/SmoothMoves_Build.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Build">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/obj/Debug/SmoothMoves_Build.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Runtime/obj/Release/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Runtime/obj/Debug/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_EditorHelpers">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/obj/Release/SmoothMoves_EditorHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Runtime/bin/Release/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_EditorHelpers">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/bin/Release/SmoothMoves_EditorHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Build">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/obj/Release/SmoothMoves_Build.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

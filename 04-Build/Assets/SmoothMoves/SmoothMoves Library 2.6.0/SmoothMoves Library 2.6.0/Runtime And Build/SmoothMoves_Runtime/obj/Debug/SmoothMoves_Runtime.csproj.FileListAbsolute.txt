@@ -1,0 +1,6 @@
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_Runtime\bin\Debug\SmoothMoves_Runtime.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_Runtime\bin\Debug\SmoothMoves_Runtime.pdb
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_Runtime\bin\Debug\UnityEngine.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_Runtime\obj\Debug\ResolveAssemblyReference.cache
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_Runtime\obj\Debug\SmoothMoves_Runtime.dll
+C:\Help\Unity Projects\SmoothMoves\Working\SmoothMoves Library - Separated\Runtime And Build\SmoothMoves_Runtime\obj\Debug\SmoothMoves_Runtime.pdb

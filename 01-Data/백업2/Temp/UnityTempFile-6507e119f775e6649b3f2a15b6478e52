@@ -1,0 +1,143 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:Assets/ThirdParty/SmoothMoves/Plugins/SmoothMoves/SmoothMoves_Runtime.dll
+-r:Assets/SmoothMoves/Plugins/SmoothMoves/SmoothMoves_Runtime.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\iossupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-define:UNITY_5_0_0
+-define:UNITY_5_0
+-define:UNITY_5
+-define:ENABLE_LICENSE_RENAME
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_NEW_HIERARCHY
+-define:ENABLE_PHYSICS
+-define:ENABLE_PHYSICS_PHYSX3
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_AUDIOMIXER_SUSPEND
+-define:ENABLE_NONPRO
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+"Assets/Rise of the Dough/Scripts/ROTD_CameraController.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_Chef.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_DifficultyLevel.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_FX.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_FXManager.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_GUIManager.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_GameManager.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_InputManager.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_MusicManager.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_Pasta.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_PastaManager.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_ProgressBar.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_Room.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_Score.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_SoundFXManager.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_TouchPad.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_Weapon.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_WeaponProperties.cs"
+"Assets/Rise of the Dough/Scripts/ROTD_WeaponUpgrade.cs"
+Assets/script/CharacterManager__.cs
+Assets/script/CharactorManager.cs
+Assets/script/Com/Viperstudio/Events/Event.cs
+Assets/script/Com/Viperstudio/Events/EventDispatcher.cs
+Assets/script/Com/Viperstudio/Geom/ColorTransform.cs
+Assets/script/Com/Viperstudio/Geom/Matrix.cs
+Assets/script/Com/Viperstudio/Geom/Point.cs
+Assets/script/Com/Viperstudio/Utils/FPS.cs
+Assets/script/Com/Viperstudio/Utils/Json.cs
+Assets/script/Com/Viperstudio/Utils/Logger.cs
+Assets/script/Com/Viperstudio/Utils/Matrix.cs
+Assets/script/Common/TextureMarge.cs
+Assets/script/Controller/Unit/CharacterController_.cs
+Assets/script/Controller/Unit/UnitController.cs
+Assets/script/DragonBones/Animation/Animation.cs
+Assets/script/DragonBones/Animation/AnimationState.cs
+Assets/script/DragonBones/Animation/IAnimatable.cs
+Assets/script/DragonBones/Animation/TimelineState.cs
+Assets/script/DragonBones/Animation/WorldClock.cs
+Assets/script/DragonBones/Armature.cs
+Assets/script/DragonBones/AssemblyInfo.cs
+Assets/script/DragonBones/Bone.cs
+Assets/script/DragonBones/Core/DBObject.cs
+Assets/script/DragonBones/Core/DragonBones.cs
+Assets/script/DragonBones/Display/IDisplayBridge.cs
+Assets/script/DragonBones/Display/UnityArmatureDisplay.cs
+Assets/script/DragonBones/Display/UnityBoneDisplay.cs
+Assets/script/DragonBones/Display/UnityDisplayBridge.cs
+Assets/script/DragonBones/Events/AnimationEvent.cs
+Assets/script/DragonBones/Events/ArmatureEvent.cs
+Assets/script/DragonBones/Events/FrameEvent.cs
+Assets/script/DragonBones/Events/SoundEvent.cs
+Assets/script/DragonBones/Events/SoundEventManager.cs
+Assets/script/DragonBones/Factorys/BaseFactory.cs
+Assets/script/DragonBones/Factorys/UnityFactory.cs
+Assets/script/DragonBones/Objects/AnimationData.cs
+Assets/script/DragonBones/Objects/ArmatureData.cs
+Assets/script/DragonBones/Objects/AtlasData.cs
+Assets/script/DragonBones/Objects/AtlasDataParser.cs
+Assets/script/DragonBones/Objects/BoneData.cs
+Assets/script/DragonBones/Objects/DBTransform.cs
+Assets/script/DragonBones/Objects/DataParser.cs
+Assets/script/DragonBones/Objects/DisplayData.cs
+Assets/script/DragonBones/Objects/Frame.cs
+Assets/script/DragonBones/Objects/ObjectDataParser.cs
+Assets/script/DragonBones/Objects/SkeletonData.cs
+Assets/script/DragonBones/Objects/SkinData.cs
+Assets/script/DragonBones/Objects/SlotData.cs
+Assets/script/DragonBones/Objects/Timeline.cs
+Assets/script/DragonBones/Objects/TransformFrame.cs
+Assets/script/DragonBones/Objects/TransformTimeline.cs
+Assets/script/DragonBones/Objects/XMLDataParser.cs
+Assets/script/DragonBones/Slot.cs
+Assets/script/DragonBones/Textures/TextureAtlas.cs
+Assets/script/DragonBones/Utils/BytesType.cs
+Assets/script/DragonBones/Utils/ConstValues.cs
+Assets/script/DragonBones/Utils/DBDataUtil.cs
+Assets/script/DragonBones/Utils/TransformUtil.cs
+Assets/script/DragonBones/Utils/parseOldXMLData.cs
+Assets/script/Model/DefaultModel.cs
+Assets/script/Model/Unit/CharacterModel.cs
+Assets/script/Model/Unit/UnitModel.cs
+Assets/script/TestCharacter.cs
+Assets/script/View/DefaultView.cs
+Assets/script/View/Unit/CharacterView.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

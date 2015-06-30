@@ -46,125 +46,62 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\BMFontReader.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\ComponentSelector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\FreeType.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUIEditorExtensions.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUIHandles.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUIHelp.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUIJson.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUIMenu.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUISettings.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUISnap.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\SpriteSelector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenColorEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIButtonEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UICameraEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UICameraTool.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIFontInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIFontMaker.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIGridEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIInputEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UILabelInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIPanelInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIPanelTool.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIPrefabTool.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIRectEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIRootEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UISliderEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UISpriteInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIStretchEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UITableEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UITextureInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UITexturePacker.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIToggleInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UITweenerEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
-     <Compile Include="Assets\ThirdParty\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Components\CollisionArc.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Components\ColorBlendAnimationComponent.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Components\DisplayTexture.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Components\DraggableBone.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Components\TextureSearchReplaceComponent.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Components\TextureSelectComponent.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Components\ValueLabel.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Editor Windows\AnimationCurveEditorWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Editor Windows\BoneAnimationDataEditorWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Editor Windows\TextureAtlasEditorWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Editor Windows\TextureSelectComponentPivotEditorWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Editor Windows\WelcomeScreen.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Inspectors\BoneAnimationDataInspector.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Inspectors\SpriteInspector.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Inspectors\TextureAtlasInspector.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Inspectors\TextureFunctionInspector.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Resources\AnimationCurveResources.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Resources\Resources.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Resources\Style.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Utilities\AnimationHelper.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Utilities\EditorHelper.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Utilities\GUIHelper.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Utilities\Menus.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Utilities\SmoothMovesStartup.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Utilities\TextureManager.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\AnimationControlsWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\AnimationTexturePivotWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\AnimationWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\BoneColorWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\BonePropertiesWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\BoneWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\ClipBrowserWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\SetAtlasesWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\SettingsWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\TexturePivotWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\TextureSelectionWindow.cs" />
+     <Compile Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\Windows\TimelineWindow.cs" />
      <None Include="Assets\Resources\skeleton.json.txt" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Text (SoftClip).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
      <None Include="Assets\Resources\Transparent_DepthOrderUnlit.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\SmoothMoves\readme.txt" />
      <None Include="Assets\Resources\texture2.json.txt" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\obj\Release\SmoothMoves_EditorHelpers.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\obj\Debug\SmoothMoves_Build.csproj.FileListAbsolute.txt" />
      <None Include="Assets\Resources\texture.json.txt" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Text.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Depth.shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
-     <None Include="Assets\ThirdParty\NGUI\Resources\Localization.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\obj\Release\SmoothMoves_Runtime.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Editor\SmoothMoves_Editor\obj\Release\SmoothMoves_Editor.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Runtime\obj\Debug\SmoothMoves_Runtime.csproj.FileListAbsolute.txt" />
+     <None Include="Assets\Rise of the Dough\readme.txt" />
+     <None Include="Assets\Rise of the Dough\Music\tangor - credits.txt" />
+     <None Include="Assets\SmoothMoves\SmoothMoves Library 2.6.0\SmoothMoves Library 2.6.0\Runtime And Build\SmoothMoves_Build\obj\Release\SmoothMoves_Build.csproj.FileListAbsolute.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="SmoothMoves_Runtime">
- <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/ThirdParty/SmoothMoves/Plugins/SmoothMoves/SmoothMoves_Runtime.dll</HintPath>
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/Plugins/SmoothMoves/SmoothMoves_Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -195,6 +132,33 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/bin/Release/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Build">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/bin/Release/SmoothMoves_Build.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Build">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/obj/Debug/SmoothMoves_Build.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Runtime/obj/Release/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Runtime/obj/Debug/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_EditorHelpers">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/obj/Release/SmoothMoves_EditorHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Runtime/bin/Release/SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_EditorHelpers">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/bin/Release/SmoothMoves_EditorHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Build">
+ <HintPath>D:/00-myjob/GirlAndGhost/04-Build/Assets/SmoothMoves/SmoothMoves Library 2.6.0/SmoothMoves Library 2.6.0/Runtime And Build/SmoothMoves_Build/obj/Release/SmoothMoves_Build.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
