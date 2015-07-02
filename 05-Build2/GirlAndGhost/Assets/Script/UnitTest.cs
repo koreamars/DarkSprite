@@ -24,7 +24,7 @@ public class UnitTest : MonoBehaviour {
 		bodyColor.r = 0.5f;
 		bodyColor.g = 0f;
 		bodyColor.b = 0f;
-		_boneAnimation.SetBoneColor ("Body", bodyColor, 0.5f);
+		//_boneAnimation.SetBoneColor ("Body", bodyColor, 0.5f);
 	}
 
 	private void setChestScale(float value) {
@@ -38,7 +38,7 @@ public class UnitTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (_baseValue >= 1.05f)
+		if (_baseValue >= 1.02f)
 			_chestPlus = true;
 		if (_baseValue < 0.95f)
 			_chestPlus = false;

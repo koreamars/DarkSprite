@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\UnitTest.cs">
     <Files>
-      <File FileName="Assets\Script\UnitTest.cs" Line="36" Column="27" />
+      <File FileName="Assets\Script\UnitTest.cs" Line="45" Column="3" />
+      <File FileName="Assets\Script\control\CharacterController.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
