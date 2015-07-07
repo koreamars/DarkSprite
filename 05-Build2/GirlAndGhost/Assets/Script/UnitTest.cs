@@ -40,7 +40,7 @@ public class UnitTest : MonoBehaviour {
 	void Update () {
 		if (_baseValue >= 1.02f)
 			_chestPlus = true;
-		if (_baseValue < 0.95f)
+		if (_baseValue < 0.90f)
 			_chestPlus = false;
 
 		float value = -0.001f;

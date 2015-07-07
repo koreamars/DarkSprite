@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\UnitTest.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\01-Business\Grampus\ProjectB\src\client\unity\Assets\Scripts\Common\ByteManager.cs">
     <Files>
-      <File FileName="Assets\Script\UnitTest.cs" Line="45" Column="3" />
-      <File FileName="Assets\Script\control\CharacterController.cs" Line="16" Column="1" />
+      <File FileName="..\..\..\..\01-Business\Grampus\ProjectB\src\client\unity\Assets\Scripts\Common\ByteManager.cs" Line="13" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
