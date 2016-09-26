@@ -1,0 +1,209 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Base/Body/Head
+  rotate: true
+  xy: 835, 318
+  size: 151, 202
+  orig: 151, 202
+  offset: 0, 0
+  index: -1
+Base/Body/Left_Hand
+  rotate: false
+  xy: 1828, 1115
+  size: 64, 104
+  orig: 64, 104
+  offset: 0, 0
+  index: -1
+Base/Body/Neck
+  rotate: true
+  xy: 1953, 1500
+  size: 178, 93
+  orig: 178, 93
+  offset: 0, 0
+  index: -1
+Base/Body/Right_Hand
+  rotate: false
+  xy: 1953, 1371
+  size: 76, 127
+  orig: 76, 127
+  offset: 0, 0
+  index: -1
+Base/Head/ClosedEyes
+  rotate: false
+  xy: 2, 2
+  size: 160, 60
+  orig: 160, 60
+  offset: 0, 0
+  index: -1
+Base/Head/eyebrow
+  rotate: true
+  xy: 1898, 1280
+  size: 83, 25
+  orig: 83, 25
+  offset: 0, 0
+  index: -1
+Base/Head/mouth00
+  rotate: false
+  xy: 1569, 1442
+  size: 43, 25
+  orig: 43, 25
+  offset: 0, 0
+  index: -1
+Base/Head/nose
+  rotate: false
+  xy: 1499, 1232
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+eye/type_00/eye_c
+  rotate: true
+  xy: 1955, 1833
+  size: 160, 60
+  orig: 160, 60
+  offset: 0, 0
+  index: -1
+eye/type_00/eye_c_b
+  rotate: false
+  xy: 1022, 960
+  size: 160, 60
+  orig: 160, 60
+  offset: 0, 0
+  index: -1
+eye/type_01/eye_c
+  rotate: false
+  xy: 164, 2
+  size: 160, 60
+  orig: 160, 60
+  offset: 0, 0
+  index: -1
+eye/type_01/eye_c_b
+  rotate: false
+  xy: 326, 2
+  size: 160, 60
+  orig: 160, 60
+  offset: 0, 0
+  index: -1
+hair/type_01/Back_Hair
+  rotate: false
+  xy: 2, 1174
+  size: 594, 819
+  orig: 594, 819
+  offset: 0, 0
+  index: -1
+hair/type_01/Front_Hair
+  rotate: false
+  xy: 2, 353
+  size: 594, 819
+  orig: 594, 819
+  offset: 0, 0
+  index: -1
+shoes/type_01/left-shoes
+  rotate: true
+  xy: 2, 64
+  size: 287, 584
+  orig: 287, 584
+  offset: 0, 0
+  index: -1
+shoes/type_01/right-shoes
+  rotate: true
+  xy: 1047, 1706
+  size: 287, 584
+  orig: 287, 584
+  offset: 0, 0
+  index: -1
+skirt/type_03/skirt
+  rotate: true
+  xy: 598, 915
+  size: 541, 422
+  orig: 541, 422
+  offset: 0, 0
+  index: -1
+socks/type_01/socks-body
+  rotate: false
+  xy: 1202, 1267
+  size: 365, 200
+  orig: 365, 200
+  offset: 0, 0
+  index: -1
+socks/type_01/socks-left-foot
+  rotate: true
+  xy: 1047, 1469
+  size: 235, 582
+  orig: 235, 582
+  offset: 0, 0
+  index: -1
+socks/type_01/socks-left-thigh
+  rotate: false
+  xy: 1022, 1022
+  size: 178, 434
+  orig: 178, 434
+  offset: 0, 0
+  index: -1
+socks/type_01/socks-right-foot
+  rotate: false
+  xy: 598, 361
+  size: 235, 552
+  orig: 235, 552
+  offset: 0, 0
+  index: -1
+socks/type_01/socks-right-thigh
+  rotate: false
+  xy: 835, 471
+  size: 184, 442
+  orig: 184, 442
+  offset: 0, 0
+  index: -1
+top/type01/body
+  rotate: false
+  xy: 598, 1458
+  size: 447, 535
+  orig: 447, 535
+  offset: 0, 0
+  index: -1
+top/type01/left-arm
+  rotate: true
+  xy: 1569, 1221
+  size: 142, 327
+  orig: 142, 327
+  offset: 0, 0
+  index: -1
+top/type01/left-chest
+  rotate: false
+  xy: 1633, 1680
+  size: 320, 313
+  orig: 320, 313
+  offset: 0, 0
+  index: -1
+top/type01/left-wrist
+  rotate: true
+  xy: 1202, 1063
+  size: 202, 295
+  orig: 202, 295
+  offset: 0, 0
+  index: -1
+top/type01/right-arm
+  rotate: true
+  xy: 1499, 1077
+  size: 142, 327
+  orig: 142, 327
+  offset: 0, 0
+  index: -1
+top/type01/right-chest
+  rotate: false
+  xy: 1631, 1365
+  size: 320, 313
+  orig: 320, 313
+  offset: 0, 0
+  index: -1
+top/type01/right-wrist
+  rotate: true
+  xy: 1202, 875
+  size: 186, 290
+  orig: 186, 290
+  offset: 0, 0
+  index: -1
